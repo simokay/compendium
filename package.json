@@ -5,7 +5,8 @@
     "build": "npx eleventy",
     "serve": "npx eleventy --serve",
     "watch": "npx eleventy --watch",
-    "debug": "DEBUG=* npx eleventy"
+    "debug": "DEBUG=* npx eleventy",
+    "build-ghpages": "npx @11ty/eleventy --pathprefix=/compendium/"
   },
   "devDependencies": {
     "tokenize-english": "1.0.3"
