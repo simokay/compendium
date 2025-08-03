@@ -1,6 +1,6 @@
 {
-  "name": "blog",
-  "version": "0.0.0",
+  "name": "compendium",
+  "version": "1.0.0",
   "scripts": {
     "build": "npx eleventy",
     "serve": "npx eleventy --serve",
