@@ -1,0 +1,44 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">{{ site.title }}</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li><span class="text">{{ site.description }}</span></li>
+	  <li><span class="text">Source available on <a href="{{ site.source-url }}" target="_blank">Github</a>.</span></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <p>Dr. <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> tempts fickle fate in his pursuit of the <a href="http://www.sublimetext.com/" target="_blank">sublime</a>.</p>
+      </div>
+
+    <div class="footer-col  footer-col-3">
+      <p>Unicorn icon by <a href="http://delapouite.com/">Delapouite</a> under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></p>
+    </div>
+  </div>
+
+  <div class="footer-top-link"><a href="#top">Back to top &#8593;</a></div>
+
+</footer>
+<script>
+  var jets = new Jets({
+    searchTag: '#jetsSearch',
+    contentTag: '.jetsContent',
+    didSearch: function(search_phrase) {
+      var elements = document.getElementsByClassName("jetsHide");
+      if (!search_phrase.trim()) {
+        for (var i = 0; i < elements.length; i++) {
+          elements[i].classList.remove("searchHide");
+        }
+      } else {
+        for (var i = 0; i < elements.length; i++) {
+          elements[i].classList.add("searchHide");
+        }
+      }     
+    }
+  })
+</script>
