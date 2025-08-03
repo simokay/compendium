@@ -63,19 +63,37 @@ layout: base.njk
                     <th>STR</th>
                     <td>{{stats[0]}}</td>
                     <td class="modifier">{{ stats[0] | abilityModifier }}</td>
-                    <td class="modifier">?</td>
+                    <td class="modifier">
+                      {% if saves.strength %}
+                        {{saves.strength}}
+                      {% else %}
+                        {{ stats[0] | abilityModifier }}
+                      {% endif %}
+                    </td>
                 </tr>
                 <tr>
                     <th>DEX</th>
                     <td>{{stats[1]}}</td>
                     <td class="modifier">{{ stats[1] | abilityModifier }}</td>
-                    <td class="modifier">?</td>
+                    <td class="modifier">
+                      {% if saves.dexterity %}
+                        {{saves.dexterity}}
+                      {% else %}
+                        {{ stats[1] | abilityModifier }}
+                      {% endif %}
+                    </td>
                 </tr>
                 <tr>
                     <th>CON</th>
                     <td>{{stats[2]}}</td>
                     <td class="modifier">{{ stats[2] | abilityModifier }}</td>
-                    <td class="modifier">?</td>
+                    <td class="modifier">
+                      {% if saves.constitution %}
+                        {{saves.constitution}}
+                      {% else %}
+                        {{ stats[2] | abilityModifier }}
+                      {% endif %}
+                    </td>
                 </tr>
             </tbody>
         </table>
@@ -93,19 +111,37 @@ layout: base.njk
                     <th>INT</th>
                     <td>{{stats[3]}}</td>
                     <td class="modifier">{{ stats[3] | abilityModifier }}</td>
-                    <td class="modifier">?</td>
+                    <td class="modifier">
+                      {% if saves.intelligence %}
+                        {{saves.intelligence}}
+                      {% else %}
+                        {{ stats[3] | abilityModifier }}
+                      {% endif %}
+                    </td>
                 </tr>
                 <tr>
                     <th>WIS</th>
                     <td>{{stats[4]}}</td>
                     <td class="modifier">{{ stats[4] | abilityModifier }}</td>
-                    <td class="modifier">?</td>
+                    <td class="modifier">
+                      {% if saves.wisdom %}
+                        {{saves.wisdom}}
+                      {% else %}
+                        {{ stats[4] | abilityModifier }}
+                      {% endif %}
+                    </td>
                 </tr>
                 <tr>
                     <th>CHA</th>
                     <td>{{stats[5]}}</td>
                     <td class="modifier">{{ stats[5] | abilityModifier }}</td>
-                    <td class="modifier">?</td>
+                    <td class="modifier">
+                      {% if saves.charisma %}
+                        {{saves.charisma}}
+                      {% else %}
+                        {{ stats[5] | abilityModifier }}
+                      {% endif %}
+                    </td>
                 </tr>
             </tbody>
         </table>
