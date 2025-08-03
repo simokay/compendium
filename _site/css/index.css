@@ -33,11 +33,6 @@ time {
   font-weight: normal;
 }
 
-p img {
-  display: block;
-  margin: auto;
-  max-width: 100%;
-}
 
 nav h2,
 .title-page {
