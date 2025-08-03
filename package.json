@@ -1,0 +1,20 @@
+{
+  "name": "blog",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "npx eleventy",
+    "serve": "npx eleventy --serve",
+    "watch": "npx eleventy --watch",
+    "debug": "DEBUG=* npx eleventy"
+  },
+  "devDependencies": {
+    "tokenize-english": "1.0.3"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "gulp": "^5.0.1",
+    "markdown-it": "^14.1.0",
+    "markdown-it-anchor": "^9.2.0",
+    "prettier": "^3.6.2"
+  }
+}
