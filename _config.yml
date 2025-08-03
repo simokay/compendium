@@ -1,0 +1,14 @@
+title: "Bestiary"
+author: "chisaipete"
+description: "A searchable D&D 5e creature list."
+url: "https://chisaipete.github.io"
+source-url: "https://github.com/chisaipete/bestiary"
+baseurl: "/bestiary"
+exclude: ['Rakefile', 'README.md']
+collections:
+  creatures:
+    output: true
+    permalink: "/creature/:name"
+  tags:
+    output: true
+    permalink: "/tag/:name"
