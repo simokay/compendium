@@ -102,11 +102,12 @@ table {
 
 .stat-table.physical tbody tr th, .stat-table.physical tbody tr td {
     color: var(--main-text-color);
-    background: #1b1a1b
+     background: #1f1c1f;
 }
 
-.stat-table.physical td.modifier {
-    background: #1f1c1f;
+.stat-table.physical td.modifier {  
+    background: #1b1a1b;   
+    color: #fff;
 }
 
 .mon-stat-block-2024__description-block-heading {
@@ -134,13 +135,14 @@ table {
 }
 
 .stat-table.mental tbody tr th, .stat-table.mental tbody tr td {
-    background: #181718;
+    
+    background: #1f1c1f;
     color: var(--main-text-color);
 }
 
 .stat-table.mental td.modifier {
-     background: #1f1c1f;
-    color: var(--main-text-color);
+    background: #181718;
+    color: #fff;
 }
 
 .custom-left-col {
