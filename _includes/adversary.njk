@@ -3,189 +3,191 @@ layout: base.njk
 ---
 
 <a href="/adversaries/"> Back to all adversaries</a>
-<div class="mon-stat-block-2024">
-    <div class="mon-stat-block-2024__header">
-        <div class="mon-stat-block-2024__name">
-            <a class="mon-stat-block-2024__name-link" href="/adversaries/Swarm%20of%20Venomous%20Snakes/">
-                {{title}}
-            </a>
-        </div>
 
-        <div class="mon-stat-block-2024__meta">{{size}}, {{type}}, {{alignment}}</div>
-    </div>
-    <div class="mon-stat-block-2024__attributes">
-        <div class="mon-stat-block-2024__attribute">
-            <span class="mon-stat-block-2024__attribute-label">AC</span>
-            <span class="mon-stat-block-2024__attribute-value">
-                <span class="mon-stat-block-2024__attribute-data-value">
-                    {{ac}}
-                </span>
-                         
-            </span>&nbsp;&nbsp;
-            <span class="mon-stat-block-2024__attribute-label">Initiative</span>
-            <span class="mon-stat-block-2024__attribute-data">
-                <span class="mon-stat-block-2024__attribute-data-value">
-                    +4 (14)
-                </span>
-            </span>
+<div class="mon-stat-block-2024">
+    <div class="custom-left-col">
+        <div class="mon-stat-block-2024__header">
+            <div class="mon-stat-block-2024__name">
+                <a class="mon-stat-block-2024__name-link" href="/adversaries/Swarm%20of%20Venomous%20Snakes/">
+                    {{title}}
+                </a>
+            </div>
+
+            <div class="mon-stat-block-2024__meta">{{size}}, {{type}}, {{alignment}}</div>
         </div>
-        <div class="mon-stat-block-2024__attribute">
-            <span class="mon-stat-block-2024__attribute-label">HP</span>
-            <span class="mon-stat-block-2024__attribute-data">
-                <span class="mon-stat-block-2024__attribute-data-value">
-                    {{hp}} 
-                </span>
-                <span class="mon-stat-block-2024__attribute-data-extra">
-                    ({{hit_dice}})
-                </span>
-            </span>
-        </div>
-        <div class="mon-stat-block-2024__attribute">
-            <span class="mon-stat-block-2024__attribute-label">Speed</span>
-            <span class="mon-stat-block-2024__attribute-data">
-                <span class="mon-stat-block-2024__attribute-data-value">
-                    {{speed}}
-                </span>
-            </span>
-        </div>
-    </div>
-    <div class="mon-stat-block-2024__stats">
-        <table class="stat-table physical">
-            <thead>
-                <tr>
-                    <th>
-                    </th><th>
-                    </th><th>Mod</th>
-                    <th>Save</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th>STR</th>
-                    <td>{{stats[0]}}</td>
-                    <td class="modifier">{{ stats[0] | abilityModifier }}</td>
-                    <td class="modifier">
-                      {% if saves.strength %}
-                        {{saves.strength}}
-                      {% else %}
-                        {{ stats[0] | abilityModifier }}
-                      {% endif %}
-                    </td>
-                </tr>
-                <tr>
-                    <th>DEX</th>
-                    <td>{{stats[1]}}</td>
-                    <td class="modifier">{{ stats[1] | abilityModifier }}</td>
-                    <td class="modifier">
-                      {% if saves.dexterity %}
-                        {{saves.dexterity}}
-                      {% else %}
-                        {{ stats[1] | abilityModifier }}
-                      {% endif %}
-                    </td>
-                </tr>
-                <tr>
-                    <th>CON</th>
-                    <td>{{stats[2]}}</td>
-                    <td class="modifier">{{ stats[2] | abilityModifier }}</td>
-                    <td class="modifier">
-                      {% if saves.constitution %}
-                        {{saves.constitution}}
-                      {% else %}
-                        {{ stats[2] | abilityModifier }}
-                      {% endif %}
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <table class="stat-table mental">
-            <thead>
-                <tr>
-                    <th>
-                    </th><th>
-                    </th><th>Mod</th>
-                    <th>Save</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th>INT</th>
-                    <td>{{stats[3]}}</td>
-                    <td class="modifier">{{ stats[3] | abilityModifier }}</td>
-                    <td class="modifier">
-                      {% if saves.intelligence %}
-                        {{saves.intelligence}}
-                      {% else %}
-                        {{ stats[3] | abilityModifier }}
-                      {% endif %}
-                    </td>
-                </tr>
-                <tr>
-                    <th>WIS</th>
-                    <td>{{stats[4]}}</td>
-                    <td class="modifier">{{ stats[4] | abilityModifier }}</td>
-                    <td class="modifier">
-                      {% if saves.wisdom %}
-                        {{saves.wisdom}}
-                      {% else %}
-                        {{ stats[4] | abilityModifier }}
-                      {% endif %}
-                    </td>
-                </tr>
-                <tr>
-                    <th>CHA</th>
-                    <td>{{stats[5]}}</td>
-                    <td class="modifier">{{ stats[5] | abilityModifier }}</td>
-                    <td class="modifier">
-                      {% if saves.charisma %}
-                        {{saves.charisma}}
-                      {% else %}
-                        {{ stats[5] | abilityModifier }}
-                      {% endif %}
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <div class="mon-stat-block-2024__tidbits">
-        
-            <div class="mon-stat-block-2024__tidbit">
-                <span class="mon-stat-block-2024__tidbit-label">Resistances</span>
-                <span class="mon-stat-block-2024__tidbit-data">
-                    {{damage_resistances}}
+        <div class="mon-stat-block-2024__attributes">
+            <div class="mon-stat-block-2024__attribute">
+                <span class="mon-stat-block-2024__attribute-label">AC</span>
+                <span class="mon-stat-block-2024__attribute-value">
+                    <span class="mon-stat-block-2024__attribute-data-value">
+                        {{ac}}
+                    </span>
+                            
+                </span>&nbsp;&nbsp;
+                <span class="mon-stat-block-2024__attribute-label">Initiative</span>
+                <span class="mon-stat-block-2024__attribute-data">
+                    <span class="mon-stat-block-2024__attribute-data-value">
+                        +4 (14)
+                    </span>
                 </span>
             </div>
-        
-            <div class="mon-stat-block-2024__tidbit">
-                <span class="mon-stat-block-2024__tidbit-label">Immunities</span>
-                <span class="mon-stat-block-2024__tidbit-data">
-                    {{condition_immunities}}
+            <div class="mon-stat-block-2024__attribute">
+                <span class="mon-stat-block-2024__attribute-label">HP</span>
+                <span class="mon-stat-block-2024__attribute-data">
+                    <span class="mon-stat-block-2024__attribute-data-value">
+                        {{hp}} 
+                    </span>
+                    <span class="mon-stat-block-2024__attribute-data-extra">
+                        ({{hit_dice}})
+                    </span>
                 </span>
             </div>
-        
-            <div class="mon-stat-block-2024__tidbit">
-                <span class="mon-stat-block-2024__tidbit-label">Senses</span>
-                <span class="mon-stat-block-2024__tidbit-data">
-                    {{senses}}
-                </span>
-            </div>
-        
-            <div class="mon-stat-block-2024__tidbit">
-                <span class="mon-stat-block-2024__tidbit-label">Languages</span>
-                <span class="mon-stat-block-2024__tidbit-data">
-                    {{languages}}
-                </span>
-            </div>
-        
-        <div class="mon-stat-block-2024__tidbit-container">
-            <div class="mon-stat-block-2024__tidbit">
-                <span class="mon-stat-block-2024__tidbit-label">CR</span>
-                <span class="mon-stat-block-2024__tidbit-data">
-                    {{cr}}
+            <div class="mon-stat-block-2024__attribute">
+                <span class="mon-stat-block-2024__attribute-label">Speed</span>
+                <span class="mon-stat-block-2024__attribute-data">
+                    <span class="mon-stat-block-2024__attribute-data-value">
+                        {{speed}}
+                    </span>
                 </span>
             </div>
         </div>
-        
+        <div class="mon-stat-block-2024__stats">
+            <table class="stat-table physical">
+                <thead>
+                    <tr>
+                        <th>
+                        </th><th>
+                        </th><th>Mod</th>
+                        <th>Save</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>STR</th>
+                        <td>{{stats[0]}}</td>
+                        <td class="modifier">{{ stats[0] | abilityModifier }}</td>
+                        <td class="modifier">
+                        {% if saves.strength %}
+                            {{saves.strength}}
+                        {% else %}
+                            {{ stats[0] | abilityModifier }}
+                        {% endif %}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>DEX</th>
+                        <td>{{stats[1]}}</td>
+                        <td class="modifier">{{ stats[1] | abilityModifier }}</td>
+                        <td class="modifier">
+                        {% if saves.dexterity %}
+                            {{saves.dexterity}}
+                        {% else %}
+                            {{ stats[1] | abilityModifier }}
+                        {% endif %}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>CON</th>
+                        <td>{{stats[2]}}</td>
+                        <td class="modifier">{{ stats[2] | abilityModifier }}</td>
+                        <td class="modifier">
+                        {% if saves.constitution %}
+                            {{saves.constitution}}
+                        {% else %}
+                            {{ stats[2] | abilityModifier }}
+                        {% endif %}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="stat-table mental">
+                <thead>
+                    <tr>
+                        <th>
+                        </th><th>
+                        </th><th>Mod</th>
+                        <th>Save</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>INT</th>
+                        <td>{{stats[3]}}</td>
+                        <td class="modifier">{{ stats[3] | abilityModifier }}</td>
+                        <td class="modifier">
+                        {% if saves.intelligence %}
+                            {{saves.intelligence}}
+                        {% else %}
+                            {{ stats[3] | abilityModifier }}
+                        {% endif %}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>WIS</th>
+                        <td>{{stats[4]}}</td>
+                        <td class="modifier">{{ stats[4] | abilityModifier }}</td>
+                        <td class="modifier">
+                        {% if saves.wisdom %}
+                            {{saves.wisdom}}
+                        {% else %}
+                            {{ stats[4] | abilityModifier }}
+                        {% endif %}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>CHA</th>
+                        <td>{{stats[5]}}</td>
+                        <td class="modifier">{{ stats[5] | abilityModifier }}</td>
+                        <td class="modifier">
+                        {% if saves.charisma %}
+                            {{saves.charisma}}
+                        {% else %}
+                            {{ stats[5] | abilityModifier }}
+                        {% endif %}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="mon-stat-block-2024__tidbits">
+            
+                <div class="mon-stat-block-2024__tidbit">
+                    <span class="mon-stat-block-2024__tidbit-label">Resistances</span>
+                    <span class="mon-stat-block-2024__tidbit-data">
+                        {{damage_resistances}}
+                    </span>
+                </div>
+            
+                <div class="mon-stat-block-2024__tidbit">
+                    <span class="mon-stat-block-2024__tidbit-label">Immunities</span>
+                    <span class="mon-stat-block-2024__tidbit-data">
+                        {{condition_immunities}}
+                    </span>
+                </div>
+            
+                <div class="mon-stat-block-2024__tidbit">
+                    <span class="mon-stat-block-2024__tidbit-label">Senses</span>
+                    <span class="mon-stat-block-2024__tidbit-data">
+                        {{senses}}
+                    </span>
+                </div>
+            
+                <div class="mon-stat-block-2024__tidbit">
+                    <span class="mon-stat-block-2024__tidbit-label">Languages</span>
+                    <span class="mon-stat-block-2024__tidbit-data">
+                        {{languages}}
+                    </span>
+                </div>
+            
+            <div class="mon-stat-block-2024__tidbit-container">
+                <div class="mon-stat-block-2024__tidbit">
+                    <span class="mon-stat-block-2024__tidbit-label">CR</span>
+                    <span class="mon-stat-block-2024__tidbit-data">
+                        {{cr}}
+                    </span>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="mon-stat-block-2024__description-blocks">
             <div class="mon-stat-block-2024__description-block"> 
@@ -195,9 +197,7 @@ layout: base.njk
                     <p><em><strong>{{trait.name}}</strong></em>. {{trait.desc}}</p>                
                 {% endfor %}
                 </div>
- 
             </div>
-         
             <div class="mon-stat-block-2024__description-block">
                 <div class="mon-stat-block-2024__description-block-heading">Actions</div>
                 <div class="mon-stat-block-2024__description-block-content">
@@ -206,6 +206,5 @@ layout: base.njk
                 {% endfor %}                
                 </div>
             </div>
-        
     </div>
 </div>
