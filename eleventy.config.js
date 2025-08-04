@@ -6,7 +6,12 @@ module.exports = function (eleventyConfig) {
 
 
     eleventyConfig.addFilter("abilityModifier", function(value) {
-        return Math.floor((value-10)/2)
+        const modVal = Math.floor((value-10)/2)
+        if(modVal < 0) {
+            return "-"+modVal
+        } else {
+            return "+"+modVal
+        }
     });
 
 };
