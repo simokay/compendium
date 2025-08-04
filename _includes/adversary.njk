@@ -67,7 +67,11 @@ layout: base.njk
                     <tr>
                         <th>STR</th>
                         <td>{{stats[0]}}</td>
-                        <td class="modifier">{{ stats[0] | abilityModifier }}</td>
+                        <td class="modifier">
+                        <span class="ct-beyond20-roll" id="beyond20-roll-3141195155103227" style="margin-right:3px; margin-left: 3px;"><span class="ct-beyond20-icon">
+                            {{ stats[0] | abilityModifier }}
+                            </span></span>
+                        </td>
                         <td class="modifier">
                         {% if saves.strength %}
                             {{saves.strength}}
