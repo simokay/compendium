@@ -54,9 +54,9 @@ traits:
     desc: |-
       While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves:
 
-      • 1st level (4 slots): [[Sleep]], [[Ray of Sickness]]
-      • 2nd level (3 slots): [[Silence]], [[Locate Object]]
-      • 3rd level (3 slots): [[Fear]], [[Counterspell]]
+      • 1st level (4 slots): Sleep, Ray of Sickness
+      • 2nd level (3 slots): Silence, Locate Object
+      • 3rd level (3 slots): Fear, Counterspell
 
       For casting these spells, each hag is a 6th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 11+the hag's Intelligence modifier, and the spell attack bonus is 3+the hag's Intelligence modifier.
     attack_bonus: 0

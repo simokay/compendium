@@ -45,9 +45,9 @@ actions:
     damage_dice: 3d8 + 3d6
     attack_bonus: 8
   - name: Web Strand
-    desc: "Ranged Weapon Attack: +13 to hit, reach 120 ft., one creature. Hit: The target is [[grappled]] (escape DC 18). The web strand can be attacked and destroyed (AC 12; 20 hit points; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage). The spider can grapple up to six creatures at a time using its web strands."
+    desc: "Ranged Weapon Attack: +13 to hit, reach 120 ft., one creature. Hit: The target is grappled (escape DC 18). The web strand can be attacked and destroyed (AC 12; 20 hit points; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage). The spider can grapple up to six creatures at a time using its web strands."
   - name: Reel
-    desc: The spider pulls each creature [[grappled]] by it up to 60 feet straight toward itself.
+    desc: The spider pulls each creature grappled by it up to 60 feet straight toward itself.
 ---
 
 

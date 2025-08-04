@@ -40,11 +40,11 @@ actions:
     damage_bonus: 4
 spells:
   - "The naga is a 10th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks), and it needs only verbal components to cast its spells. It has the following wizard spells prepared:"
-  - Cantrips (at will): [[mage hand]], [[minor illusion]], [[ray of frost]]
-  - 1st level (4 slots): [[charm person]], [[detect magic]], [[sleep]]
-  - 2nd level (3 slots): [[detect thoughts]], [[hold person]]
-  - 3rd level (3 slots): [[lightning bolt]], [[water breathing]]
-  - 4th level (3 slots): [[blight]], [[dimension door]]
-  - 5th level (2 slots): [[dominate person]]
+  - Cantrips (at will): Mage Hand, Minor Illusion, Ray of Frost
+  - 1st level (4 slots): Charm Person, Detect Magic, Sleep
+  - 2nd level (3 slots): Detect Thoughts, Hold Person
+  - 3rd level (3 slots): Lightning Bolt, Water Breathing
+  - 4th level (3 slots): Blight, Dimension Door
+  - 5th level (2 slots): Dominate Person
 
 ---
