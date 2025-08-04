@@ -10,10 +10,13 @@ body {
   padding: 0 1rem;
   margin: 1rem auto;
   font-size: 13px;
+  background-color: #202020;
+  color: #f3e9e9
 }
 
+
 a {
-  color: DodgerBlue;
+  color: #da227b;
   text-decoration: none;
 }
 
@@ -22,7 +25,8 @@ main {
 }
 
 .nav-item-active a {
-  color: MidnightBlue;
+  color: #fff;
+  text-decoration:
 }
 
 nav h2,
@@ -36,9 +40,14 @@ nav ul {
 }
 nav li {
   display: inline-block;
-  background: #f3e9e9;
+  background: #424242;
   padding: 6px;
   margin-right: 4px;
   font-weight: bold;
+}
+
+nav a {
+  color: #a4a4a4
+
 }
 

@@ -6,7 +6,6 @@
     margin: 15px 0;
     font-family: "Instrument Sans", Roboto, Helvetica, sans-serif;
     font-size: 15px;
-    background: #f5f3ee !important;
     outline: 1px solid #afa47a;
     outline-offset: -0.25rem;
     border-radius: .5rem;
@@ -20,7 +19,7 @@
 }
 
 .mon-stat-block-2024__name {
-    border-bottom: .063rem solid #5b160c;
+    border-bottom: .063rem solid #da227b;
     font-family: "Instrument Sans", Roboto, Helvetica, sans-serif;
     letter-spacing: 0.03em;
     font-variant: small-caps;
@@ -29,7 +28,7 @@
     -webkit-column-span: all;
     column-span: all;
     margin-bottom: .45rem;
-    color: #822000;
+    color: #da227b;
 }
 
 .mon-stat-block-2024__name .mon-stat-block-2024__name-link, 
@@ -37,11 +36,11 @@
 .mon-stat-block-2024__attribute, 
 .mon-stat-block-2024__tidbit, 
 .mon-stat-block-2024__description-block-heading {
-    color: #5b160c;
+    color: #f7278c;
 }
 
 .mon-stat-block-2024__meta {
-    color: #68747b;
+    color: #aa96ac;
     margin-bottom: .938rem;
     margin-top: .188rem;
     font-style: italic;
@@ -81,7 +80,7 @@ table {
 
 .stat-table thead tr th {
     background: inherit;
-    color: #68747b !important;
+    color: #aa96ac !important;
     font-weight: 400;
     padding: .3125rem .125rem 0;
     text-transform: uppercase;
@@ -90,9 +89,9 @@ table {
 }
 
 .stat-table tbody tr {
-    border-top: .0625rem solid #fff;
-    border-bottom: .0625rem solid #fff;
-    color: #5b160c;
+    border-top: .0625rem solid #202020;
+    border-bottom: .0625rem solid #202020;
+    color: #a9168b;
     text-align: center;
     font-size: .938rem;
 }
