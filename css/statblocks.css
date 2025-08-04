@@ -10,6 +10,9 @@
     outline: 1px solid #afa47a;
     outline-offset: -0.25rem;
     border-radius: .5rem;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em
 }
 
 .mon-stat-block-2024__header {
@@ -102,10 +105,6 @@ table {
     background: #ded4cc;
 }
 
-.mon-stat-block-2024__description-blocks {
-    margin-top: 20px;
-}
-
 .mon-stat-block-2024__description-block-heading {
     border-bottom: .063rem solid #5b160c;
     font-size: 1.25rem;
@@ -113,7 +112,6 @@ table {
     font-variant: small-caps;
     font-weight: normal;
     line-height: 1.4;
-    margin-top: 1.25rem;
     margin-bottom: .938rem;
 }
 
@@ -137,4 +135,8 @@ table {
 
 .stat-table.mental td.modifier {
     background: #d0caca;
+}
+
+.custom-left-col {
+    margin-bottom: 20px
 }
