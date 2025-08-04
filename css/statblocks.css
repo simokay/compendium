@@ -10,7 +10,7 @@
     outline-offset: -0.25rem;
     border-radius: .5rem;
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 100px 1fr 2fr;
     gap: 1em
 }
 

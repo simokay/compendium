@@ -1,5 +1,4 @@
 - show token on adversary page
 - create share image button
 - create encouter page that links to multiple adversaries
-- create dark theme for compendium
 - add fantasy markdown template
