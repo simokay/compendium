@@ -1,3 +1,7 @@
+:root {
+  --main-text-color: #da227b;
+}
+
 .mon-stat-block-2024 {
     position: relative;
     box-shadow: 0 0 5px #979AA4;
@@ -10,8 +14,8 @@
     outline-offset: -0.25rem;
     border-radius: .5rem;
     display:grid;
-    grid-template-columns: 100px 1fr 2fr;
-    gap: 1em
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
 }
 
 .mon-stat-block-2024__header {
@@ -19,7 +23,7 @@
 }
 
 .mon-stat-block-2024__name {
-    border-bottom: .063rem solid #da227b;
+    border-bottom: .063rem solid var(--main-text-color);
     font-family: "Instrument Sans", Roboto, Helvetica, sans-serif;
     letter-spacing: 0.03em;
     font-variant: small-caps;
@@ -28,7 +32,7 @@
     -webkit-column-span: all;
     column-span: all;
     margin-bottom: .45rem;
-    color: #da227b;
+    color: var(--main-text-color);
 }
 
 .mon-stat-block-2024__name .mon-stat-block-2024__name-link, 
@@ -36,7 +40,7 @@
 .mon-stat-block-2024__attribute, 
 .mon-stat-block-2024__tidbit, 
 .mon-stat-block-2024__description-block-heading {
-    color: #f7278c;
+    color: var(--main-text-color);
 }
 
 .mon-stat-block-2024__meta {
@@ -91,21 +95,22 @@ table {
 .stat-table tbody tr {
     border-top: .0625rem solid #202020;
     border-bottom: .0625rem solid #202020;
-    color: #a9168b;
+    padding: 2px;
     text-align: center;
     font-size: .938rem;
 }
 
 .stat-table.physical tbody tr th, .stat-table.physical tbody tr td {
-    background: #ede6d9;
+    color: var(--main-text-color);
+    background: #1b1a1b
 }
 
 .stat-table.physical td.modifier {
-    background: #ded4cc;
+    background: #1f1c1f;
 }
 
 .mon-stat-block-2024__description-block-heading {
-    border-bottom: .063rem solid #5b160c;
+    border-bottom: .063rem solid var(--main-text-color);
     font-size: 1.25rem;
     font-family: "Instrument Sans", Roboto, Helvetica, sans-serif;
     font-variant: small-caps;
@@ -121,7 +126,7 @@ table {
 .mon-stat-block-2024 .tooltip-hover, .mon-stat-block-2024 .tooltip-hover:hover, .mon-stat-block-2024 .tooltip-hover:focus, .mon-stat-block-2024 .tooltip-hover:active, .mon-stat-block-2024 .tooltip-hover:visited {
     color: inherit !important;
     font-weight: inherit !important;
-    text-decoration: underline solid #47D18C;
+    text-decoration: underline solid var(--main-text-color);
 }
 
 .mon-stat-block-2024__tidbit-label {
@@ -129,11 +134,13 @@ table {
 }
 
 .stat-table.mental tbody tr th, .stat-table.mental tbody tr td {
-    background: #d8dad1;
+    background: #181718;
+    color: var(--main-text-color);
 }
 
 .stat-table.mental td.modifier {
-    background: #d0caca;
+     background: #1f1c1f;
+    color: var(--main-text-color);
 }
 
 .custom-left-col {
