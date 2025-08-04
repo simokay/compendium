@@ -25,17 +25,20 @@ main {
   color: MidnightBlue;
 }
 
-.tag {
-  color: DeepPink;
-}
-
-time {
-  font-weight: normal;
-}
-
-
 nav h2,
 .title-page {
   font-variant: small-caps;
   font-weight: normal;
 }
+
+nav ul {
+  padding:0; 
+}
+nav li {
+  display: inline-block;
+  background: #f3e9e9;
+  padding: 6px;
+  margin-right: 4px;
+  font-weight: bold;
+}
+

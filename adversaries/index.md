@@ -7,5 +7,5 @@ navtitle: Adversaries
 ---
 
 {%- for post in collections.adversary %}
-* <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+* <a href="{{ post.url | url }}">{{ post.data.name }}</a>
 {%- endfor %}
