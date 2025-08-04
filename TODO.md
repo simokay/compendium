@@ -1,0 +1,7 @@
+- [ ] list of adversaries on adversaries index
+- [ ] create a two column layout when viewing an adversary
+- [ ] move navigation to the top
+- [ ] create a adversary token/full image and show on adversary page, would be good to have a share image button
+- [ ] move Done folder to Published, everything in published should be published as is
+- [ ] write a script that imports all published markdown and extracts the yaml into njk pages
+- [ ] allow for the creation of encouter pages that link to a collection of adversaries

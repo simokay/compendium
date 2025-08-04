@@ -2,6 +2,8 @@
 layout: adversary.njk
 title: Swarm of Venomous Snakes
 navtitle: Adversaries
+tags:
+  - adversary
 name: Swarm of Venomous Flying Snakes
 source: Custom
 size: Medium
