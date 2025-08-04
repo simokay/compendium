@@ -2,6 +2,7 @@
 layout: adversary.njk
 navtitle: Adversaries
 tags: adversary
+image: https://simokay.github.io/compendium/img/Adult%20Red%20Dragon.webp
 name: Adult Red Dragon
 source: 5e SRD
 size: Huge

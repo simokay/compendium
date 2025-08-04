@@ -2,6 +2,7 @@
 layout: adversary.njk
 navtitle: Adversaries
 tags: adversary
+image: https://simokay.github.io/compendium/img/Wraith.webp
 name: Wraith
 source: 5e SRD
 size: Medium

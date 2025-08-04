@@ -2,6 +2,7 @@
 layout: adversary.njk
 navtitle: Adversaries
 tags: adversary
+image: https://simokay.github.io/compendium/img/Asteroid%20Spider.webp
 name: Asteroid Spider
 source: Custom
 size: Gargantuan

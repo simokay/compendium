@@ -2,6 +2,7 @@
 layout: adversary.njk
 navtitle: Adversaries
 tags: adversary
+image: https://simokay.github.io/compendium/img/Young%20Green%20Hag.webp
 name: Young Green Hag
 source: 5e SRD
 size: Medium

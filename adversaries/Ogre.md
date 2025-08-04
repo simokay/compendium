@@ -2,6 +2,7 @@
 layout: adversary.njk
 navtitle: Adversaries
 tags: adversary
+image: https://simokay.github.io/compendium/img/Ogre.webp
 name: Ogre
 source: 5e SRD
 size: Large

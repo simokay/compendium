@@ -2,6 +2,7 @@
 layout: adversary.njk
 navtitle: Adversaries
 tags: adversary
+image: https://simokay.github.io/compendium/img/Dragonclaw.webp
 name: Dragonclaw
 source: HotDQ
 size: Medium

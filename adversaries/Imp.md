@@ -2,6 +2,7 @@
 layout: adversary.njk
 navtitle: Adversaries
 tags: adversary
+image: https://simokay.github.io/compendium/img/Imp.webp
 name: Imp
 source: 5e SRD
 size: Tiny
