@@ -61,7 +61,7 @@ traits:
 
       For casting these spells, each hag is a 6th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 11+the hag's Intelligence modifier, and the spell attack bonus is 3+the hag's Intelligence modifier.
     attack_bonus: 0
-
+actions:
   - name: Claws
     desc: "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage."
     attack_bonus: 6

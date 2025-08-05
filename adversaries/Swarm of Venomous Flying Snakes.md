@@ -20,12 +20,9 @@ stats:
   - 1
   - 10
   - 3
-damage_vulnerabilities: ""
-damage_resistances: bludgeoning, piercing, slashing
-damage_immunities: ""
-condition_immunities: charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned
-senses: blindsight 10 ft., passive Perception 10
-languages: ""
+damage_resistances: Bludgeoning, Piercing, Slashing
+condition_immunities: Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned
+senses: Blindsight 10 ft., Passive Perception 10
 cr: "2"
 bestiary: true
 traits:
