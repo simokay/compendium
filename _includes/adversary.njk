@@ -154,35 +154,52 @@ layout: base.njk
                 </tbody>
             </table>
         </div>
-        <div class="mon-stat-block-2024__tidbits">
-            
+        <div class="mon-stat-block-2024__tidbits">     
+            {% if damage_resistances %}
                 <div class="mon-stat-block-2024__tidbit">
                     <span class="mon-stat-block-2024__tidbit-label">Resistances</span>
                     <span class="mon-stat-block-2024__tidbit-data">
                         {{damage_resistances}}
                     </span>
                 </div>
-            
+            {% endif %}
+            {% if damage_immunities %}
                 <div class="mon-stat-block-2024__tidbit">
-                    <span class="mon-stat-block-2024__tidbit-label">Immunities</span>
+                    <span class="mon-stat-block-2024__tidbit-label">Damage Immunities</span>
+                    <span class="mon-stat-block-2024__tidbit-data">
+                        {{damage_immunities}}
+                    </span>
+                </div>
+            {% endif %}
+            {% if damage_condition_immunities %}
+                <div class="mon-stat-block-2024__tidbit">
+                    <span class="mon-stat-block-2024__tidbit-label">Condition Immunities</span>
                     <span class="mon-stat-block-2024__tidbit-data">
                         {{condition_immunities}}
                     </span>
                 </div>
-            
+            {% endif %}
+            {% if damage_vulnerabilities %}
                 <div class="mon-stat-block-2024__tidbit">
-                    <span class="mon-stat-block-2024__tidbit-label">Senses</span>
+                    <span class="mon-stat-block-2024__tidbit-label">Damage Vulnerabilities</span>
                     <span class="mon-stat-block-2024__tidbit-data">
-                        {{senses}}
+                        {{damage_vulnerabilities}}
                     </span>
                 </div>
-            
-                <div class="mon-stat-block-2024__tidbit">
-                    <span class="mon-stat-block-2024__tidbit-label">Languages</span>
-                    <span class="mon-stat-block-2024__tidbit-data">
-                        {{languages}}
-                    </span>
-                </div>
+            {% endif %}
+            <div class="mon-stat-block-2024__tidbit">
+                <span class="mon-stat-block-2024__tidbit-label">Senses</span>
+                <span class="mon-stat-block-2024__tidbit-data">
+                    {{senses}}
+                </span>
+            </div>
+        
+            <div class="mon-stat-block-2024__tidbit">
+                <span class="mon-stat-block-2024__tidbit-label">Languages</span>
+                <span class="mon-stat-block-2024__tidbit-data">
+                    {{languages}}
+                </span>
+            </div>
             
             <div class="mon-stat-block-2024__tidbit-container">
                 <div class="mon-stat-block-2024__tidbit">
