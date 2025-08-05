@@ -2,6 +2,22 @@
   box-sizing: border-box;
 }
 
+:root {
+  --main-alt-color: #ee3a91;
+  --main-bg-color: #f3e9e9;
+  --main-text-color: #202020;
+  --main-light-color: #3c3c3c;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-alt-color: #ee3a91;
+    --main-bg-color: #202020;
+    --main-text-color: #f3e9e9;
+    --main-light-color: #a4a4a4;
+  }
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
     sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
@@ -10,13 +26,12 @@ body {
   padding: 0 1rem;
   margin: 1rem auto;
   font-size: 13px;
-  background-color: #202020;
-  color: #f3e9e9
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color)
 }
 
-
 a {
-  color: #da227b;
+  color: var(--main-alt-color);
   text-decoration: none;
 }
 
@@ -25,8 +40,8 @@ main {
 }
 
 .nav-item-active a {
-  color: #fff;
-  text-decoration:
+  color: var(--main-text-color);
+  text-decoration: none;
 }
 
 nav h2,
@@ -40,23 +55,14 @@ nav ul {
 }
 nav li {
   display: inline-block;
-  background: #424242;
   padding: 6px;
   margin-right: 4px;
   font-weight: bold;
 }
 
 nav a {
-  color: #a4a4a4
+  color: var(--main-light-color)
 
-}
-
-
-
-.dice-box {
-  width: 200px;
-  aspect-ratio: 1;
-  clip-path: polygon(93.30% 75.00%,50.00% 100.00%,6.70% 75.00%,6.70% 25.00%,50.00% 0.00%,93.30% 25.00%,93.30% 75.00%,88.97% 27.50%,50.00% 5.00%,11.03% 27.50%,11.03% 72.50%,50.00% 95.00%,88.97% 72.50%,88.97% 27.50%);
 }
 
 .ct-beyond20-custom-roll-button {

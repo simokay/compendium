@@ -1,4 +1,4 @@
 - show token on adversary page
 - create share image button
 - create encouter page that links to multiple adversaries
-- allow toggle from dark to light theme
+- respect user mode preference dark/light
