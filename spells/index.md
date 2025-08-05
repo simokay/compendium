@@ -1,9 +1,9 @@
 ---
 layout: page.njk
-title: Items
+title: Spells
 tags:
   - nav
-navtitle: Items
+navtitle: Spells
 ---
 
 A list of items

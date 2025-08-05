@@ -1,4 +1,4 @@
 - show token on adversary page
 - create share image button
 - create encouter page that links to multiple adversaries
-- add fantasy markdown template
+- allow toggle from dark to light theme
