@@ -1,7 +1,5 @@
----
-layout: adversary.njk
-navtitle: Adversaries
-tags: adversary
+
+---statblock
 image: https://simokay.github.io/compendium/img/tokens/Animated%20Armor.webp
 name: Animated Armor
 source: 5e SRD

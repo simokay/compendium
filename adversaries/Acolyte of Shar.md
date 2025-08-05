@@ -1,7 +1,5 @@
----
-layout: adversary.njk
-navtitle: Adversaries
-tags: adversary
+
+---statblock
 image: https://simokay.github.io/compendium/img/tokens/Acolyte%20of%20Shar.webp
 name: Acolyte of Shar
 source: Custom

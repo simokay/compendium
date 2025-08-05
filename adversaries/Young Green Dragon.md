@@ -1,7 +1,5 @@
----
-layout: adversary.njk
-navtitle: Adversaries
-tags: adversary
+
+---statblock
 image: https://simokay.github.io/compendium/img/tokens/Young%20Green%20Dragon.webp
 name: Young Green Dragon
 source: 5e SRD

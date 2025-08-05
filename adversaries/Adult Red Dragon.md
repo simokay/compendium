@@ -1,7 +1,5 @@
----
-layout: adversary.njk
-navtitle: Adversaries
-tags: adversary
+
+---statblock
 image: https://simokay.github.io/compendium/img/tokens/Adult%20Red%20Dragon.webp
 name: Adult Red Dragon
 source: 5e SRD

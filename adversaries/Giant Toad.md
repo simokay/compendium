@@ -1,7 +1,5 @@
----
-layout: adversary.njk
-navtitle: Adversaries
-tags: adversary
+
+---statblock
 image: https://simokay.github.io/compendium/img/tokens/Giant%20Toad.webp
 name: Giant Toad
 source: 5e SRD

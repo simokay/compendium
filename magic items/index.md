@@ -6,4 +6,6 @@ tags:
 navtitle: Magic Items
 ---
 
-A list of items
+{%- for item in collections.magicitems %}
+* <a href="{{ item.url | url }}">{{ item.data.name }}</a>
+{%- endfor %}
