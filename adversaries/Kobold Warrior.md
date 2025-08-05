@@ -2,7 +2,7 @@
 layout: adversary.njk
 navtitle: Adversaries
 tags: adversary
-image: https://simokay.github.io/compendium/img/Kobold%20Warrior.webp
+image: https://simokay.github.io/compendium/img/tokens/Kobold%20Warrior.webp
 name: Kobold Warrior
 source: 5e SRD
 size: Small

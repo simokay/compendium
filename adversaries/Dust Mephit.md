@@ -2,7 +2,7 @@
 layout: adversary.njk
 navtitle: Adversaries
 tags: adversary
-image: https://simokay.github.io/compendium/img/Dust%20Mephit.webp
+image: https://simokay.github.io/compendium/img/tokens/Dust%20Mephit.webp
 name: Dust Mephit
 source: 5e SRD
 size: Small

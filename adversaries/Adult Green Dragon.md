@@ -2,7 +2,7 @@
 layout: adversary.njk
 navtitle: Adversaries
 tags: adversary
-image: https://simokay.github.io/compendium/img/Adult%20Green%20Dragon.webp
+image: https://simokay.github.io/compendium/img/tokens/Adult%20Green%20Dragon.webp
 name: Adult Green Dragon
 source: 5e SRD
 size: Huge

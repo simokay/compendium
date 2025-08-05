@@ -2,7 +2,7 @@
 layout: adversary.njk
 navtitle: Adversaries
 tags: adversary
-image: https://simokay.github.io/compendium/img/Shadow.webp
+image: https://simokay.github.io/compendium/img/tokens/Shadow.webp
 name: Shadow
 source: 5e SRD
 size: Medium

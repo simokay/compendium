@@ -2,7 +2,7 @@
 layout: adversary.njk
 navtitle: Adversaries
 tags: adversary
-image: https://simokay.github.io/compendium/img/Chuul.webp
+image: https://simokay.github.io/compendium/img/tokens/Chuul.webp
 name: Chuul
 source: MM 2014
 size: Large

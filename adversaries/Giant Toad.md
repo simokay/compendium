@@ -2,7 +2,7 @@
 layout: adversary.njk
 navtitle: Adversaries
 tags: adversary
-image: https://simokay.github.io/compendium/img/Giant%20Toad.webp
+image: https://simokay.github.io/compendium/img/tokens/Giant%20Toad.webp
 name: Giant Toad
 source: 5e SRD
 size: Large

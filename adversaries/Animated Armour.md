@@ -2,7 +2,7 @@
 layout: adversary.njk
 navtitle: Adversaries
 tags: adversary
-image: https://simokay.github.io/compendium/img/Animated%20Armor.webp
+image: https://simokay.github.io/compendium/img/tokens/Animated%20Armor.webp
 name: Animated Armor
 source: 5e SRD
 size: Medium

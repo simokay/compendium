@@ -2,7 +2,7 @@
 layout: adversary.njk
 navtitle: Adversaries
 tags: adversary
-image: https://simokay.github.io/compendium/img/Phase%20Spider.webp
+image: https://simokay.github.io/compendium/img/tokens/Phase%20Spider.webp
 name: Phase Spider
 source: 5e SRD
 size: Large

@@ -2,7 +2,7 @@
 layout: adversary.njk
 navtitle: Adversaries
 tags: adversary
-image: https://simokay.github.io/compendium/img/Ambush%20Drake.webp
+image: https://simokay.github.io/compendium/img/tokens/Ambush%20Drake.webp
 name: Ambush Drake
 source: HotDQ
 size: Medium

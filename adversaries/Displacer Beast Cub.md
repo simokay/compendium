@@ -2,7 +2,7 @@
 layout: adversary.njk
 navtitle: Adversaries
 tags: adversary
-image: https://simokay.github.io/compendium/img/Displacer%20Beast%20Cub.webp
+image: https://simokay.github.io/compendium/img/tokens/Displacer%20Beast%20Cub.webp
 name: Displacer Beast Cub
 source: Custom
 size: Medium

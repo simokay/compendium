@@ -2,7 +2,7 @@
 layout: adversary.njk
 navtitle: Adversaries
 tags: adversary
-image: https://simokay.github.io/compendium/img/Worg.webp
+image: https://simokay.github.io/compendium/img/tokens/Worg.webp
 name: Worg
 source: 5e SRD
 size: Large
