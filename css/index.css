@@ -87,3 +87,8 @@ nav a {
 .ct-beyond20-custom-icon {
   vertical-align: bottom;
 }
+
+
+.adversary-image {
+  max-width: 500px
+}
