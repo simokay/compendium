@@ -6,13 +6,13 @@ image: https://simokay.github.io/compendium/img/Adult%20Green%20Dragon.webp
 name: Adult Green Dragon
 source: 5e SRD
 size: Huge
-type: dragon
+type: Dragon
 subtype: ""
-alignment: lawful evil
+alignment: Lawful Evil
 ac: 19
 hp: 207
 hit_dice: 18d12 + 90
-speed: 40 ft., fly 80 ft., swim 40 ft.
+speed: Walk 40 ft., Fly 80 ft., Swim 40 ft.
 stats:
   - 23
   - 12
@@ -33,8 +33,8 @@ skillsaves:
   - stealth: 6
 damage_vulnerabilities: ""
 damage_resistances: ""
-damage_immunities: poison
-condition_immunities: poisoned
+damage_immunities: Poison
+condition_immunities: Poisoned
 senses: blindsight 60 ft., darkvision 120 ft., passive Perception 22
 languages: Common, Draconic
 cr: "15"
