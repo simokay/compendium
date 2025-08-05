@@ -216,7 +216,7 @@ layout: base.njk
                 <div class="mon-stat-block-2024__description-block-heading">Traits</div>
                 <div class="mon-stat-block-2024__description-block-content">
                  {% for trait in traits %}
-                    <p><em><strong>{{trait.name}}</strong></em>. {{trait.desc}}</p>                
+                    <p><em><strong>{{trait.name}}</strong></em>. {{trait.desc | striptags(true) | escape | nl2br}}</p>                
                 {% endfor %}
                 </div>
             </div>
@@ -224,7 +224,7 @@ layout: base.njk
                 <div class="mon-stat-block-2024__description-block-heading">Actions</div>
                 <div class="mon-stat-block-2024__description-block-content">
                      {% for action in actions %}
-                    <p><em><strong>{{action.name}}</strong></em>. {{action.desc}}</p>                
+                    <p><em><strong>{{action.name}}</strong></em>. {{action.desc | striptags(true) | escape | nl2br}}</p>                
                 {% endfor %}                
                 </div>
             </div>

@@ -41,7 +41,7 @@ traits:
     desc: |-
       The hag's innate spellcasting ability is Charisma (spell save DC 12). She can innately cast the following spells, requiring no material components:
 
-      At will: [[Dancing Lights]], [[Minor Illusion]], [[Vicious Mockery]], [[Shocking Grasp]]
+      At will: Dancing Lights, Minor Illusion, Vicious Mockery, Shocking Grasp
     attack_bonus: 0
   - name: Mimicry
     desc: The hag can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations with a successful DC 14 Wisdom (Insight) check.
