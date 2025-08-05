@@ -2,7 +2,7 @@
 layout: adversary.njk
 navtitle: Adversaries
 tags: adversary
-image: https://simokay.github.io/compendium/img/Acolyte%20of%20Shar.webp
+image: "https://simokay.github.io/compendium/img/token/Acolyte%20of%20Shar.webp"
 name: Acolyte of Shar
 source: Custom
 size: Medium
@@ -23,15 +23,10 @@ stats:
 skillsaves:
   - stealth: 4
   - religion: 2
-damage_vulnerabilities: ""
-damage_resistances: ""
-damage_immunities: ""
-condition_immunities: ""
 senses: passive Perception 12
 languages: any one language (usually Common)
 cr: 1/2
 bestiary: true
-traits: []
 actions:
   - name: Stab
     desc: "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d6) piercing damage."
