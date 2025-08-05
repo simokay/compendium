@@ -2,7 +2,7 @@
 layout: magicitem.njk
 navtitle: Magic Items
 tags: magicitems
-name: 'Siren Fairy\'s Music Box'
+name: "Siren Fairy's Music Box"
 ---
 This music box appears to have a petrified creature half-fairy half-fish within it and is well-worn. 
 

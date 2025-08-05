@@ -2,7 +2,7 @@
 layout: magicitem.njk
 navtitle: Magic Items
 tags: magicitems
-name: 'Staff of Withering'
+name: "Staff of Withering"
 ---
 The staff has 3 charges and regains 1d3 expended charges daily at dawn.
 

@@ -2,7 +2,7 @@
 layout: magicitem.njk
 navtitle: Magic Items
 tags: magicitems
-name: 'Sending Stones'
+name: "Sending Stones"
 ---
 _Sending stones_ come in pairs, with each smooth stone carved to match the other so the pairing is easily recognised. While you touch one stone, you can use an action to cast the _[[Sending]] spell from it. The target is the bearer of the other stone. If no creature bears the other stone, you know that fact as soon as you use the stone and don't cast the spell.
 

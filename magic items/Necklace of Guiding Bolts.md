@@ -2,7 +2,7 @@
 layout: magicitem.njk
 navtitle: Magic Items
 tags: magicitems
-name: 'Necklace of Guiding Bolts'
+name: "Necklace of Guiding Bolts"
 ---
 On loan from [[Kamaria]]
 

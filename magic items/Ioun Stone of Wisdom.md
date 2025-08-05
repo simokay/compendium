@@ -2,7 +2,7 @@
 layout: magicitem.njk
 navtitle: Magic Items
 tags: magicitems
-name: 'Ioun Stone of Wisdom'
+name: "Ioun Stone of Wisdom"
 ---
 An Ioun stone is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of Ioun stone exist, each type a distant combination of shape and colour.
 

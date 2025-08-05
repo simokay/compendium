@@ -2,7 +2,7 @@
 layout: magicitem.njk
 navtitle: Magic Items
 tags: magicitems
-name: 'Sword of Terror'
+name: "Sword of Terror"
 ---
 **To Hit +1**
 

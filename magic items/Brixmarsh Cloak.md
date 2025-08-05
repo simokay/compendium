@@ -2,7 +2,7 @@
 layout: magicitem.njk
 navtitle: Magic Items
 tags: magicitems
-name: 'Brixmarsh Cloak'
+name: "Brixmarsh Cloak"
 ---
 This night-blue cloak of crushed blue velvet bears silver runes on the hem, and on the right shoulder, a heraldic rendering of two towers-the symbol of Brixmarsh, a failing school of magic foolishly built on the outskirts of the Flooded Forest. These cloaks were originally created for that school, in ambitious numbers far higher than its eventual enrolment, but are now issued by the Avowed to apprentices studying under masters of the Art.
 

@@ -2,7 +2,7 @@
 layout: magicitem.njk
 navtitle: Magic Items
 tags: magicitems
-name: 'Dagger of Haunting'
+name: "Dagger of Haunting"
 ---
 **Damage:** 1d4 piercing
 **To Hit:** +1

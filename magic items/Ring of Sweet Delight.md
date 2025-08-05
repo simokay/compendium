@@ -2,7 +2,7 @@
 layout: magicitem.njk
 navtitle: Magic Items
 tags: magicitems
-name: 'Ring of Sweet Delight'
+name: "Ring of Sweet Delight"
 ---
 This silver ring with purple gems is thicker on the finger than might usually be expected
 
