@@ -1,11 +1,7 @@
-:root {
-  --main-text-color: #ee3a91;
-}
-
 .mon-stat-block-2024 {
     position: relative;
-    box-shadow: 0 0 5px #979AA4;
-    border: 1px solid #d4d0ce;
+    box-shadow: 0 0 5px var(--outer-shadow-color);
+    border: 1px solid var(--outer-border-color);
     padding: 15px;
     margin: 15px 0;
     font-family: "Instrument Sans", Roboto, Helvetica, sans-serif;
@@ -32,7 +28,6 @@
     -webkit-column-span: all;
     column-span: all;
     margin-bottom: .45rem;
-    color: var(--main-text-color);
 }
 
 .mon-stat-block-2024__name .mon-stat-block-2024__name-link, 
@@ -40,11 +35,11 @@
 .mon-stat-block-2024__attribute, 
 .mon-stat-block-2024__tidbit, 
 .mon-stat-block-2024__description-block-heading {
-    color: var(--main-text-color);
+    color: var(--main-alt-color);
 }
 
 .mon-stat-block-2024__meta {
-    color: #aa96ac;
+    color: var(--main-light-color);
     margin-bottom: .938rem;
     margin-top: .188rem;
     font-style: italic;
@@ -84,7 +79,7 @@ table {
 
 .stat-table thead tr th {
     background: inherit;
-    color: #aa96ac !important;
+    color: var(--main-light-color) !important;
     font-weight: 400;
     padding: .3125rem .125rem 0;
     text-transform: uppercase;
@@ -93,8 +88,8 @@ table {
 }
 
 .stat-table tbody tr {
-    border-top: .0625rem solid #202020;
-    border-bottom: .0625rem solid #202020;
+    border-top: .0625rem solid var(--main-bg-color);
+    border-bottom: .0625rem solid var(--main-bg-color);
     padding: 2px;
     text-align: center;
     font-size: .938rem;
@@ -102,12 +97,12 @@ table {
 
 .stat-table.physical tbody tr th, .stat-table.physical tbody tr td {
     color: var(--main-text-color);
-     background: #1f1c1f;
+    background: var(--table-bg-td-color)
 }
 
 .stat-table.physical td.modifier {  
-    background: #1b1a1b;   
-    color: #fff;
+    background: var(---table-bg-mod-color);   
+    color: var(---table-mod-text-color);
 }
 
 .mon-stat-block-2024__description-block-heading {
@@ -134,15 +129,14 @@ table {
     font-weight: bold;
 }
 
-.stat-table.mental tbody tr th, .stat-table.mental tbody tr td {
-    
-    background: #1f1c1f;
+.stat-table.mental tbody tr th, .stat-table.mental tbody tr td { 
+    background: var(--table-alt-bg-color);
     color: var(--main-text-color);
 }
 
 .stat-table.mental td.modifier {
-    background: #181718;
-    color: #fff;
+    background: var(--table-alt-mod-color);
+    color:var(--main-text-color);
 }
 
 .custom-left-col {
