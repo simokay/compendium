@@ -1,5 +1,7 @@
-
----statblock
+---
+layout: adversary.njk
+navtitle: Adversaries
+tags: adversary
 name: Naga
 source: 5e SRD
 size: Large

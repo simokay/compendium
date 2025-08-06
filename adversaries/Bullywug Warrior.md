@@ -1,5 +1,7 @@
-
----statblock
+---
+layout: adversary.njk
+navtitle: Adversaries
+tags: adversary
 image: https://simokay.github.io/compendium/img/tokens/Bullywug%20Warrior.webp
 name: Bullywug Warrior
 source: Custom

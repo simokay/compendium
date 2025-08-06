@@ -1,5 +1,7 @@
-
----statblock
+---
+layout: adversary.njk
+navtitle: Adversaries
+tags: adversary
 image: https://simokay.github.io/compendium/img/tokens/Imp.webp
 name: Imp
 source: 5e SRD

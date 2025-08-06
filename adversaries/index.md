@@ -6,6 +6,6 @@ tags:
 navtitle: Adversaries
 ---
 
-{%- for post in collections.adversary %}
-* <a href="{{ post.url | url }}">{{ post.data.name }}</a>
+{%- for adversary in collections.adversary %}
+* <a href="{{ adversary.url | url }}">{{ adversary.data.name }}</a>
 {%- endfor %}

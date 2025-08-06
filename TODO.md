@@ -1,4 +1,4 @@
-- show token on adversary page
-- create share image button
-- create encouter page that links to multiple adversaries
-- respect user mode preference dark/light
+- fix share image button, probably by adding dndbeyond markup to adversary page
+- fix link urls to work in dev and production
+- resolve obisidian style [[]] links 
+- allow rolls from magic items page, probably with markup

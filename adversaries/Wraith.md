@@ -1,5 +1,7 @@
-
----statblock
+---
+layout: adversary.njk
+navtitle: Adversaries
+tags: adversary
 image: https://simokay.github.io/compendium/img/tokens/Wraith.webp
 name: Wraith
 source: 5e SRD

@@ -1,5 +1,7 @@
-
----statblock
+---
+layout: adversary.njk
+navtitle: Adversaries
+tags: adversary
 image: https://simokay.github.io/compendium/img/tokens/Young%20Green%20Hag.webp
 name: Young Green Hag
 source: 5e SRD

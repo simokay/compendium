@@ -1,5 +1,7 @@
-
----statblock
+---
+layout: adversary.njk
+navtitle: Adversaries
+tags: adversary
 image: https://simokay.github.io/compendium/img/tokens/Lizardfolk%20Scaleshield.webp
 name: Lizardfolk Scaleshield
 source: 5e SRD

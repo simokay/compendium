@@ -6,7 +6,6 @@
     <title>{{ renderData.title or title or metadata.title }}</title>
     <meta name="description" content="{{ renderData.description or description or metadata.description }}">
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
-    <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
     <link rel="stylesheet" href="{{ '/css/statblocks.css' | url }}">
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
   </head>
@@ -14,15 +13,15 @@
     <header>
       <h2><a href="{{ '/' | url }}">Compendium</a></h2>
     </header>
-
     <nav>
       <ul>
-      {%- for nav in collections.nav | sort(attribute="data.navtitle") -%}
-      {% if nav.data.navtitle !== 'Adversaries' %}
-      <li class="nav-item{% if page.url.startsWith(nav.url) %} nav-item-active{% endif %}">
-      <a href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a></li>
-      {% endif %}
-      {%- endfor -%}
+        {%- for nav in collections.nav | sort(attribute="data.navtitle") -%}
+          {% if nav.data.navtitle !== 'Adversarie' %}
+            <li class="nav-item{% if page.url.startsWith(nav.url) %} nav-item-active{% endif %}">
+              <a href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a>
+            </li>
+          {% endif %}
+        {%- endfor -%}
       </ul>
     </nav>
     <main>
