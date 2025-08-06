@@ -6,6 +6,6 @@ tags:
 navtitle: Adversaries
 ---
 
-{%- for adversary in collections.adversary %}
-* <a href="{{ adversary.url | url }}">{{ adversary.data.name }}</a>
+{%- for adversary in collections.adversary  | sort(attribute="data.name") %}
+* <img src="{{'/img/share/' | url }}{{adversary.data.name}}.png" width="50" /></a><a href="{{ adversary.url | url }}">{{ adversary.data.name }}</a>
 {%- endfor %}
