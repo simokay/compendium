@@ -8,7 +8,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter("abilityModifier", function(value) {
         const modVal = Math.floor((value-10)/2)
         if(modVal < 0) {
-            return "-"+modVal
+            return modVal
         } else {
             return "+"+modVal
         }
