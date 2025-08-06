@@ -34,7 +34,6 @@
 }
 
 body {
-
   font-family: "Instrument Sans", Roboto, Helvetica, sans-serif;
   font-size: 15px;
   line-height: 1.4;
@@ -88,7 +87,6 @@ nav a {
 .ct-beyond20-custom-icon {
   vertical-align: bottom;
 }
-
 
 .adversary-image {
   max-width: 500px
