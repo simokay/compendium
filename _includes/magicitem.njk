@@ -4,6 +4,12 @@ layout: base.njk
 
 <h1 class="title-page">{{ name }}</h1>
 
-<img src="/compendium/img/items/{{name}}.png" width="100" />
+<div class="image"><a href="">
+<img src="/compendium/img/items/{{name}}.png" class="magic-item-image" /></a>
+</div>
 
-{{ content | safe }}
+<div class="item-details">
+ <div class="more-info-content">
+    {{ content | safe }}
+  </div>
+</div>

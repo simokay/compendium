@@ -88,6 +88,7 @@ nav a {
   vertical-align: bottom;
 }
 
-.monster-image {
+.monster-image,
+.magic-item-image {
   max-width: 500px
 }
