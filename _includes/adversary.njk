@@ -2,10 +2,9 @@
 layout: base.njk
 ---
 
-<div><a href="/compendium/adversaries/"> Back to all adversaries</a></div>
-
+<div><a href={{ '/adversaries/' | url }}> Back to all adversaries</a></div>
 <div class="image"><a href="">
-<img class="monster-image" src="/compendium/img/share/{{name}}.png" /></a>
+<img class="monster-image" src="{{'/img/share/' | url }}{{name}}.png" /></a>
 </div>
 <div class="mon-stat-block-2024">
     <div class="custom-left-col">
