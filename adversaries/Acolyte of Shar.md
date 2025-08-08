@@ -2,7 +2,7 @@
 layout: adversary.njk
 navtitle: Adversaries
 tags: adversary
-image: https://simokay.github.io/compendium/img/tokens/Acolyte%20of%20Shar.webp
+image: https://simokay.github.io/compendium/img/tokens/Acolyte%20of%20Shar.png
 name: Acolyte of Shar
 source: Custom
 size: Medium
