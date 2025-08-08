@@ -1,4 +1,4 @@
-- fix share image button, probably by adding dndbeyond markup to adversary page
-- fix link urls to work in dev and production
-- resolve obisidian style [[]] links 
-- allow rolls from magic items page, probably with markup
+- resolve obisidian style [[]] links
+- create a tile and list view toggle on magic items index
+- add a filter by name to magic items 
+- make sure all magic items have prices
