@@ -2,7 +2,7 @@
 layout: adversary.njk
 navtitle: Adversaries
 tags: adversary
-image: https://simokay.github.io/compendium/img/tokens/Monstrous%20Peryton.png
+image: https://simokay.github.io/compendium/img/tokens/Monstrous%20Peryton.webp
 name: Monstrous Peryton
 source: GoS
 size: Large

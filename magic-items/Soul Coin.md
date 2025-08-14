@@ -4,6 +4,11 @@ navtitle: Magic Items
 tags: magicitems
 name: "Soul Coin"
 ---
+---
+owners:
+  - Erudite
+---
+
 **_Soul coins_** are about 5 inches across and about an inch thick, minted from infernal iron. Each coin weighs one-third of a pound, and is inscribed with Infernal writing and a spell that magically binds a single soul to the coin. Because each soul coin has a unique soul trapped within it, each has a story. A creature might have been imprisoned as a result of defaulting on a deal, while another might be the victim of a night hag's curse.
 
 **_Carrying Soul Coins_**. To hold a soul coin is to feel the soul bound within it — overcome with rage or fraught with despair.

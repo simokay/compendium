@@ -2,7 +2,7 @@
 layout: adversary.njk
 navtitle: Adversaries
 tags: adversary
-image: https://simokay.github.io/compendium/img/tokens/Dark%20Utility20Suit.png
+image: https://simokay.github.io/compendium/img/tokens/Dark%20Utility%20Suit.webp
 name: Dark Utility Suit
 source: Custom
 size: Medium

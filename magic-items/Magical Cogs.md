@@ -4,3 +4,7 @@ navtitle: Magic Items
 tags: magicitems
 name: "Magical Cogs"
 ---
+---
+owners:
+  - Timbal
+---

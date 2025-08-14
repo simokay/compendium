@@ -2,7 +2,7 @@
 layout: adversary.njk
 navtitle: Adversaries
 tags: adversary
-image: https://simokay.github.io/compendium/img/tokens/Shadow%20Mastiff.png
+image: https://simokay.github.io/compendium/img/tokens/Shadow%20Mastiff.webp
 name: Shadow Mastiff
 source: Custom
 size: Medium

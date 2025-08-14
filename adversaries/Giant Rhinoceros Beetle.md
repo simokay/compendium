@@ -2,7 +2,7 @@
 layout: adversary.njk
 navtitle: Adversaries
 tags: adversary
-image: https://simokay.github.io/compendium/img/tokens/Giant%20Rhinoceros%20Beetle
+image: https://simokay.github.io/compendium/img/tokens/Giant%20Rhinoceros%20Beetle.webp
 name: Giant Rhinoceros Beetle
 source: Custom
 size: Large

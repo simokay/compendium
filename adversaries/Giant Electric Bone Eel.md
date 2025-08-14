@@ -2,7 +2,7 @@
 layout: adversary.njk
 navtitle: Adversaries
 tags: adversary
-image: https://simokay.github.io/compendium/img/tokens/Giant%20Electri%20Bone%20Eel%20.png
+image: https://simokay.github.io/compendium/img/tokens/Giant%20Electric%20Bone%20Eel.webp
 name: Giant Electric Bone Eel
 source: Custom
 size: Medium

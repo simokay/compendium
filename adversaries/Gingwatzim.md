@@ -2,7 +2,7 @@
 layout: adversary.njk
 navtitle: Adversaries
 tags: adversary
-image: https://simokay.github.io/compendium/img/tokens/Gingwatzim.png
+image: https://simokay.github.io/compendium/img/tokens/Gingwatzim.webp
 name: Gingwatzim
 source: Custom
 size: Small

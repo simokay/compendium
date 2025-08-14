@@ -2,7 +2,7 @@
 layout: adversary.njk
 navtitle: Adversaries
 tags: adversary
-image: https://simokay.github.io/compendium/img/tokens/Guard%20Drake.png
+image: https://simokay.github.io/compendium/img/tokens/Guard%20Drake.webp
 name: Guard Drake
 source: Custom
 size: Medium

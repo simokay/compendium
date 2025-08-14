@@ -2,7 +2,7 @@
 layout: adversary.njk
 navtitle: Adversaries
 tags: adversary
-image: https://simokay.github.io/compendium/img/tokens/Nightmare.jpg
+image: https://simokay.github.io/compendium/img/tokens/Nightmare.webp
 name: Nightmare
 source: MM 2014
 size: Large

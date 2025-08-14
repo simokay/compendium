@@ -2,7 +2,7 @@
 layout: adversary.njk
 navtitle: Adversaries
 tags: adversary
-image: https://simokay.github.io/compendium/img/tokens/Giant%20Air%20Elemental.png
+image: https://simokay.github.io/compendium/img/tokens/Giant%20Bound%20Air%20Elemental.webp
 name: Giant Bound Air Elemental
 source: Custom
 size: Huge

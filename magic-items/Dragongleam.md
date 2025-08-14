@@ -6,6 +6,8 @@ name: "Dragongleam"
 ---
 1d6 Piercing
 
+hit +1 
+
 Thrown (20/60 ft.), versatile (1d8)
 
 This spear is enchanted with 10 charges of a [[Daylight]] spell for use in twilight or dark forest underbrush. The command phrase is "Tiamat's eyes shine," written in Draconic runes on the spear's crossguard.

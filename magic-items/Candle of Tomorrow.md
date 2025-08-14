@@ -4,6 +4,11 @@ navtitle: Magic Items
 tags: magicitems
 name: "Candle of Tomorrow"
 ---
+---
+owners:
+  - Erudite
+---
+
 The secret of creating these silver candles is kept by four churches, those of Oghma, Deneir, Selûne, and Savras. The clergy of all these deities have agreed to keep their methods confidential.
 
 When you light this candle, which requires an action, you specify the duration of its effect, ranging from 1 minute to 24 hours. When you do so, each willing creature within 10 feet of the candle vanishes, along with the candle, for the length of time you chose. For the duration, other creatures can't perceive, interact with, or affect the target in any way, and the target is unaware of its surroundings.

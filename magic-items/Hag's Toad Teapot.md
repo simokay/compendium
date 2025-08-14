@@ -4,6 +4,7 @@ navtitle: Magic Items
 tags: magicitems
 name: "Hag's Toad Teapot"
 ---
+
 This dark green teapot is in the shape of a toad with one twistable wart in its back.
 
 Endless Hot Tea. The tea pot will always pour black tea at the perfect temperature for drinking. However many cups are made there is always enough water left in the pot.

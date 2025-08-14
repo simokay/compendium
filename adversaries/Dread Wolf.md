@@ -2,7 +2,7 @@
 layout: adversary.njk
 navtitle: Adversaries
 tags: adversary
-image: https://simokay.github.io/compendium/img/tokens/Dread%20Wolf.png
+image: https://simokay.github.io/compendium/img/tokens/Dread%20Wolf.webp
 name: Dread Wolf
 source: Custom
 size: Medium

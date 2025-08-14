@@ -11,7 +11,7 @@ subtype: lizardfolk
 alignment: neutral
 ac: 15
 hp: 22
-hit_dice: 4d8 + 4
+hit_dice: 5d8 + 10
 speed: 30 ft., swim 30 ft.
 stats:
   - 15

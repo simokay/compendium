@@ -4,6 +4,12 @@ navtitle: Magic Items
 tags: magicitems
 name: "Dagger of Haunting"
 ---
+---
+owner:
+  - Dante
+---
+
+
 **Damage:** 1d4 piercing
 **To Hit:** +1
 **Properties**: Finesse, Light, Range, Thrown

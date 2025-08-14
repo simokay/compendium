@@ -4,6 +4,11 @@ navtitle: Magic Items
 tags: magicitems
 name: "Sword of Terror"
 ---
+---
+owners:
+  - Hazel
+---
+
 **To Hit +1**
 
 **Damage:** 2d6 necrotic

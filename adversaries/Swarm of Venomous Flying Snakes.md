@@ -2,7 +2,7 @@
 layout: adversary.njk
 navtitle: Adversaries
 tags: adversary
-image: https://simokay.github.io/compendium/img/tokens/Swarm%20of%20Venomous%20Flying%20Snakes.png
+image: https://simokay.github.io/compendium/img/tokens/Swarm%20of%20Venomous%20Flying%20Snakes.webp
 name: Swarm of Venomous Flying Snakes
 source: Custom
 size: Medium

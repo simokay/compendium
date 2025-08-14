@@ -2,7 +2,7 @@
 layout: adversary.njk
 navtitle: Adversaries
 tags: adversary
-image: https://simokay.github.io/compendium/img/tokens/Kobold Dragonshield.png
+image: https://simokay.github.io/compendium/img/tokens/Kobold%20Dragonshield.webp
 name: Kobold Dragonshield
 source: Custom
 size: Small

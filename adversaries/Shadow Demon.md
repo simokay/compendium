@@ -2,7 +2,7 @@
 layout: adversary.njk
 navtitle: Adversaries
 tags: adversary
-image: https://simokay.github.io/compendium/img/tokens/Shadow%20Demon.png
+image: https://simokay.github.io/compendium/img/tokens/Shadow%20Demon.webp
 name: Shadow Demon
 source: Custom
 size: Medium
