@@ -39,7 +39,8 @@ actions:
     damage_dice: 1d6
 spells:
   - "The acolyte is a 2nd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The acolyte has following spells prepared:"
-  - Cantrips (at will): Toll the Dead, Ray of Frost, Chill Touch
-  - 1st level (3 slots): Inflict Wounds, Disguise Self, Bane
-  - 2nd level (1 slot): Darkness
+  - At Will: Toll the Dead, Ray of Frost, Chill Touch
+  - 2/Day Each: Inflict Wounds, Disguise Self, Bane
+  - 1/Day Each: Darkness
 ---
+

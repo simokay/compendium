@@ -223,9 +223,31 @@ layout: base.njk
             <div class="mon-stat-block-2024__description-block">
                 <div class="mon-stat-block-2024__description-block-heading">Actions</div>
                 <div class="mon-stat-block-2024__description-block-content">
-                     {% for action in actions %}
-                    <p><em><strong>{{action.name}}</strong></em>. {{action.desc | striptags(true) | escape | nl2br}}</p>                
-                {% endfor %}                
+                    {% for action in actions %}
+                        <p><em><strong>{{action.name}}</strong></em>. {{action.desc | striptags(true) | escape | nl2br}}</p>                
+                    {% endfor %}                
+                    {% if spells %}
+                        <p><em><strong>Spellcasting</strong></em>. {{ spells | first }}</p>
+                        <ul>
+                        {% for spell in spells %}
+                           {% if spell["At Will"] %}
+                            <li><em><strong>At Will</strong></em>. {{ spell["At Will"] }}</li>
+                           {% endif %}
+                           {% if spell["4/Day Each"] %}
+                            <li><em><strong>4/Day Each</strong></em>. {{ spell["4/Day Each"] }}</li>
+                           {% endif %}
+                           {% if spell["3/Day Each"] %}
+                            <li><em><strong>3/Day Each</strong></em>. {{ spell["3/Day Each"] }}</li>
+                           {% endif %}
+                           {% if spell["2/Day Each"] %}
+                            <li><em><strong>2/Day Each</strong></em>. {{ spell["2/Day Each"] }}</li>
+                           {% endif %}
+                           {% if spell["1/Day Each"] %}
+                            <li><em><strong>1/Day Each</strong></em>. {{ spell["1/Day Each"] }}</li>
+                           {% endif %}
+                        {% endfor %}  
+                        </ul>          
+                    {% endif %}
                 </div>
             </div>
     </div>

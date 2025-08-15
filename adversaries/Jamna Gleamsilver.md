@@ -2,7 +2,7 @@
 layout: adversary.njk
 navtitle: Adversaries
 tags: adversary
-image: 
+image: https://simokay.github.io/compendium/img/tokens/Jamna%20Gleamsilver.webp
 name: Jamna Gleamsilver
 source: Custom
 size: Small
@@ -44,6 +44,6 @@ actions:
     damage_dice: 1d6
 spells:
   - "Jamna is a 4th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). Jamna has following spells prepared:"
-  - Cantrips (at will): mage hand, minor illusion, prestidigitation, ray of frost
-  - 1st level (3 slots): charm person, color spray, disguise self, longstrider
+  - At Will: mage hand, minor illusion, prestidigitation, ray of frost
+  - 3/Day Each: charm person, color spray, disguise self, longstrider
 ---

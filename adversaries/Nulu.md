@@ -30,10 +30,10 @@ actions:
     desc: "Melee Weapon Attack: +6 to hit, reach 10 ft., one creature in the snake's space. Hit: 15 (2d8+8) piercing damage plus 5 (1d6) poison damage."
 spells:
   - "The naga is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). The snake has following spells prepared:"
-  - Cantrips (at will): Poison Spray, Message, Shape Water
-  - 1st level (3 slots): Disguise Self, Sanctuary, Sleep
-  - 2nd level (2 slot): See Invisibility, Invisibility, Enthrall
-  - 3rd leve (1 slot): Remove Curse, Wall of Water
+  - At Will: Poison Spray, Message, Shape Water
+  - 3/Day Each: Disguise Self, Sanctuary, Sleep
+  - 2/Day Each: See Invisibility, Invisibility, Enthrall
+  - 1/Day Each: Remove Curse, Wall of Water
 ---
 
 Her shop contains:

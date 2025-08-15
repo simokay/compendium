@@ -39,10 +39,7 @@ traits:
     attack_bonus: 0
   - name: Innate Spellcasting
     desc: |-
-      The hag's innate spellcasting ability is Charisma (spell save DC 12). She can innately cast the following spells, requiring no material components:
-
-      At will: Dancing Lights, Minor Illusion, Vicious Mockery, Shocking Grasp
-    attack_bonus: 0
+      The hag's innate spellcasting ability is Charisma (spell save DC 12). She can innately cast some spells, without material components
   - name: Mimicry
     desc: The hag can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations with a successful DC 14 Wisdom (Insight) check.
     attack_bonus: 0
@@ -53,13 +50,7 @@ traits:
     attack_bonus: 0
   - name: Shared Spellcasting (Coven Only)
     desc: |-
-      While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves:
-
-      • 1st level (4 slots): Sleep, Ray of Sickness
-      • 2nd level (3 slots): Silence, Locate Object
-      • 3rd level (3 slots): Fear, Counterspell
-
-      For casting these spells, each hag is a 6th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 11+the hag's Intelligence modifier, and the spell attack bonus is 3+the hag's Intelligence modifier.
+      While all three members of a hag coven are within 30 feet of one another, they can each cast spells from the wizard's spell list but must share the spell slots among themselves. For casting these spells, each hag is a 6th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 11+the hag's Intelligence modifier, and the spell attack bonus is 3+the hag's Intelligence modifier.
     attack_bonus: 0
 actions:
   - name: Claws
@@ -72,4 +63,10 @@ actions:
       The hag covers herself and anything she is wearing or carrying with a magical illusion that makes her look like another creature of her general size and humanoid shape. The illusion ends if the hag takes a bonus action to end it or if she dies.
       The changes wrought by this effect fail to hold up to physical inspection. For example, the hag could appear to have smooth skin, but someone touching her would feel her rough flesh. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a DC 20 Intelligence (Investigation) check to discern that the hag is disguised.
     attack_bonus: 0
+spells:
+  - The hag's innate spellcasting ability is Charisma (spell save DC 12). She can innately cast the following spells, requiring no material components:
+  - At Will: Dancing Lights, Minor Illusion, Vicious Mockery, Shocking Grasp
+  - 4/Day Each: Sleep, Ray of Sickness
+  - 3/Day Each: Silence, Locate Object
+  - 2/Day Each: Fear, Counterspell
 ---
