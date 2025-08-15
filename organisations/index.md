@@ -6,4 +6,6 @@ tags:
 navtitle: Organisations
 ---
 
-A list of items
+{%- for item in collections.orgs | sort(attribute="data.name") %}
+* <a href="{{ item.url | url }}">{{ item.data.name }}</a>
+{%- endfor %}
