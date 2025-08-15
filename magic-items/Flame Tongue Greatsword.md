@@ -3,7 +3,6 @@ layout: magicitem.njk
 navtitle: Magic Items
 tags: magicitems
 name: "Flame Tongue Greatsword"
----
 owners:
   - Timbal
 cost: "5000"

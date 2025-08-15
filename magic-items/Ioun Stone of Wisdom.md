@@ -3,7 +3,6 @@ layout: magicitem.njk
 navtitle: Magic Items
 tags: magicitems
 name: "Ioun Stone of Wisdom"
----
 owners:
   - Timbal
 cost: "3000"

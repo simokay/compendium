@@ -3,7 +3,6 @@ layout: magicitem.njk
 navtitle: Magic Items
 tags: magicitems
 name: "Atmosphere Cloak"
----
 owners:
   - Hazel
 cost: "3000"

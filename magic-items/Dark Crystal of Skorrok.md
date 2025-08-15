@@ -3,7 +3,6 @@ layout: magicitem.njk
 navtitle: Magic Items
 tags: magicitems
 name: "Dark Crystal of Skorrok"
----
 owners:
   - Lisko
 ---

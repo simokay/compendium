@@ -3,7 +3,6 @@ layout: magicitem.njk
 navtitle: Magic Items
 tags: magicitems
 name: "Necklace of Guiding Bolts"
----
 own: Hazel
 ---
 

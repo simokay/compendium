@@ -3,7 +3,6 @@ layout: magicitem.njk
 navtitle: Magic Items
 tags: magicitems
 name: "Candle of Tomorrow"
----
 owners:
   - Erudite
 ---

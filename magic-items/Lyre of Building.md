@@ -3,7 +3,6 @@ layout: magicitem.njk
 navtitle: Magic Items
 tags: magicitems
 name: "Lyre of Building"
----
 cost: "5000"
 ---
 

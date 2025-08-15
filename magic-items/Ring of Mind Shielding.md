@@ -3,7 +3,6 @@ layout: magicitem.njk
 navtitle: Magic Items
 tags: magicitems
 name: "Ring of Mind Shielding"
----
 owners:
   - Erudite
   - Dante
