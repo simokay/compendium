@@ -6,4 +6,6 @@ tags:
 navtitle: Spells
 ---
 
-A list of items
+{%- for item in collections.spells | sort(attribute="data.name") %}
+* <a href="{{ item.url | url }}">{{ item.data.name }}</a>
+{%- endfor %}
