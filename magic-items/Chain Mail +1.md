@@ -4,7 +4,6 @@ navtitle: Magic Items
 tags: magicitems
 name: "Chain Mail +1"
 ---
----
 cost: "750"
 ---
 

@@ -4,7 +4,6 @@ navtitle: Magic Items
 tags: magicitems
 name: "Potion of Greater Healing"
 ---
----
 cost: "150"
 ---
 

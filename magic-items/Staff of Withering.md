@@ -4,7 +4,6 @@ navtitle: Magic Items
 tags: magicitems
 name: "Staff of Withering"
 ---
----
 cost: "3000"
 ---
 

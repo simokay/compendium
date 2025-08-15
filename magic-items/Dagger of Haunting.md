@@ -4,7 +4,6 @@ navtitle: Magic Items
 tags: magicitems
 name: "Dagger of Haunting"
 ---
----
 owner:
   - Dante
 ---

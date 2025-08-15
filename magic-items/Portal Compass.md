@@ -4,7 +4,6 @@ navtitle: Magic Items
 tags: magicitems
 name: "Portal Compass"
 ---
----
 owners:
   - Timbal
 ---

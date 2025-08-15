@@ -4,7 +4,6 @@ navtitle: Magic Items
 tags: magicitems
 name: "Sword of Terror"
 ---
----
 owners:
   - Hazel
 ---

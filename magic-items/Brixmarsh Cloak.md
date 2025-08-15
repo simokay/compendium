@@ -4,7 +4,6 @@ navtitle: Magic Items
 tags: magicitems
 name: "Brixmarsh Cloak"
 ---
----
 owners:
   - Erudite
 ---
