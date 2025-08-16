@@ -23,5 +23,3 @@ This spell is a minor magical trick that novice spellcasters use for practice. Y
 - You create a nonmagical trinket or an illusory image that can fit in your hand and that lasts until the end of your next turn.
 
 If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.
-
-**_Spell Lists._** [Artificer](http://dnd5e.wikidot.com/spells:artificer), [Bard](http://dnd5e.wikidot.com/spells:bard), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)

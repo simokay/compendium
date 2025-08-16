@@ -4,7 +4,7 @@ navtitle: Spells
 tags: spells
 name: "Summon Shadowraven"
 ---
-Source: Modified Tasha's Cauldron of Everything
+Source: Custom
 
 _3rd-level conjuration_
 
@@ -18,8 +18,6 @@ You call forth a shadowy raven. It manifests in an unoccupied space that you can
 The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after your. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the Dodge action and it uses its move to avoid danger.
 
 **_At Higher Levels._** When you cast the spell using a spell slot of 4th level or higher, use the higher level wherever the spell’s level appears on the stat block.
-
-**_Spell Lists._** [Warlock (Optional)](https://dnd5e.wikidot.com/spells:warlock), [Wizard (Optional)](https://dnd5e.wikidot.com/spells:wizard)
 
 | Shadow Raven                                                                                                                                                                                                                                                                                                                                   |         |         |        |         |         |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- | ------- | ------ | ------- | ------- |

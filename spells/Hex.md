@@ -4,7 +4,6 @@ navtitle: Spells
 tags: spells
 name: "Hex"
 ---
-  
 Source: Player's Handbook
 
 _1st-level enchantment_
@@ -18,8 +17,6 @@ You place a curse on a creature that you can see within range. Until the spell e
 
 If the target drops to 0 hit points before this spell ends, you can use a bonus action on a subsequent turn of yours to curse a new creature.
 
-A [Remove Curse](http://dnd5e.wikidot.com/spell:remove-curse) cast on the target ends this spell early.
+A Remove Curse cast on the target ends this spell early.
 
 **_At Higher Levels._** When you cast this spell using a spell slot of 3rd or 4th level, you can maintain your concentration on the spell for up to 8 hours. When you use a spell slot of 5th level or higher, you can maintain your concentration on the spell for up to 24 hours.
-
-**_Spell Lists._** [Warlock](http://dnd5e.wikidot.com/spells:warlock)

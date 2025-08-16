@@ -16,5 +16,3 @@ _Evocation cantrip_
 Lightning springs from your hand to deliver a shock to a creature you try to touch. Make a melee spell attack against the target. You have advantage on the attack roll if the target is wearing armor made of metal. On a hit, the target takes 1d8 lightning damage, and it can’t take reactions until the start of its next turn.
 
 **_At Higher Levels._** The spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).
-
-**_Spell Lists._** [Artificer](http://dnd5e.wikidot.com/spells:artificer), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)

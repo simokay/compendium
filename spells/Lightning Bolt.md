@@ -18,5 +18,3 @@ A stroke of lightning forming a line of 100 feet long and 5 feet wide blasts out
 The lightning ignites flammable objects in the area that aren’t being worn or carried.
 
 **_At Higher Levels._** When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.
-
-**_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)

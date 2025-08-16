@@ -23,5 +23,3 @@ You manifest a minor wonder, a sign of supernatural power, within range. You cre
 - You alter the appearance of your eyes for 1 minute.
 
 If you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time, and you can dismiss such an effect as an action.
-
-**_Spell Lists._** [Cleric](http://dnd5e.wikidot.com/spells:cleric)

@@ -18,5 +18,3 @@ A 60-foot-radius sphere of light spreads out from a point you choose within rang
 If you chose a point on an object you are holding or one that isn’t being worn or carried, the light shines from the object with and moves with it. Completely covering the affected object with an opaque object, such as a bowl or a helm, blocks the light.
 
 If any of this spell’s area overlaps with an area of darkness created by a spell of 3rd level or lower, the spell that created the darkness is dispelled.
-
-**_Spell Lists._** [Cleric](http://dnd5e.wikidot.com/spells:cleric), [Druid](http://dnd5e.wikidot.com/spells:druid), [Paladin](http://dnd5e.wikidot.com/spells:paladin), [Ranger](http://dnd5e.wikidot.com/spells:ranger), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer)

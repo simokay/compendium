@@ -18,5 +18,3 @@ You choose a creature you can see within range and mystically mark it as your qu
 If the target drops to 0 hit points before this spell ends, you can use a bonus action on a subsequent turn of yours to mark a new creature.
 
 **_At Higher Levels._** When you cast this spell using a spell slot of 3rd or 4th level, you can maintain your concentration on the spell for up to 8 hours. When you use a spell slot of 5th level or higher, you can maintain your concentration on the spell for up to 24 hours.
-
-**_Spell Lists._** [Ranger](http://dnd5e.wikidot.com/spells:ranger)

@@ -4,7 +4,6 @@ navtitle: Spells
 tags: spells
 name: "Speak with Ravens"
 ---
-  
 Source: Custom
 
 _1st-level divination_

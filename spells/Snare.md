@@ -4,7 +4,6 @@ navtitle: Spells
 tags: spells
 name: "Snare"
 ---
-  
 Source: Xanathar's Guide to Everything
 
 _1st-level abjuration_
@@ -21,5 +20,3 @@ The trap is nearly invisible and requires a successful Intelligence (Investigati
 The trap triggers when a Small creature or larger moves into the area protected by the spell. The triggering creature must succeed on a Dexterity saving throw or fall prone and be hoisted into the air until it hangs upside down 3 feet above the protected surface, where it is restrained.
 
 The restrained creature can make a Dexterity saving throw with disadvantage at the end of each of its turns and ends the restrained effect on a success. Alternatively, another creature that can reach the restrained creature can use an action to make an Intelligence (Arcana) check against your spell save DC. On a success, the restrained effect also ends.
-
-**_Spell Lists._** [Artificer](http://dnd5e.wikidot.com/spells:artificer), [Druid](http://dnd5e.wikidot.com/spells:druid), [Ranger](http://dnd5e.wikidot.com/spells:ranger), [Wizard](http://dnd5e.wikidot.com/spells:wizard)

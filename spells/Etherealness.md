@@ -22,5 +22,3 @@ You ignore all objects and effects that aren’t on the Ethereal Plane, allowing
 This spell has no effect if you cast it while you are on the Ethereal Plane or a plane that doesn’t border it, such as one of the Outer Planes.
 
 **_At Higher Levels._** When you cast this spell using a spell slot of 8th level or higher, you can target up to three willing creatures (including you) for each slot level above 7th. The creatures must be within 10 feet of you when you cast the spell.
-
-**_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Cleric](http://dnd5e.wikidot.com/spells:cleric), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)

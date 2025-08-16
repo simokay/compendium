@@ -17,5 +17,3 @@ _4th-level abjuration_
 You touch a willing creature. For the duration, the target’s movement is unaffected by difficult terrain, and spells and other magical effects can neither reduce the target’s speed nor cause the target to be paralyzed or restrained.
 
 The target can also spend 5 feet of movement to automatically escape from nonmagical restraints, such as manacles or a creature that has it grappled. Finally, being underwater imposes no penalties on the target’s movement or attacks.
-
-**_Spell Lists._** [Artificer](http://dnd5e.wikidot.com/spells:artificer), [Bard](http://dnd5e.wikidot.com/spells:bard), [Cleric](http://dnd5e.wikidot.com/spells:cleric), [Druid](http://dnd5e.wikidot.com/spells:druid), [Ranger](http://dnd5e.wikidot.com/spells:ranger)

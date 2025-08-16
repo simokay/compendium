@@ -4,7 +4,6 @@ navtitle: Spells
 tags: spells
 name: "Burning Hands"
 ---
-  
 Source: Player's Handbook
 
 _1st-level evocation_
@@ -19,5 +18,3 @@ As you hold your hands with thumbs touching and fingers spread, a thin sheet of 
 The fire ignites any flammable objects in the area that aren’t being worn or carried.
 
 **_At Higher Levels._** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.
-
-**_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)

@@ -18,5 +18,3 @@ A sudden loud ringing noise, painfully intense, erupts from a point of your choi
 A nonmagical object that isn’t being worn or carried also takes the damage if it’s in the spell’s area.
 
 **_At Higher Levels._** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.
-
-**_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)

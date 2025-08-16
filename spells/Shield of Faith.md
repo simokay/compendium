@@ -14,5 +14,3 @@ _1st-level abjuration_
 **Duration:** Concentration, up to 10 minutes
 
 A shimmering field appears and surrounds a creature of your choice within range, granting it a +2 bonus to AC for the duration.
-
-**_Spell Lists._** [Cleric](http://dnd5e.wikidot.com/spells:cleric), [Paladin](http://dnd5e.wikidot.com/spells:paladin)

@@ -26,5 +26,3 @@ You speak a one-word command to a creature you can see within range. The target 
 **_Halt._** The target doesn’t move and takes no actions. A flying creature stays aloft, provided that it is able to do so. If it must move to stay aloft, it flies the minimum distance needed to remain in the air.
 
 **_At Higher Levels._** When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.
-
-**_Spell Lists._** [Bard (Optional)](https://dnd5e.wikidot.com/spells:bard), [Cleric](http://dnd5e.wikidot.com/spells:cleric), [Paladin](http://dnd5e.wikidot.com/spells:paladin)
