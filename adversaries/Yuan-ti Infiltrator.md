@@ -44,7 +44,9 @@ actions:
     attack_bonus: 4
     damage_dice: 2d6
     damage_bonus: 2
-  - name: Spellcasting
-    desc: "The yuan-ti casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 12):\nAt will: Animal Friendship (snakes only)\n2/day: Suggestion"
+spells:
+  - "The yuan-ti casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 12):"
+  - At Will: Animal Friendship (snakes only)
+  - 2/Day Each: Suggestion
 ---
 
