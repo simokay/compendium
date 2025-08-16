@@ -10,4 +10,4 @@ This silver ring with purple gems is thicker on the finger than might usually be
 
 When in range, unless a creature is adverse to sweet things or a particular food they will be drawn to the treat and take an interest in it.
 
-If they consume the entire treat the creature must make a Wisdom saving throw or become charmed, following the effects of Charm Person spell.
+If they consume the entire treat the creature must make a Wisdom saving throw or become charmed, following the effects of [[Charm Person]] spell.
