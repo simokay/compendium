@@ -97,3 +97,7 @@ nav a {
   max-width: 500px;
   max-height: 433px;
 }
+
+.item-details {
+  max-width: 800px
+}
