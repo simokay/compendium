@@ -16,7 +16,7 @@
     <nav>
       <ul>
         {%- for nav in collections.nav | sort(attribute="data.navtitle") -%}
-          {% if nav.data.navtitle !== 'Adversaries' %}
+          {% if nav.data.navtitle !== 'Adversariees' %}
             <li class="nav-item{% if page.url.startsWith(nav.url) %} nav-item-active{% endif %}">
               <a href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a>
             </li>
