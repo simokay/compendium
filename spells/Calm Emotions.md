@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Calm Emotions"
+name: "Calm Emotions"
 ---
 Source: Player's Handbook
 

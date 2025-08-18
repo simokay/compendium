@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Move Earth"
+name: "Move Earth"
 ---
 Source: Player's Handbook
 

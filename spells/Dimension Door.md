@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Dimension Door"
+name: "Dimension Door"
 ---
 Source: Player's Handbook
 

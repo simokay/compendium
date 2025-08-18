@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Charm Person"
+name: "Charm Person"
 ---
 Source: Player's Handbook
 

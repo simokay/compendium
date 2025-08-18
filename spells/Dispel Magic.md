@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Dispel Magic"
+name: "Dispel Magic"
 ---
 Source: Player's Handbook
 

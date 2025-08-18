@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Ray of Enfeeblement"
+name: "Ray of Enfeeblement"
 ---
 Source: Player's Handbook
 

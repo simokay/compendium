@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Comprehend Languages"
+name: "Comprehend Languages"
 ---
 Source: Player's Handbook
 

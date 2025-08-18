@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Zone of Truth"
+name: "Zone of Truth"
 ---
 Source: Player's Handbook
 

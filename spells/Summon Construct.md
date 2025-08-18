@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Summon Construct"
+name: "Summon Construct"
 ---
 Source: Tasha's Cauldron of Everything
 

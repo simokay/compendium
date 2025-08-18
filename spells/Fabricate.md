@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Fabricate"
+name: "Fabricate"
 ---
 Source: Player's Handbook
 

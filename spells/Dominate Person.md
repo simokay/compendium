@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Dominate Person"
+name: "Dominate Person"
 ---
 Source: Player's Handbook
 

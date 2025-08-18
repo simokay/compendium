@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Cure Wounds"
+name: "Cure Wounds"
 ---
 Source: Player's Handbook
 

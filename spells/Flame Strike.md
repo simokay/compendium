@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Flame Strike"
+name: "Flame Strike"
 ---
 Source: Player's Handbook
 

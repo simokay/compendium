@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Shield of Faith"
+name: "Shield of Faith"
 ---
 Source: Player's Handbook
 

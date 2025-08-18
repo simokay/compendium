@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Dancing Lights"
+name: "Dancing Lights"
 ---
 Source: Player's Handbook
 

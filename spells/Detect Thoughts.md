@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Detect Thoughts"
+name: "Detect Thoughts"
 ---
 Source: Player's Handbook
 

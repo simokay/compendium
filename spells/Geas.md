@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Geas"
+name: "Geas"
 ---
 Source: Player's Handbook
 

@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Counterspell"
+name: "Counterspell"
 ---
 Source: Player's Handbook
 

@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Ray of Frost"
+name: "Ray of Frost"
 ---
 Source: Player's Handbook
 

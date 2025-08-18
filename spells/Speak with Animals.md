@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Speak with Animals"
+name: "Speak with Animals"
 ---
 Source: Player's Handbook
 

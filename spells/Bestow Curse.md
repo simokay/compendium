@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Bestow Curse"
+name: "Bestow Curse"
 ---
 Source: Player's Handbook
 

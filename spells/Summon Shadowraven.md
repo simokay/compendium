@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Summon Shadowraven"
+name: "Summon Shadowraven"
 ---
 Source: Custom
 

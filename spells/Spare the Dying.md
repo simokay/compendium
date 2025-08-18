@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Spare the Dying"
+name: "Spare the Dying"
 ---
 Source: Player's Handbook
 

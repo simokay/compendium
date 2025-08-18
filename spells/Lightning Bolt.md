@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Lightning Bolt"
+name: "Lightning Bolt"
 ---
 Source: Player's Handbook
 

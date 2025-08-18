@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "True Seeing"
+name: "True Seeing"
 ---
 Source: Player's Handbook
 

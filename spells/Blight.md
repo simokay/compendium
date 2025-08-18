@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Blight"
+name: "Blight"
 ---
 Source: Player's Handbook
 

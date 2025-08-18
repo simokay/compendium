@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Shatter"
+name: "Shatter"
 ---
 Source: Player's Handbook
 

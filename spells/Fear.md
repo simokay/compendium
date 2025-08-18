@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Fear"
+name: "Fear"
 ---
 Source: Player's Handbook
 

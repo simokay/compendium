@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Burning Hands"
+name: "Burning Hands"
 ---
 Source: Player's Handbook
 

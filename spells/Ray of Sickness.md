@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Ray of Sickness"
+name: "Ray of Sickness"
 ---
 Source: Player's Handbook
 

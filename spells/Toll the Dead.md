@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Toll the Dead"
+name: "Toll the Dead"
 ---
 Source: Xanathar's Guide to Everything
 

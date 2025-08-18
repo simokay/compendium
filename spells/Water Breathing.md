@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Water Breathing"
+name: "Water Breathing"
 ---
 Source: Player's Handbook
 

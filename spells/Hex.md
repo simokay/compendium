@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Hex"
+name: "Hex"
 ---
 Source: Player's Handbook
 

@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Scorching Ray"
+name: "Scorching Ray"
 ---
 Source: Player's Handbook
 

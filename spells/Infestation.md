@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Infestation"
+name: "Infestation"
 ---
 Source: Xanathar's Guide to Everything
 

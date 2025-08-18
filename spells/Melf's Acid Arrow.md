@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Melf's Acid Arrow"
+name: "Melf's Acid Arrow"
 ---
 Source: Player's Handbook
 

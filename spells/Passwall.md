@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Passwall"
+name: "Passwall"
 ---
 Source: Player's Handbook
 

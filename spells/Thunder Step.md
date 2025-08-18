@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Thunder Step"
+name: "Thunder Step"
 ---
 Source: Xanathar's Guide to Everything
 

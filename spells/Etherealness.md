@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Etherealness"
+name: "Etherealness"
 ---
 Source: Player's Handbook
 

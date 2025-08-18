@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Speak with Ravens"
+name: "Speak with Ravens"
 ---
 Source: Custom
 

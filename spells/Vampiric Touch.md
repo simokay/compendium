@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Vampiric Touch"
+name: "Vampiric Touch"
 ---
 Source: Player's Handbook
 

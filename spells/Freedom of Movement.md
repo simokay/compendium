@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Freedom of Movement"
+name: "Freedom of Movement"
 ---
   
 Source: Player's Handbook

@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Sending"
+name: "Sending"
 ---
 Source: Player's Handbook
 

@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Control Flames"
+name: "Control Flames"
 ---
 Source: Xanathar's Guide to Everything
 

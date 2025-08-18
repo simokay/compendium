@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Hunter's Mark"
+name: "Hunter's Mark"
 ---
 Source: Player's Handbook
 

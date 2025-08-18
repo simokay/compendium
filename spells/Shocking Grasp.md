@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Shocking Grasp"
+name: "Shocking Grasp"
 ---
 Source: Player's Handbook
 

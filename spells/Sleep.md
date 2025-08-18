@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Sleep"
+name: "Sleep"
 ---
 Source: Player's Handbook
 

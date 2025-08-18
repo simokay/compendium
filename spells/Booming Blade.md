@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-neame: "Booming Blade"
+name: "Booming Blade"
 ---
 Source: Tasha's Cauldron of Everything
 
