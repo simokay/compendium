@@ -4,7 +4,6 @@ navtitle: Spells
 tags: spells
 name: "Freedom of Movement"
 ---
-  
 Source: Player's Handbook
 
 _4th-level abjuration_
