@@ -47,6 +47,6 @@ actions:
 spells:
   - "The yuan-ti casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 12):"
   - At Will: "[[Animal Friendship]] (snakes only)"
-  - 2/Day Each: [["Suggestion"]]
+  - 2/Day Each: "[[Suggestion]]"
 ---
 
