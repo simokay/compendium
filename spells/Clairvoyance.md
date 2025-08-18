@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-name: "Clairvoyance"
+neame: "Clairvoyance"
 ---
 Source: Player's Handbook
 

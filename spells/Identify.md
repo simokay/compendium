@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-name: "Identify"
+neame: "Identify"
 ---
 Source: Player's Handbook
 

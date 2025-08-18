@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-name: "Speak with Dead"
+neame: "Speak with Dead"
 ---
 Source: Player's Handbook
 

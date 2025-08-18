@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-name: "Presdigitation"
+neame: "Presdigitation"
 ---
 Source: Player's Handbook
 

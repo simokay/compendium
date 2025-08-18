@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-name: "Daylight"
+neame: "Daylight"
 ---
 Source: Player's Handbook
 

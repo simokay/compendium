@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-name: "Command"
+neame: "Command"
 ---
 Source: Player's Handbook
 

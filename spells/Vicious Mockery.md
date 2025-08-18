@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-name: "Vicious Mockery"
+neame: "Vicious Mockery"
 ---
 Source: Player's Handbook
 

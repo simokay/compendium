@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-name: "Sacred Flame"
+neame: "Sacred Flame"
 ---
 Source: Player's Handbook
 

@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-name: "Silent Image"
+neame: "Silent Image"
 ---
 Source: Player's Handbook
 

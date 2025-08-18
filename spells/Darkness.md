@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-name: "Darkness"
+neame: "Darkness"
 ---
 Source: Player's Handbook
 

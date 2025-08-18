@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-name: "Banishment"
+neame: "Banishment"
 ---
 Source: Player's Handbook
 

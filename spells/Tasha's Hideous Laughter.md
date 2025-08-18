@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-name: "Tasha's Hideous Laughter"
+neame: "Tasha's Hideous Laughter"
 ---
 Source: Player's Handbook
 

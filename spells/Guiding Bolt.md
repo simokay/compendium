@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-name: "Guiding Bolt"
+neame: "Guiding Bolt"
 ---
 Source: Player's Handbook
 

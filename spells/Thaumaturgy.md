@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-name: "Thaumaturgy"
+neame: "Thaumaturgy"
 ---
 Source: Player's Handbook
 

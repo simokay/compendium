@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-name: "Control Flames"
+neame: "Control Flames"
 ---
 Source: Xanathar's Guide to Everything
 
@@ -19,7 +19,7 @@ You choose nonmagical flame that you can see within range and that fits within a
 
 - You instantaneously extinguish the flames within the cube.
 
-- You double or halve the area of bright light and dim light cast by the flame, change its color, or both. The change lasts for 1 hour.
+- You double or halve the area of bright light and dim light cast by the flame, change its colour, or both. The change lasts for 1 hour.
 
 - You cause simple shapes—such as the vague form of a creature, an inanimate object, or a location—to appear within the flames and animate as you like. The shapes last for 1 hour.
 

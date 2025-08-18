@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-name: "Detect Magic"
+neame: "Detect Magic"
 ---
 Source: Player's Handbook
 

@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-name: "Silvery Barbs"
+neame: "Silvery Barbs"
 ---
 Source: Strixhaven: A Curriculum of Chaos
 

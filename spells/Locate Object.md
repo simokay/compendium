@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-name: "Locate Object"
+neame: "Locate Object"
 ---
 Source: Player's Handbook
 

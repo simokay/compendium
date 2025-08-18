@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-name: "Mending"
+neame: "Mending"
 ---
 Source: Player's Handbook
 

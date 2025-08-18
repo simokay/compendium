@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-name: "Snare"
+neame: "Snare"
 ---
 Source: Xanathar's Guide to Everything
 

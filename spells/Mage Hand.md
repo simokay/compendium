@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-name: "Mage Hand"
+neame: "Mage Hand"
 ---
 Source: Player's Handbook
 

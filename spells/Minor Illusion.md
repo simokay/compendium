@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-name: "Minor Illusion"
+neame: "Minor Illusion"
 ---
 Source: Player's Handbook
 

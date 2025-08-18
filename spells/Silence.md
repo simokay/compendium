@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-name: "Silence"
+neame: "Silence"
 ---
 Source: Player's Handbook
 

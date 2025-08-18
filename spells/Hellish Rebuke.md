@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-name: "Hellish Rebuke"
+neame: "Hellish Rebuke"
 ---
 Source: Player's Handbook
 

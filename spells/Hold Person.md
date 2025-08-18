@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-name: "Hold Person"
+neame: "Hold Person"
 ---
 Source: Player's Handbook
 

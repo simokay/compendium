@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-name: "Chill Touch"
+neame: "Chill Touch"
 ---
 Source: Player's Handbook
 

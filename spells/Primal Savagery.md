@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-name: "Primal Savagery"
+neame: "Primal Savagery"
 ---
 Source: Xanathar's Guide to Everything
 

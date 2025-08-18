@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-name: "Inflict Wounds"
+neame: "Inflict Wounds"
 ---
 Source: Player's Handbook
 

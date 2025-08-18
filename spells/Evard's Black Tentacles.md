@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-name: "Evard's Black Tentacles"
+neame: "Evard's Black Tentacles"
 ---
 Source: Player's Handbook
 

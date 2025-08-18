@@ -2,7 +2,7 @@
 layout: spell.njk
 navtitle: Spells
 tags: spells
-name: "Disguise Self"
+neame: "Disguise Self"
 ---
 Source: Player's Handbook
 
