@@ -2,6 +2,7 @@
 layout: adversary.njk
 navtitle: Adversaries
 tags: adversary
+image: https://simokay.github.io/compendium/img/tokens/Nulu.webp
 name: Nulu
 creature: Naga
 ac: 14
