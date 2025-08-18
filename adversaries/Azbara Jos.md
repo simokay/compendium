@@ -30,7 +30,7 @@ languages: Common, Draconic, Infernal, Primordial, Thayan
 cr: 4
 traits:
   - name: Special Equipment
-    desc: Azbara has two scrolls of [[Mage Armor]]
+    desc: Azbara has two scrolls of <a href="{{ '/spells/Mage Armor' | url }}">Mage Armor</a>
   - name: Potent Cantrips.
     desc: When Azbara casts an evocation Cantrips and misses, or the target succeeds on its saving throw, the target still takes half the cantrip's damage but suffers no other effect.
   - name: Sculpt Spells
