@@ -3,7 +3,7 @@ layout: adversary.njk
 navtitle: Adversaries
 tags: adversary
 image: https://simokay.github.io/compendium/img/tokens/Four-Armed%20Troll.webp
-name: Four-Armed Troll
+name: Trepsin
 ---
 
 

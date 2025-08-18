@@ -30,10 +30,10 @@ actions:
     desc: "Melee Weapon Attack: +6 to hit, reach 10 ft., one creature in the snake's space. Hit: 15 (2d8+8) piercing damage plus 5 (1d6) poison damage."
 spells:
   - "The naga is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). The snake has following spells prepared:"
-  - At Will: Poison Spray, Message, Shape Water
-  - 3/Day Each: Disguise Self, Sanctuary, Sleep
-  - 2/Day Each: See Invisibility, Invisibility, Enthrall
-  - 1/Day Each: Remove Curse, Wall of Water
+  - At Will: "[[Poison Spray]], [[Message]], [[Shape Water]]"
+  - 3/Day Each: "[[Disguise Self]], [[Sanctuary]], [[Sleep]]"
+  - 2/Day Each: "[[See Invisibility]], [[Invisibility]], [[Enthrall]]"
+  - 1/Day Each: "[[Remove Curse]], [[Wall of Water]]"
 ---
 
 Her shop contains:
@@ -50,7 +50,6 @@ Her shop contains:
 | [[Wyvern Poison]]             | 300g  | 1        |
 | [[Potion of Healing]]         | 50g   | 4        |
 | [[Potion of Greater Healing]] | 150g  | 1        |
-| [[Talking Snake Doll]]        | 100g  | 1        |
 | [[Gloves of Missile Snaring]] | 3000g | 1        |
 | [[Wraps Of Unarmed Prowess]]  | 1000g | 1        |
 | [[Claw of the Wyrm Rune]]     | 4500g | 1        |
@@ -64,4 +63,3 @@ Her shop contains:
 | [[Shovel]]                    | 2g    | 4        |
 | [[Hooded Lantern]]            | 5g    | 2        |
 | [[Lantern of Revealing]]      | 5000g | 1        |
-| [[A Book of Naga Songs]]      | 100g  | 1        |

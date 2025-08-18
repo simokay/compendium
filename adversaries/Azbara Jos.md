@@ -30,7 +30,7 @@ languages: Common, Draconic, Infernal, Primordial, Thayan
 cr: 4
 traits:
   - name: Special Equipment
-    desc: Azbara has two scrolls of <a href="{{ '/spells/Mage Armor' | url }}">Mage Armor</a>
+    desc: "Azbara has two scrolls of [[Mage Armor]]"
   - name: Potent Cantrips.
     desc: When Azbara casts an evocation Cantrips and misses, or the target succeeds on its saving throw, the target still takes half the cantrip's damage but suffers no other effect.
   - name: Sculpt Spells
@@ -42,8 +42,8 @@ actions:
     damage_dice: 1d4 + 3
 spells:
   - "Azbara is a 6th-level spellcaster that uses Intelligence as his spellcasting ability (spell save DC 13, +5 to hit with spell attacks). Azbara has the following spells prepared from the wizard spell list:"
-  - At Will: Mage Hand, Prestidigitation, Ray of Frost, Shocking Grasp
-  - 4/Day Each: Fog Cloud, Magic Missile, Shield, Thunderwave
-  - 3/Day Each: Invisibility, Misty Step, Scorching Ray
-  - 3/Day Each: Counterspell, Dispel Magic, Fireball
+  - At Will: "[[Mage Hand]], [[Prestidigitation]], [[Ray of Frost]], [[Shocking Grasp]]"
+  - 4/Day Each: "[[Fog Cloud]], [[Magic Missile]], [[Shield]], [[Thunderwave]]"
+  - 3/Day Each: "[[Invisibility]], [[Misty Step]], [[Scorching Ray]]"
+  - 3/Day Each: "[[Counterspell]], [[Dispel Magic]], [[Fireball]]"
 ---

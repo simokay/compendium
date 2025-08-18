@@ -13,4 +13,12 @@ module.exports = function (eleventyConfig) {
             return "+"+modVal
         }
     });
+
+    eleventyConfig.addFilter("brackets", function(value) {
+        const re = new RegExp(String.raw`(\[\[([^\]]+)\]\])`, "gim");
+        return value.replace(re, function(s,m1,m2){
+            return `<a href="${eleventyConfig.getFilter("url")('/spells/'+ m2)}">${m2}</a>`;
+        })
+    });
 };
+

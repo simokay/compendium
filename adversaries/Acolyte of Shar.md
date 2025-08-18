@@ -39,8 +39,9 @@ actions:
     damage_dice: 1d6
 spells:
   - "The acolyte is a 2nd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The acolyte has following spells prepared:"
-  - At Will: <a href="{{ '/spells/Toll the Dead' | url }}">Toll the Dead</a>, <a href="{{ '/spells/Ray of Frost' | url }}">Ray of Frost</a>, <a href="{{ '/spells/Chill Touch' | url }}">Chill Touch</a>
-  - 2/Day Each: <a href="{{ '/spells/Inflict Wounds' | url }}">Inflict Wounds</a>, <a href="{{ '/spells/Disguise Self' | url }}">Disguise Self</a>, <a href="{{ '/spells/Bane' | url }}">Bane</a>
-  - 1/Day Each: <a href="{{ '/spells/Darkness' | url }}">Darkness</a>
+  - At Will: "[[Toll the Dead]], [[Ray of Frost]], [[Chill Touch]]"
+  - 2/Day Each: "[[Inflict Wounds]], [[Disguise Self]], [[Bane]]"
+  - 1/Day Each: "[[Darkness]]"
 ---
+
 

@@ -47,9 +47,10 @@ reactions:
     desc: "In response to another creature dealing damage to the nilbog, the nilbog reduces the damage to 0 and regains 1d6 hit points."
 spells:
   - "The nilbog's innate spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring no material components:"
-  - At Will: Mage hand, Tasha's hideous laughter, Vicious mockery
-  - 1/Day Each: confusion
+  - At Will: "[[Mage Hand]], [[Tasha's Hideous Laughter]], [[Vicious Mockery]]"
+  - 1/Day Each: "[[Confusion]]"
 ---
+
 
 
 

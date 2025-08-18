@@ -44,6 +44,6 @@ actions:
     damage_dice: 1d6
 spells:
   - "Jamna is a 4th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). Jamna has following spells prepared:"
-  - At Will: mage hand, minor illusion, prestidigitation, ray of frost
-  - 3/Day Each: charm person, color spray, disguise self, longstrider
+  - At Will: "[[Mage Hand]], [[Minor Illusion]], [[Presdigitation]], [[Ray of Frost]]"
+  - 3/Day Each: "[[Charm Person]],[[Color Spray]], [[Disguise Self]], [[Longstrider]]"
 ---

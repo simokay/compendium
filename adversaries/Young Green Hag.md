@@ -66,7 +66,7 @@ actions:
 spells:
   - The hag's innate spellcasting ability is Charisma (spell save DC 12). She can innately cast the following spells, requiring no material components:
   - At Will: Dancing Lights, Minor Illusion, Vicious Mockery, Shocking Grasp
-  - 4/Day Each: Sleep, Ray of Sickness
-  - 3/Day Each: Silence, Locate Object
-  - 2/Day Each: Fear, Counterspell
+  - 4/Day Each: "[[Sleep]], [[Ray of Sickness]]"
+  - 3/Day Each: "[[Silence]], [[Locate Object]]"
+  - 2/Day Each: "[[Fear]], [[Counterspell]]"
 ---

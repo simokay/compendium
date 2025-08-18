@@ -216,7 +216,7 @@ layout: base.njk
                 <div class="mon-stat-block-2024__description-block-heading">Traits</div>
                 <div class="mon-stat-block-2024__description-block-content">
                  {% for trait in traits %}
-                    <p><em><strong>{{trait.name}}</strong></em>. {{trait.desc | striptags(true) | escape | nl2br}}</p>                
+                    <p><em><strong>{{trait.name}}</strong></em>. {{trait.desc | striptags(true) | escape | nl2br | brackets | safe}}</p>                
                 {% endfor %}
                 </div>
             </div>
@@ -231,19 +231,19 @@ layout: base.njk
                         <ul>
                         {% for spell in spells %}
                            {% if spell["At Will"] %}
-                            <li><em><strong>At Will</strong></em>. {{ spell["At Will"] }}</li>
+                            <li><em><strong>At Will</strong></em>. {{ spell["At Will"] | brackets | safe }}</li>
                            {% endif %}
                            {% if spell["4/Day Each"] %}
-                            <li><em><strong>4/Day Each</strong></em>. {{ spell["4/Day Each"] }}</li>
+                            <li><em><strong>4/Day Each</strong></em>. {{ spell["4/Day Each"] | brackets | safe  }}</li>
                            {% endif %}
                            {% if spell["3/Day Each"] %}
-                            <li><em><strong>3/Day Each</strong></em>. {{ spell["3/Day Each"] }}</li>
+                            <li><em><strong>3/Day Each</strong></em>. {{ spell["3/Day Each"] | brackets | safe }}</li>
                            {% endif %}
                            {% if spell["2/Day Each"] %}
-                            <li><em><strong>2/Day Each</strong></em>. {{ spell["2/Day Each"] }}</li>
+                            <li><em><strong>2/Day Each</strong></em>. {{ spell["2/Day Each"] | brackets | safe }}</li>
                            {% endif %}
                            {% if spell["1/Day Each"] %}
-                            <li><em><strong>1/Day Each</strong></em>. {{ spell["1/Day Each"] }}</li>
+                            <li><em><strong>1/Day Each</strong></em>. {{ spell["1/Day Each"] | brackets | safe }}</li>
                            {% endif %}
                         {% endfor %}  
                         </ul>          
