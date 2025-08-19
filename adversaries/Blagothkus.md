@@ -34,9 +34,9 @@ traits:
     desc: Blagothkus has advantage on Wisdom (Perception) checks that rely on smell.
 spells:
   - "Blagothkus is a 5th-level spellcaster that uses Intelligence as his spellcasting ability (spell save DC 15, +7 to hit with spell attacks). Blagothkus has the following spells prepared from the wizard spell list:"
-  - At Will: "[[Light]], [[Mage Hand]], [[Prestidigitation]]"
-  - 4/Day Each: "[[Detect Magic]], [[Identify]], [[Magic Missile]], [[Shield]]"
-  - 3/Day Each: "[[Gust of Wind]], [[Misty Step]], [[Shatter]]"
+  - At Will: "[[Light]], [[Mage Hand]], [[Prestidigitation]]"
+  - 4/Day Each: "[[Detect Magic]], [[Identify]], [[Magic Missile]], [[Shield]]"
+  - 3/Day Each: "[[Gust of Wind]], [[Misty Step]], [[Shatter]]"
   - 2/Day Each: "[[Fly]], [[Lightning Bolt]]"
 actions:
   - name: Multiattack.
