@@ -9,8 +9,7 @@ size: Medium
 type: Construct
 alignment: Neutral
 ac: 18
-hp: 211
-hit_dice: 8d8
+hp: 101
 speed: 20 ft.
 stats:
   - 24
@@ -26,12 +25,14 @@ senses: Passive Perception 9
 languages: any language the wearer knows
 cr: 4
 traits: 
-  - name: Magic Resistance
-    desc: The golem has Advantage on saving throws against spells and other magical effects.
-  - name: Psychic Shield
+  - name: Magic Vulnerability.
+    desc: The suit has Disadvantage on saving throws against spells and other magical effects.
+  - name: Psychic Shield.
     desc: Whilst within the suit wearer is immune to all psychic damage, but unable to use any psychic abilities.
-  - name: Delicate Cogs
-    desc: The suit runs on a set of 4 rare magical cogs, if the suit takes more than 20 points of damage in a single attack, it must make a CON save DC 16. If it fails a cog is destroyed and the suit is inoperable until the cog can be replaced.
+  - name: Delicate Cogs.
+    desc: The suit runs on a set of 4 rare magical cogs, if the suit takes more than 20 points of magical damage in a single attack, it must make a CON save DC 16. If it fails a cog is destroyed and cannot be repaired. the suit is inoperable until all cogs are present.
+  - name: Heavy Frame.
+    desc: The cog is considered very heavy and the wearer may have difficulty moving through various terrains. The GM can decide.
 actions:
   - name: Smash
     desc: "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage."

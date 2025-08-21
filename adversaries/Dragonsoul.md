@@ -2,13 +2,13 @@
 layout: adversary.njk
 navtitle: Adversaries
 tags: adversary
-image: https://simokay.github.io/compendium/img/tokens/Galvan.webp
-name: Galvan
+image: https://simokay.github.io/compendium/img/tokens/Dragonsoul.webp
+name: Dragonsoul
 source: Rise of Tiamat
 type: humanoid
 size: Medium
 alignment: Neutral Evil
-ac: 17
+ac: 16
 hp: 110
 hit_dice: 17d8 + 34
 speed: walk 30
@@ -40,12 +40,6 @@ traits:
     desc: "The dragonsoul can use a bonus action to gain a flying speed of 30 feet until the end of its turn."
   - name: Pack Tactics
     desc: "The dragonsoul has advantage on an attack roll against a creature if at least one of the dragonsoul's allies is within 5 feet of the creature and the ally isn't incapacitated."
-  - name: Special Equipment
-    desc: Galvan has the Blue Dragon Mask
-  - name: Draconic Majesty
-    desc: While wearing no armor and wearing the Blue Dragon Mask, Galvan adds his Charisma bonus to her AC (included).
-  - name: Lingering Shock,
-    desc: "If Galvan deals lightning damage to a creature while wearing the Blue Dragon Mask, that creature can't take reactions until its next turn."
 actions:
   - name: Multiattack
     desc: "The Dragonsoul attacks twice with its shortsword."
@@ -53,8 +47,4 @@ actions:
     desc: "Melee Weapon Attack: 7 to hit, reach 5 ft., one target. 6 (1d6 + 3) piercing damage plus 10 (3d6) damage of the type to which the dragonsoul has resistance."
   - name: Orb of Dragon's Breath (3/Day)
     desc: "Ranged Spell Attack:  +7 to hit, range 90 ft., one target. 27 (6d8) damage of the type to which the dragonsoul has damage resistance."
-legendary_actions:
-  - name: Legendary Resistance (1/Day)
-    desc: "If Galvan fails a saving throw while wearing the Blue Dragon Mask, he can choose to succeed instead."
 ---
-
