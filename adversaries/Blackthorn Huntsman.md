@@ -59,5 +59,4 @@ actions:
 
 The Blackthorn Huntsman is a fey lord who once roamed the wilds of the Material Plane, but after crossing paths with the dark forces of the Shadowfell, it was twisted into a horrifying hunter. Its once-noble nature has become corrupted, and it now stalks its prey relentlessly, manipulating the very terrain and shadows to trap its quarry. The Huntsman's domain is a place of eternal twilight, where the line between the living and the dead becomes increasingly blurred.
 
-
 The Blackthorn Huntsman is both a symbol of the Shadowfell's influence and a master of its domain. With its terrifying control over the forest, shadow magic, and mastery over fear, it will challenge even the bravest adventurers, testing not only their strength but their sanity.

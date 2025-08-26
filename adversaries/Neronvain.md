@@ -4,8 +4,9 @@ navtitle: Adversaries
 tags: adversary
 image: https://simokay.github.io/compendium/img/tokens/Neronvain.webp
 name: Neronvain
-source: undefined
-type: humanoid
+source: Rise of Tiamat
+type: Humanoid
+subtype: Elf
 size: Medium
 alignment: Neutral Evil
 ac: undefined
@@ -33,10 +34,12 @@ saves:
   - constitution: 5
   - wisdom: 4
 traits:
-  - name: Draconic Majesty
+  - name: Draconic Majesty.
     desc: "Neronvain adds his Charisma bonus to his AC (included)."
-  - name: Fey Ancestry
+  - name: Fey Ancestry.
     desc: "Magic can't put Neronvain to sleep."
+  - name: Special Equipment.
+    desc: Nerovain has the Green Dragon Mask
 actions:
   - name: Multiattack
     desc: "Neronvain makes two attacks, either with his shortsword or Eldritch Arrow."

@@ -5,7 +5,8 @@ tags: adversary
 image: https://simokay.github.io/compendium/img/tokens/Rezmir.webp
 name: Rezmir
 source: Horde of the Dragon Queen
-type: humanoid
+type: Humanoid
+subtype: Half-Black Dragon
 size: Medium
 alignment: Neutral Evil
 ac: 15
