@@ -3,7 +3,7 @@ module.exports = function (eleventyConfig) {
 	// Copy `img and css` to `_site/`
 	eleventyConfig.addPassthroughCopy("img");
 	eleventyConfig.addPassthroughCopy("css");
-
+    eleventyConfig.addPassthroughCopy("js");
 
     eleventyConfig.addFilter("abilityModifier", function(value) {
         const modVal = Math.floor((value-10)/2)

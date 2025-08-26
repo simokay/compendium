@@ -1,0 +1,186 @@
+---
+layout: base.njk
+---
+
+<h1 class="title-page page-title">Adversary Maker</h1>
+<script src="/js/beasts.js"></script>
+<script src="/js/admaker.js"></script>
+
+<div id="admaker-container">
+<label for="size">Size</label>
+<select name="size" id="size-select">
+  <option value="Normal">Normal</option>
+  <option value="Giant">Giant</option>
+  <option value="Enormous">Enormous</option>
+</select>
+
+<label for="plane">Plane</label>
+<select name="plane" id="plane-select">
+  <option value="Material">Material</option>
+  <option value="Shadow">Shadow</option>
+  <option value="Fey">Fey</option>
+  <option value="Ethereal">Ethereal</option>
+</select>
+
+<label for="beast">Beast</label>
+<select name="beast" id="beast-select">
+</select>
+
+<label for="life">Life</label>
+<select name="life" id="life-select">
+  <option value="Alive">Alive</option>
+  <option value="Zombie">Zombie</option>
+  <option value="Skeleton">Skeleton</option>
+</select>
+
+
+<div class="mon-stat-block-2024">
+    <div class="custom-left-col">
+        <div class="mon-stat-block-2024__header">
+            <div class="mon-stat-block-2024__name">
+                <a class="mon-stat-block-2024__name-link" href="/" id="beast-name"></a>
+            </div>
+
+            <div class="mon-stat-block-2024__meta"><span id="beast-display-size"></span>Beast, Neutral</div>
+        </div>
+        <div class="mon-stat-block-2024__attributes">
+            <div class="mon-stat-block-2024__attribute">
+                <span class="mon-stat-block-2024__attribute-label">AC</span>
+                <span class="mon-stat-block-2024__attribute-value">
+                    <span class="mon-stat-block-2024__attribute-data-value"></span>      
+                </span>&nbsp;&nbsp;
+                <span class="mon-stat-block-2024__attribute-label">Initiative</span>
+                <span class="mon-stat-block-2024__attribute-data">
+                    <span class="mon-stat-block-2024__attribute-data-value"></span>
+                </span>
+            </div>
+            <div class="mon-stat-block-2024__attribute">
+                <span class="mon-stat-block-2024__attribute-label">HP</span>
+                <span class="mon-stat-block-2024__attribute-data">
+                    <span class="mon-stat-block-2024__attribute-data-value"></span>
+                    <span class="mon-stat-block-2024__attribute-data-extra"></span>
+                </span>
+            </div>
+            <div class="mon-stat-block-2024__attribute">
+                <span class="mon-stat-block-2024__attribute-label">Speed</span>
+                <span class="mon-stat-block-2024__attribute-data">
+                    <span class="mon-stat-block-2024__attribute-data-value"></span>
+                </span>
+            </div>
+        </div>
+        <div class="mon-stat-block-2024__stats">
+            <table class="stat-table physical">
+                <thead>
+                    <tr>
+                        <th>
+                        </th><th>
+                        </th><th>Mod</th>
+                        <th>Save</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>STR</th>
+                        <td></td>
+                        <td class="modifier"></td>
+                        <td class="modifier"></td>
+                    </tr>
+                    <tr>
+                        <th>DEX</th>
+                        <td></td>
+                        <td class="modifier"></td>
+                        <td class="modifier"></td>
+                    </tr>
+                    <tr>
+                        <th>CON</th>
+                        <td></td>
+                        <td class="modifier"></td>
+                        <td class="modifier"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="stat-table mental">
+                <thead>
+                    <tr>
+                        <th>
+                        </th><th>
+                        </th><th>Mod</th>
+                        <th>Save</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>INT</th>
+                        <td></td>
+                        <td class="modifier"></td>
+                        <td class="modifier"></td>
+                    </tr>
+                    <tr>
+                        <th>WIS</th>
+                        <td></td>
+                        <td class="modifier"></td>
+                        <td class="modifier"></td>
+                    </tr>
+                    <tr>
+                        <th>CHA</th>
+                        <td></td>
+                        <td class="modifier"></td>
+                        <td class="modifier"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="mon-stat-block-2024__tidbits">     
+            <div class="mon-stat-block-2024__tidbit">
+                <span class="mon-stat-block-2024__tidbit-label">Resistances</span>
+                <span class="mon-stat-block-2024__tidbit-data" id="resistances">
+                </span>
+            </div>
+            <div class="mon-stat-block-2024__tidbit">
+                <span class="mon-stat-block-2024__tidbit-label">Damage Immunities</span>
+                <span class="mon-stat-block-2024__tidbit-data" id="damage_immunities">
+                </span>
+            </div>
+            <div class="mon-stat-block-2024__tidbit">
+                <span class="mon-stat-block-2024__tidbit-label">Condition Immunities</span>
+                <span class="mon-stat-block-2024__tidbit-data" id="condition_immunities">
+                </span>
+            </div>
+            <div class="mon-stat-block-2024__tidbit">
+                <span class="mon-stat-block-2024__tidbit-label">Damage Vulnerabilities</span>
+                <span class="mon-stat-block-2024__tidbit-data" id="damage_vulnerabilities">
+                </span>
+            </div>
+            <div class="mon-stat-block-2024__tidbit">
+                <span class="mon-stat-block-2024__tidbit-label">Senses</span>
+                <span class="mon-stat-block-2024__tidbit-data" id="senses">
+                </span>
+            </div>
+            <div class="mon-stat-block-2024__tidbit">
+                <span class="mon-stat-block-2024__tidbit-label">Languages</span>
+                <span class="mon-stat-block-2024__tidbit-data" id="languages">
+                </span>
+            </div>
+        
+            <div class="mon-stat-block-2024__tidbit-container">
+                <div class="mon-stat-block-2024__tidbit">
+                    <span class="mon-stat-block-2024__tidbit-label">CR</span>
+                    <span class="mon-stat-block-2024__tidbit-data" id="combat_rating">
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mon-stat-block-2024__description-blocks">
+        <div class="mon-stat-block-2024__description-block"> 
+            <div class="mon-stat-block-2024__description-block-heading">Traits</div>
+            <div class="mon-stat-block-2024__description-block-content" id="traits"></div>
+        </div>
+        <div class="mon-stat-block-2024__description-block">
+            <div class="mon-stat-block-2024__description-block-heading">Actions</div>
+            <div class="mon-stat-block-2024__description-block-content" id="actions"></div>   
+            <div class="mon-stat-block-2024__description-block-content" id="spells"></div>
+        </div>
+    </div>
+</div>
+</div>
