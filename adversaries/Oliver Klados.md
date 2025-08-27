@@ -40,6 +40,8 @@ traits:
     desc: "Oliver's ranged weapon attacks ignore half cover and three-quarters cover."
   - name: Steel Will.
     desc: You have advantage on saving throws against being frightened.
+  - name: Special Equipment
+    desc: Oliver has the Ring of Blurring and so can cast [[Blur]]
 actions:
   - name: Multiattack
     desc: "Oliver makes three melee attacks or two ranged attacks."

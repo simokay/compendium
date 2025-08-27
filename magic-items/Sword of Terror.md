@@ -5,6 +5,7 @@ tags: magicitems
 name: "Sword of Terror"
 owners:
   - Hazel
+cost: "5000"
 ---
 
 **To Hit +1**

@@ -3,7 +3,11 @@ layout: magicitem.njk
 navtitle: Magic Items
 tags: magicitems
 name: "Ring of Arachnid Control"
+owners:
+  - Hazel
+cost: "1000"
 ---
+
 Gives the wearer the ability to control the actions of spiders possessing semi-intelligence or lower. Control is maintained as long as the wearer concentrates.
 
 The number of spiders that can be brought under control depends on the spiders' size. If the subjected spider is a giant spider, only one could be controlled. If the spiders are of a normal size, a number between ten to forty can be controlled.

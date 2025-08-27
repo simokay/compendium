@@ -3,7 +3,11 @@ layout: magicitem.njk
 navtitle: Magic Items
 tags: magicitems
 name: "Dragongleam"
+owners:
+  - Erudite
+cost: "1000"
 ---
+
 1d6 Piercing
 
 hit +1 

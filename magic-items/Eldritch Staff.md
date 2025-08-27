@@ -3,6 +3,9 @@ layout: magicitem.njk
 navtitle: Magic Items
 tags: magicitems
 name: "Eldritch Staff"
+owners:
+  - Erudite
+cost: "2000"
 ---
 This staff can be wielded as a magic quarterstaff that grants a +1 bonus to attack and damage rolls.
 

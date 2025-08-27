@@ -3,6 +3,9 @@ layout: magicitem.njk
 navtitle: Magic Items
 tags: magicitems
 name: "Potion of Poison Absorption"
+owners:
+  - Dante
+cost: "500"
 ---
 Damage Resistance. Once consumed, you have resistance to poison damage.
 

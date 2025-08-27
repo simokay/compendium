@@ -4,6 +4,8 @@ navtitle: Magic Items
 tags: magicitems
 name: "Staff of Withering"
 cost: "3000"
+owners:
+  - Hazel
 ---
 
 The staff has 3 charges and regains 1d3 expended charges daily at dawn.

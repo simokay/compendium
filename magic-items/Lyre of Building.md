@@ -4,6 +4,8 @@ navtitle: Magic Items
 tags: magicitems
 name: "Lyre of Building"
 cost: "5000"
+owners:
+  - Lisko
 ---
 
 While holding this lyre, you can cast <a href="{{ '/spells/Mending' | url }}">Mending</a> as an action. You can also play the lyre as a reaction when an object or a structure you can see within 300 feet of you takes damage, causing it to be immune to that damage and any further damage of the same type until the start of your next turn.

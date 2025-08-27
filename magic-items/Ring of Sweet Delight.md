@@ -3,7 +3,11 @@ layout: magicitem.njk
 navtitle: Magic Items
 tags: magicitems
 name: "Ring of Sweet Delight"
+owners:
+  - Timbal
+cost: "1000"
 ---
+
 This silver ring with purple gems is thicker on the finger than might usually be expected
 
 **_Create Sweet Treat._** Once per long rest the wearer can create any sweet treat they can imagine no larger than a cake or smaller than a boiled sweet and it will appear after a few seconds in front of them.

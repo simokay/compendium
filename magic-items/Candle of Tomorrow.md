@@ -5,6 +5,7 @@ tags: magicitems
 name: "Candle of Tomorrow"
 owners:
   - Erudite
+cost: "1000"
 ---
 
 The secret of creating these silver candles is kept by four churches, those of Oghma, Deneir, Selûne, and Savras. The clergy of all these deities have agreed to keep their methods confidential.

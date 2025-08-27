@@ -5,4 +5,5 @@ tags: magicitems
 name: "Magical Cogs"
 owners:
   - Timbal
+cost: "500"
 ---

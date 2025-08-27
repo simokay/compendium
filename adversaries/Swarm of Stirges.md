@@ -5,12 +5,12 @@ tags: adversary
 image: https://simokay.github.io/compendium/img/tokens/Swarm%20of%20Stirges.webp
 name: Swarm of Stirges
 source: Custom
-size: Medium swarm of Tiny
+size: Large swarm of Tiny
 type: Monstrosities
 alignment: Unaligned
 ac: 14
 hp: 36
-hit_dice: 8d8
+hit_dice: 8d12
 speed: Walk 10 ft., Fly 40 ft.
 stats:
   - 4

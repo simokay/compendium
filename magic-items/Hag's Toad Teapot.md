@@ -3,6 +3,9 @@ layout: magicitem.njk
 navtitle: Magic Items
 tags: magicitems
 name: "Hag's Toad Teapot"
+owners:
+  - Timbal
+cost: "600"
 ---
 
 This dark green teapot is in the shape of a toad with one twistable wart in its back.
