@@ -4,6 +4,8 @@ navtitle: Magic Items
 tags: magicitems
 name: "Bag of Purple Choking Powered"
 cost: "100"
+owners:
+  - Lisko
 ---
 Contains 3 uses, grabbing a handful of powder and throwing it at the ground as an action produces a cloud of purple smoke in a 10 ft. radius.  The cloud spreads around corners. It lasts for the 5 minutes or until strong wind disperses it. Its area is heavily obscured.
 

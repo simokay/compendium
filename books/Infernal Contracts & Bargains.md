@@ -8,7 +8,7 @@ A guide dedicated to what contracts and which devils were the most compatible wi
 
 "Remember, devils are not only fiends - they're bastards. I once knew a man who asked for ultimate protection against his enemies from a devil of Dispater. He was transported into an impregnable iron fortress deep underground: one without doors. So, pick and choose with caution, friends"
 
-The archdevils are powerful, unique devils, the most powerful of which are lords of the Nine Hells, but best not make packs with the lords themselves.  What follows is a list by which hill a devil can be found within.
+The archdevils are powerful, unique devils, the most powerful of which are lords of the Nine Hells, but best not make packs with the lords themselves.  What follows is a list by which hell a devil can be found within.
 
 ### Avernus
 For packs relating to war Bel and Qirozz, though if there are dragons involved Amduscias and Malphas might be best.

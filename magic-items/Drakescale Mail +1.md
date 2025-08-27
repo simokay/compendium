@@ -4,6 +4,8 @@ navtitle: Magic Items
 tags: magicitems
 name: "Drakescale Mail +1"
 cost: "750"
+owners:
+  - Hazel
 ---
 
 You have a +1 bonus to AC while wearing this armour.
