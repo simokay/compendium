@@ -4,7 +4,7 @@ navtitle: Books
 tags: books
 name: "Songs of the Naga"
 ---
- A small notebook of maybe 10 songs about Naga such as:
+A small notebook of maybe 10 songs about Naga such as:
 
 Down in the temples where the black roots breathe,  
 I heard the hiss of an eternal seethe.  
