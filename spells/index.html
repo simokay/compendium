@@ -7,7 +7,9 @@
     <meta name="description" content="Reference for d&amp;d stuff.">
     <link rel="stylesheet" href="/compendium/css/index.css">
     <link rel="stylesheet" href="/compendium/css/statblocks.css">
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <script src="/js/jets.min.js"></script>
+
   </head>
   <body>
     <header>
@@ -19,6 +21,10 @@
               <a href="/compendium/books/">Books</a>
             </li>
           
+            <li class="nav-item">
+              <a href="/compendium/magic-items/">Magic Items</a>
+            </li>
+          
             <li class="nav-item nav-item-active">
               <a href="/compendium/spells/">Spells</a>
             </li>
@@ -27,7 +33,8 @@
     <main>
       <h1 class="title-page">Spells</h1>
 
-<ul>
+<p>Filter: <input type="search" id="spSearch" class="jetsearch"></p>
+<ul id="spContent">
 <li><a href="/compendium/spells/Abi-Dalzim's Horrid Wilting/">Abi-Dalzim's Horrid Wilting</a></li>
 <li><a href="/compendium/spells/Absorb Elements/">Absorb Elements</a></li>
 <li><a href="/compendium/spells/Acid Splash/">Acid Splash</a></li>
@@ -585,7 +592,12 @@
 <li><a href="/compendium/spells/Zephyr Strike/">Zephyr Strike</a></li>
 <li><a href="/compendium/spells/Zone of Truth/">Zone of Truth</a></li>
 </ul>
-
+<script>
+  var jets = new Jets({
+    searchTag: '#spSearch',
+    contentTag: '#spContent'
+  });
+</script>
 
     </main>
   </body>

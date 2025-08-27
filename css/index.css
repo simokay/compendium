@@ -15,7 +15,10 @@
   --outer-shadow-color: #979AA4;
   --outer-border-color: #d4d0ce;
 }
-
+  .jetsearch {
+    display: inline-block;
+    margin-left: 12px;
+  }
 @media (prefers-color-scheme: dark) {
   :root {
     --main-alt-color: #ee3a91;
@@ -30,6 +33,12 @@
     --outer-shadow-color: #414347;
     --outer-border-color: #747372;
 
+  }
+  .jetsearch {
+    background: none;
+    border: 1px solid white;
+    padding: 4px;
+    color: #fff;
   }
 }
 
