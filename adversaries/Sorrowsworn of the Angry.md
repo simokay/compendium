@@ -21,7 +21,7 @@ stats:
   - 8
   - 13
   - 6
-damage_resistances: while in dim light or darkness
+damage_resistances: non magical while in dim light or darkness
 languages: Common
 skillsaves:
   - perception: 11

@@ -22,7 +22,7 @@ stats:
   - 6
   - 5
 damage_vulnerabilities: 
-damage_resistances: while in dim light or darkness
+damage_resistances: non magical while in dim light or darkness
 damage_immunities: 
 condition_immunities: 
 traits:
