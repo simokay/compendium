@@ -13,6 +13,7 @@ hp: 80
 hit_dice: 32d4
 speed: walk 0, fly 30, canHover true
 senses: truesight 120 ft., Passive Perception 13
+
 cr: 7
 stats:
   - 1
@@ -23,7 +24,7 @@ stats:
   - 20
 damage_vulnerabilities: 
 damage_resistances: from magic weapons
-damage_immunities: necrotic, poison, psychic, non-magical 
+damage_immunities: necrotic, poison, psychic, charmed, Deafened, exhaustion, frightened, paralyzed, petrified, poisioned, prone, stunned 
 condition_immunities: charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned, prone, stunned
 saves:
   - constitution: 6
