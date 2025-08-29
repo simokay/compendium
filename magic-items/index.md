@@ -1,9 +1,6 @@
 ---
 layout: page.njk
 title: Magic Items
-tags:
-  - nav
-navtitle: Magic Items
 ---
 
 Filter: <input type="search" id="miSearch" class="jetsearch">
@@ -20,3 +17,5 @@ Filter: <input type="search" id="miSearch" class="jetsearch">
     contentTag: '#miContent'
   });
   </script>
+
+  2ECNpSNYXQ0m
