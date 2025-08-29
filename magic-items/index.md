@@ -17,5 +17,3 @@ Filter: <input type="search" id="miSearch" class="jetsearch">
     contentTag: '#miContent'
   });
   </script>
-
-  2ECNpSNYXQ0m
