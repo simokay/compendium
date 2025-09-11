@@ -8,7 +8,7 @@ source: Custom
 size: Medium
 type: Construct
 alignment: Neutral
-ac: 18
+ac: 17
 hp: 101
 speed: 20 ft.
 stats:
@@ -20,25 +20,24 @@ stats:
   - 10
 damage_vulnerabilities: Lightning
 damage_resistances: Fire
-condition_immunities: Psychic, Charmed, Exhaustion, Poisoned, Stunned
+condition_immunities: Poisoned, Stunned
 senses: Passive Perception 9
-languages: any language the wearer knows
-cr: 4
-traits: 
-  - name: Magic Vulnerability.
-    desc: The suit has Disadvantage on saving throws against spells and other magical effects.
-  - name: Psychic Shield.
-    desc: Whilst within the suit wearer is immune to all psychic damage, but unable to use any psychic abilities.
+traits:
   - name: Delicate Cogs.
-    desc: The suit runs on a set of 4 rare magical cogs, if the suit takes more than 20 points of magical damage in a single attack, it must make a CON save DC 16. If it fails a cog is destroyed and cannot be repaired. the suit is inoperable until all cogs are present.
+    desc: The suit runs on a set of 4 rare magical cogs, if the suit takes more than 20 points of damage in a single attack, it must make a CON save DC 14. If it fails a cog is destroyed and cannot be repaired. the suit is inoperable until all cogs are present.
   - name: Heavy Frame.
-    desc: The cog is considered very heavy and the wearer may have difficulty moving through various terrains. The GM can decide.
+    desc: The suit is considered very heavy and the wearer may have difficulty moving through various terrains, at the GMs discretion.
+  - name: Unkillable
+    desc: When the suit reaches 0 HP it is disabled and cannot be used again until repaired. The suit can be destroyed by recieving doubling the amount of damage.
+  - name: Partial Repairs
+    desc: When repairing the suit 10 hp is equivalent to 1 break in the armour
 actions:
   - name: Smash
     desc: "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage."
     attack_bonus: 1
     damage_dice: 2d8
     bonus_damage: 4
+
 ---
 
 
