@@ -2,8 +2,8 @@
 layout: adversary.njk
 navtitle: Adversaries
 tags: adversary
-image: https://simokay.github.io/compendium/img/tokens/Ti-khana.webp
-name: Ti-khana
+image: https://simokay.github.io/compendium/img/tokens/Ti-khana%20Leader.webp
+name: Ti-khana Leader
 source: Custom
 size: Medium
 type: beast
