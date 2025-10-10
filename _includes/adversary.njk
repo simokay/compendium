@@ -33,13 +33,13 @@ layout: blank.njk
 {% for trait in traits %}
     {
         name: "{{trait.name}}",
-        desc: "{{trait.desc | striptags(true) | escape | nl2br | brackets | safe}}",
+        desc: "{{trait.desc | striptags(true) | escape | nl2br | safe}}",
     },
 {% endfor %}
 {% for action in actions %}
     {
         name: "{{actions.name}}",
-        desc: "{{actions.desc | striptags(true) | escape | nl2br | brackets | safe}}",
+        desc: "{{actions.desc | striptags(true) | escape | nl2br | safe}}",
     },
 {% endfor %}
     ]
@@ -47,27 +47,27 @@ layout: blank.njk
 {% for spell in spells %}{% if spell["At Will"] %}
     {
         name: "At Will"
-        desc: "{{ spell["At Will"] | brackets | safe }}"
+        desc: "{{ spell["At Will"] | safe }}"
     },
 {% endif %}{% if spell["4/Day Each"] %}
     {
         name: "4/Day Each"
-        desc: "{{ spell["4/Day Each"] | brackets | safe  }}"
+        desc: "{{ spell["4/Day Each"] | safe  }}"
     },
 {% endif %}{% if spell["3/Day Each"] %}
     {
         name: "3/Day Each"
-        desc: "{{ spell["3/Day Each"] | brackets | safe  }}"
+        desc: "{{ spell["3/Day Each"] | safe  }}"
     },
 {% endif %}{% if spell["2/Day Each"] %}
     {
         name: "2/Day Each"
-        desc: "{{ spell["2/Day Each"] | brackets | safe  }}"
+        desc: "{{ spell["2/Day Each"] | safe  }}"
     },
 {% endif %}{% if spell["1/Day Each"] %}
     {
         name: "1/Day Each"
-        desc: "{{ spell["1/Day Each"] | brackets | safe  }}"
+        desc: "{{ spell["1/Day Each"] | safe  }}"
     },
 {% endif %}{% endfor %}  
     ]
