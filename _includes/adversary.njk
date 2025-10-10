@@ -40,7 +40,7 @@ layout: blank.njk
         name: "{{action.name}}",
         desc: "{{action.desc | striptags(true) | escape | nl2br | safe}}",
     },{% endfor %}
-    ],{% endif %}
+    ],{% endif %}{% if spells|length %}
     spells: [
 {% for spell in spells %}{% if spell["At Will"] %}
     {
@@ -68,5 +68,11 @@ layout: blank.njk
         desc: "{{ spell["1/Day Each"] | safe  }}"
     },
 {% endif %}{% endfor %}  
-    ]
+    ],{% endif %}{% if legendary_actions|length %}
+    legendaryActions: [{% for action in legendary_actions %}
+    {
+        name: "{{action.name}}",
+        desc: "{{action.desc | striptags(true) | escape | nl2br | safe}}",
+    },{% endfor %}
+    ],{% endif %}
 }
