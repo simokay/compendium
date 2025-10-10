@@ -8,7 +8,7 @@
     hitDice: "13d10 + 39",
     speed: "walk 20, fly 80",
     abilityStr: "+4",
-    abilityDex: " +0",
+    abilityDex: "+0",
     abilityCon: "+3",
     abilityInt: "-3",
     abilityWis: "+1",
@@ -26,6 +26,24 @@
     senses: "darkvision 60 ft., Passive Perception 14",
     languages: "",
     cr: "6",
+    actions: [
+    {
+        name: "Multiattack",
+        desc: "The wyvern makes two attacks: one with its bite and one with its stinger. While flying, it can use its claws in place of one other attack.",
+    },
+    {
+        name: "Bite",
+        desc: "Melee Weapon Attack: +7 to hit, reach 10 ft., one creature. 11 (2d6 + 4) piercing damage.",
+    },
+    {
+        name: "Claws",
+        desc: "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 13 (2d8 + 4) slashing damage.",
+    },
+    {
+        name: "Stinger",
+        desc: "Melee Weapon Attack: +7 to hit, reach 10 ft., one creature. 11 (2d6 + 4) piercing damage. The target must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one.",
+    },
+    ],
     spells: [
   
     ]
