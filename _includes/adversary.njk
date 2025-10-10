@@ -11,7 +11,7 @@ layout: blank.njk
     hitDice: "{{hit_dice}}",
     speed: "{{speed}}",
     abilityStr: "{{ stats[0] | abilityModifier }}",
-    abilityDex: " {{ stats[1] | abilityModifier }}",
+    abilityDex: "{{ stats[1] | abilityModifier }}",
     abilityCon: "{{ stats[2] | abilityModifier }}",
     abilityInt: "{{ stats[3] | abilityModifier }}",
     abilityWis: "{{ stats[4] | abilityModifier }}",
@@ -28,13 +28,13 @@ layout: blank.njk
     damageVulnerable: "{{damage_vulnerabilities}}",
     senses: "{{senses}}",
     languages: "{{languages}}",
-    cr: "{{cr}}",{% if traits.length %}
+    cr: "{{cr}}",{% if traits|length %}
     traits: [{% for trait in traits %}
     {
         name: "{{trait.name}}",
         desc: "{{trait.desc | striptags(true) | escape | nl2br | safe}}",
     },{% endfor %}
-    ],{% endif %}{% if traits.length %}
+    ],{% endif %}{% if actions|length %}
     actions: [{% for action in actions %}
     {
         name: "{{action.name}}",
