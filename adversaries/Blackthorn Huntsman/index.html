@@ -1,249 +1,76 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Compendium</title>
-    <meta name="description" content="Reference for d&amp;d stuff.">
-    <link rel="stylesheet" href="/compendium/css/index.css">
-    <link rel="stylesheet" href="/compendium/css/statblocks.css">
-    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-    <script src=/compendium/js/jets.min.js></script>
+{
+    imgShare: "/compendium/img/share/Blackthorn Huntsman.webp",
+    name: "Blackthorn Huntsman",
+    meta: "Large, Fey, Chaotic Evil",
+    ac: "18",
+    init: "+4 (14)",
+    hp: "225",
+    hitDice: "18d10 + 108",
+    speed: ""
+    abilityStr: "+5",
+    abilityDex: " +3"
+    abilityCon: "+6"
+    abilityInt: "+2"
+    abilityWis: "+4"
+    abilityCha: "+3"
+    saveStr: ""
+    saveDex: ""
+    saveCon: ""
+    saveInt: ""
+    saveWis: ""
+    saveCha: ""
+    damageResist: "Necrotic, Poison"
+    damageImmune: "Psychic"
+    conditionImmune: "Charmed, Frightened, Paralyzed, Poisoned, Stunned"
+    damageVulnerable: ""
+    senses: "Darkvision 120 ft., Passive Perception 20"
+    languages: "Common, Sylvan, Elvish, Infernal"
+    cr: "12"
+    traits: [
 
-  </head>
-  <body>
-    <header>
-      <h2><a href="/compendium/">Candlekeep Compendium</a></h2>
-    </header>
-    <nav>
-      <ul>
-            <li class="nav-item">
-              <a href="/compendium/books/">Books</a>
-            </li>
-          
-            <li class="nav-item">
-              <a href="/compendium/spells/">Spells</a>
-            </li>
-          </ul>
-    </nav>
-    <main>
-      
-<div><a href=/compendium/adversaries/> Back to all adversaries</a></div>
-<div class="image"><a href="">
-<img class="monster-image" src="/compendium/img/share/Blackthorn Huntsman.webp" /></a>
-</div>
-<div class="mon-stat-block-2024">
-    <div class="custom-left-col">
-        <div class="mon-stat-block-2024__header">
-            <div class="mon-stat-block-2024__name">
-                <a class="mon-stat-block-2024__name-link" href="/adversaries/Blackthorn Huntsman/">
-                    Blackthorn Huntsman
-                </a>
-            </div>
+    {
+        name: "Shadow Step (Recharge 5-6)",
+        desc: "The Blackthorn Huntsman can teleport up to 60 feet to an unoccupied space that is in dim light or darkness. Immediately after, it can make one melee attack with advantage.",
+    },
 
-            <div class="mon-stat-block-2024__meta">Large, Fey, Chaotic Evil</div>
-        </div>
-        <div class="mon-stat-block-2024__attributes">
-            <div class="mon-stat-block-2024__attribute">
-                <span class="mon-stat-block-2024__attribute-label">AC</span>
-                <span class="mon-stat-block-2024__attribute-value">
-                    <span class="mon-stat-block-2024__attribute-data-value">
-                        18
-                    </span>
-                            
-                </span>&nbsp;&nbsp;
-                <span class="mon-stat-block-2024__attribute-label">Initiative</span>
-                <span class="mon-stat-block-2024__attribute-data">
-                    <span class="mon-stat-block-2024__attribute-data-value">
-                        +4 (14)
-                    </span>
-                </span>
-            </div>
-            <div class="mon-stat-block-2024__attribute">
-                <span class="mon-stat-block-2024__attribute-label">HP</span>
-                <span class="mon-stat-block-2024__attribute-data">
-                    <span class="mon-stat-block-2024__attribute-data-value">
-                        225 
-                    </span>
-                    <span class="mon-stat-block-2024__attribute-data-extra">
-                        (18d10 + 108)
-                    </span>
-                </span>
-            </div>
-            <div class="mon-stat-block-2024__attribute">
-                <span class="mon-stat-block-2024__attribute-label">Speed</span>
-                <span class="mon-stat-block-2024__attribute-data">
-                    <span class="mon-stat-block-2024__attribute-data-value">
-                        
-                    </span>
-                </span>
-            </div>
-        </div>
-        <div class="mon-stat-block-2024__stats">
-            <table class="stat-table physical">
-                <thead>
-                    <tr>
-                        <th>
-                        </th><th>
-                        </th><th>Mod</th>
-                        <th>Save</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th>STR</th>
-                        <td>20</td>
-                        <td class="modifier">
-                            <span class="dice-box"></span>
-                            +5
-                        </td>
-                        <td class="modifier">
-                        
-                            +5
-                        
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>DEX</th>
-                        <td>16</td>
-                        <td class="modifier">+3</td>
-                        <td class="modifier">
-                        
-                            +3
-                        
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>CON</th>
-                        <td>22</td>
-                        <td class="modifier">+6</td>
-                        <td class="modifier">
-                        
-                            +6
-                        
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <table class="stat-table mental">
-                <thead>
-                    <tr>
-                        <th>
-                        </th><th>
-                        </th><th>Mod</th>
-                        <th>Save</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th>INT</th>
-                        <td>14</td>
-                        <td class="modifier">+2</td>
-                        <td class="modifier">
-                        
-                            +2
-                        
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>WIS</th>
-                        <td>18</td>
-                        <td class="modifier">+4</td>
-                        <td class="modifier">
-                        
-                            +4
-                        
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>CHA</th>
-                        <td>16</td>
-                        <td class="modifier">+3</td>
-                        <td class="modifier">
-                        
-                            +3
-                        
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <div class="mon-stat-block-2024__tidbits">     
-            
-                <div class="mon-stat-block-2024__tidbit">
-                    <span class="mon-stat-block-2024__tidbit-label">Resistances</span>
-                    <span class="mon-stat-block-2024__tidbit-data">
-                        Necrotic, Poison
-                    </span>
-                </div>
-            
-            
-                <div class="mon-stat-block-2024__tidbit">
-                    <span class="mon-stat-block-2024__tidbit-label">Damage Immunities</span>
-                    <span class="mon-stat-block-2024__tidbit-data">
-                        Psychic
-                    </span>
-                </div>
-            
-            
-            
-            <div class="mon-stat-block-2024__tidbit">
-                <span class="mon-stat-block-2024__tidbit-label">Senses</span>
-                <span class="mon-stat-block-2024__tidbit-data">
-                    Darkvision 120 ft., Passive Perception 20
-                </span>
-            </div>
-        
-            <div class="mon-stat-block-2024__tidbit">
-                <span class="mon-stat-block-2024__tidbit-label">Languages</span>
-                <span class="mon-stat-block-2024__tidbit-data">
-                    Common, Sylvan, Elvish, Infernal
-                </span>
-            </div>
-            
-            <div class="mon-stat-block-2024__tidbit-container">
-                <div class="mon-stat-block-2024__tidbit">
-                    <span class="mon-stat-block-2024__tidbit-label">CR</span>
-                    <span class="mon-stat-block-2024__tidbit-data">
-                        12
-                    </span>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="mon-stat-block-2024__description-blocks">
-            <div class="mon-stat-block-2024__description-block"> 
-                <div class="mon-stat-block-2024__description-block-heading">Traits</div>
-                <div class="mon-stat-block-2024__description-block-content">
-                 
-                    <p><em><strong>Shadow Step (Recharge 5-6)</strong></em>. The Blackthorn Huntsman can teleport up to 60 feet to an unoccupied space that is in dim light or darkness. Immediately after, it can make one melee attack with advantage.</p>                
-                
-                    <p><em><strong>Terrifying Presence</strong></em>. Any creature that starts its turn within 30 feet of the Blackthorn Huntsman must succeed on a DC 17 Wisdom saving throw or be frightened until the start of its next turn. A creature that succeeds on the saving throw is immune to this effect for the next 24 hours.</p>                
-                
-                    <p><em><strong>Regeneration</strong></em>. The Blackthorn Huntsman regains 10 hit points at the start of its turn if it has at least 1 hit point. If it takes radiant damage, this trait doesn&#39;t function at the start of the Huntsman&#39;s next turn.</p>                
-                
-                </div>
-            </div>
-            <div class="mon-stat-block-2024__description-block">
-                <div class="mon-stat-block-2024__description-block-heading">Actions</div>
-                <div class="mon-stat-block-2024__description-block-content">
-                    
-                        <p><em><strong>Multiattack</strong></em>. The Blackthorn Huntsman makes three attacks: two with its Shadowthorn Strike and one with its Shadow Crush.</p>                
-                    
-                        <p><em><strong>Shadowthorn Strike</strong></em>. Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 18 (2d10 + 5) slashing damage plus 7 (2d6) necrotic damage. If the target is a creature, it must succeed on a DC 17 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>                
-                    
-                        <p><em><strong>Shadow Crush</strong></em>. Ranged Weapon Attack: +15 to hit. reach 60 ft., one target. Hit: 15 (2d6 + 10) bludgeoning damage plus 7 (2d6) necrotic damage. On a hit, the target&#39;s movement speed is reduced by 10 feet until the end of its next turn.</p>                
-                    
-                        <p><em><strong>Shadowthorn Throw</strong></em>. Ranged Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 18 (2d10 + 5) piercing damage plus 7 (2d6) necrotic damage. If the target is a creature, it must succeed on a DC 17 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. The staff can be returned to the hand of the huntsman at will.</p>                
-                    
-                        <p><em><strong>Hunter&#39;s Mark (Recharge 5-6)</strong></em>. The Blackthorn Huntsman can place a powerful curse on a creature within 60 feet. The creature must make a DC 17 Wisdom saving throw or be marked with the Huntsman&#39;s Hunter&#39;s Mark. While marked, the target has disadvantage on saving throws against the Huntsman&#39;s attacks and abilities, and the Huntsman can deal an additional 14 (4d6) necrotic damage on any hit it lands on the target. The mark lasts for 1 hour or until the target is slain.</p>                
-                                    
-                    
-                </div>
-            </div>
-    </div>
-</div>
+    {
+        name: "Terrifying Presence",
+        desc: "Any creature that starts its turn within 30 feet of the Blackthorn Huntsman must succeed on a DC 17 Wisdom saving throw or be frightened until the start of its next turn. A creature that succeeds on the saving throw is immune to this effect for the next 24 hours.",
+    },
 
-    </main>
-  </body>
-</html>
+    {
+        name: "Regeneration",
+        desc: "The Blackthorn Huntsman regains 10 hit points at the start of its turn if it has at least 1 hit point. If it takes radiant damage, this trait doesn&#39;t function at the start of the Huntsman&#39;s next turn.",
+    },
+
+
+    {
+        name: "",
+        desc: "",
+    },
+
+    {
+        name: "",
+        desc: "",
+    },
+
+    {
+        name: "",
+        desc: "",
+    },
+
+    {
+        name: "",
+        desc: "",
+    },
+
+    {
+        name: "",
+        desc: "",
+    },
+
+    ]
+    spells: [
+  
+    ]
+}
