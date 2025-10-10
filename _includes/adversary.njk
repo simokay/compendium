@@ -29,6 +29,7 @@ layout: blank.njk
     senses: "{{senses}}",
     languages: "{{languages}}",
     cr: "{{cr}}",
+{% if traits %}
     traits: [
 {% for trait in traits %}
     {
@@ -37,14 +38,17 @@ layout: blank.njk
     },
 {% endfor %}
     ],
+{% endif %}
+{% if traits %}
     actions: [
 {% for action in actions %}
     {
         name: "{{action.name}}",
-        desc: "{{actions.desc | striptags(true) | escape | nl2br | safe}}",
+        desc: "{{action.desc | striptags(true) | escape | nl2br | safe}}",
     },
 {% endfor %}
     ],
+{% endif %}
     spells: [
 {% for spell in spells %}{% if spell["At Will"] %}
     {
