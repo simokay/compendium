@@ -21,7 +21,7 @@ skillsaves:
   - insight: 2
   - perception: 2
   - religion: 5
-stats:
+saves:
   - 18
   - 14
   - 14

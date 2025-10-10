@@ -9,7 +9,7 @@ type: Humanoid
 subtype: Elf
 size: Medium
 alignment: Neutral Evil
-ac: undefined
+ac: 17
 hp: 117
 hit_dice: 18d8 + 36
 speed: walk 30

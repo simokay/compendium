@@ -11,7 +11,7 @@ subtype: kobold
 alignment: lawful evil
 ac: 12
 hp: 5
-hit_dice: 2d6 + -2
+hit_dice: 2d6
 speed: 30 ft.
 stats:
   - 7

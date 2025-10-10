@@ -39,28 +39,28 @@ spells:
 
 Her shop contains:
 
-| Name                          | Price | Quantity |
-| ----------------------------- | ----- | -------- |
-| [[Robe of Serpents]]          | 375g  | 1        |
-| [[Staff of the Python]]       | 2000g | 1        |
-| [[Staff of the Adder]]        | 1800g | 1        |
-| [[Poison]]                    | 100g  | 4        |
-| [[Antitoxin]]                 | 50g   | 4        |
-| [[Antidote]]                  | 100g  | 4        |
-| [[Serpent Venom]]             | 200g  | 1        |
-| [[Wyvern Poison]]             | 300g  | 1        |
-| [[Potion of Healing]]         | 50g   | 4        |
-| [[Potion of Greater Healing]] | 150g  | 1        |
-| [[Gloves of Missile Snaring]] | 3000g | 1        |
-| [[Wraps Of Unarmed Prowess]]  | 1000g | 1        |
-| [[Claw of the Wyrm Rune]]     | 4500g | 1        |
-| [[Cultist Robes]]             | 2g    | 6        |
-| [[Handaxe]]                   | 5g    | 2        |
-| [[Dagger]]                    | 2g    | 4        |
-| [[Rope (50ft)]]               | 2g    | 1        |
-| [[Waterskin]]                 | 10s   | 3        |
-| [[Two-person tent]]           | 2g    | 1        |
-| [[Rations]]                   | 10s   | 10       |
-| [[Shovel]]                    | 2g    | 4        |
-| [[Hooded Lantern]]            | 5g    | 2        |
-| [[Lantern of Revealing]]      | 5000g | 1        |
+| Name                                                                        | Price | Quantity |
+| --------------------------------------------------------------------------- | ----- | -------- |
+| [[Robe of Serpents]]                                                        | 375g  | 1        |
+| [[Staff of the Python]]                                                     | 2000g | 1        |
+| [[Staff of the Adder]]                                                      | 1800g | 1        |
+| [[Poison]]                                                                  | 100g  | 4        |
+| [[TTRPGS/Campaigns/Candlekeep/Common Items/Antitoxin\|Antitoxin]]           | 50g   | 4        |
+| [[Antidote]]                                                                | 100g  | 4        |
+| [[Serpent Venom]]                                                           | 200g  | 1        |
+| [[Wyvern Poison]]                                                           | 300g  | 1        |
+| [[Potion of Healing]]                                                       | 50g   | 4        |
+| [[Potion of Greater Healing]]                                               | 150g  | 1        |
+| [[Gloves of Missile Snaring]]                                               | 3000g | 1        |
+| [[Wraps Of Unarmed Prowess]]                                                | 1000g | 1        |
+| [[Claw of the Wyrm Rune]]                                                   | 4500g | 1        |
+| [[Cultist Robes]]                                                           | 2g    | 6        |
+| [[TTRPGS/Campaigns/Candlekeep/Common Items/Handaxe\|Handaxe]]               | 5g    | 2        |
+| [[TTRPGS/Campaigns/Candlekeep/Common Items/Dagger\|Dagger]]                 | 2g    | 4        |
+| [[Rope (50ft)]]                                                             | 2g    | 1        |
+| [[TTRPGS/Campaigns/Candlekeep/Common Items/Waterskin\|Waterskin]]           | 10s   | 3        |
+| [[Two-person tent]]                                                         | 2g    | 1        |
+| [[TTRPGS/Campaigns/Candlekeep/Common Items/Rations\|Rations]]               | 10s   | 10       |
+| [[TTRPGS/Campaigns/Candlekeep/Common Items/Shovel\|Shovel]]                 | 2g    | 4        |
+| [[TTRPGS/Campaigns/Candlekeep/Common Items/Hooded Lantern\|Hooded Lantern]] | 5g    | 2        |
+| [[Lantern of Revealing]]                                                    | 5000g | 1        |
