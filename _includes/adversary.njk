@@ -28,27 +28,19 @@ layout: blank.njk
     damageVulnerable: "{{damage_vulnerabilities}}",
     senses: "{{senses}}",
     languages: "{{languages}}",
-    cr: "{{cr}}",
-{% if traits %}
-    traits: [
-{% for trait in traits %}
+    cr: "{{cr}}",{% if traits.length %}
+    traits: [{% for trait in traits %}
     {
         name: "{{trait.name}}",
         desc: "{{trait.desc | striptags(true) | escape | nl2br | safe}}",
-    },
-{% endfor %}
-    ],
-{% endif %}
-{% if traits %}
-    actions: [
-{% for action in actions %}
+    },{% endfor %}
+    ],{% endif %}{% if traits.length %}
+    actions: [{% for action in actions %}
     {
         name: "{{action.name}}",
         desc: "{{action.desc | striptags(true) | escape | nl2br | safe}}",
-    },
-{% endfor %}
-    ],
-{% endif %}
+    },{% endfor %}
+    ],{% endif %}
     spells: [
 {% for spell in spells %}{% if spell["At Will"] %}
     {
