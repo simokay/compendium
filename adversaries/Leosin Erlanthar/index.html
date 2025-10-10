@@ -6,47 +6,53 @@
     init: "+4 (14)",
     hp: "60",
     hitDice: "11d8 + 11",
-    speed: "40 ft."
+    speed: "40 ft.",
     abilityStr: "+0",
-    abilityDex: " +3"
-    abilityCon: "+1"
-    abilityInt: "+0"
-    abilityWis: "+3"
-    abilityCha: "+0"
-    saveStr: ""
-    saveDex: ""
-    saveCon: ""
-    saveInt: ""
-    saveWis: ""
-    saveCha: ""
-    damageResist: ""
-    damageImmune: ""
-    conditionImmune: ""
-    damageVulnerable: ""
-    senses: "Passive Perception 13"
-    languages: "Common"
-    cr: "3"
+    abilityDex: " +3",
+    abilityCon: "+1",
+    abilityInt: "+0",
+    abilityWis: "+3",
+    abilityCha: "+0",
+    saveStr: "",
+    saveDex: "",
+    saveCon: "",
+    saveInt: "",
+    saveWis: "",
+    saveCha: "",
+    damageResist: "",
+    damageImmune: "",
+    conditionImmune: "",
+    damageVulnerable: "",
+    senses: "Passive Perception 13",
+    languages: "Common",
+    cr: "3",
     traits: [
 
     {
         name: "Unarmored Defense.",
         desc: "While the adept is wearing no armor and wielding no shield, its AC includes its Wisdom modifier.",
     },
+    ],
 
+    actions: [
 
     {
-        name: "",
-        desc: "",
+        name: "Multiattack",
+        desc: "The adept makes three unarmed strikes or three dart attacks.",
     },
 
     {
-        name: "",
-        desc: "",
+        name: "Unarmed Strike",
+        desc: "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one target. _Hit:_ 7 (1d8 + 3) bludgeoning damage. If the target is a creature, the adept can choose one of the following additional effects:<br />
+<br />
+- The target must succeed on a DC 13 Strength saving throw or drop one item it is holding (adept&#39;s choice).<br />
+- The target must succeed on a DC 13 Dexterity saving throw or be knocked prone.<br />
+- The target must succeed on a DC 13 Constitution saving throw or be stunned until the end of the adept&#39;s next turn.",
     },
 
     {
-        name: "",
-        desc: "",
+        name: "Dart",
+        desc: "Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.",
     },
 
     ]

@@ -6,62 +6,66 @@
     init: "+4 (14)",
     hp: "104",
     hitDice: "16d12",
-    speed: "walk 0, fly 40 ft (hover)"
+    speed: "walk 0, fly 40 ft (hover)",
     abilityStr: "+8",
-    abilityDex: " +0"
-    abilityCon: "+0"
-    abilityInt: "+1"
-    abilityWis: "+3"
-    abilityCha: "+3"
-    saveStr: ""
-    saveDex: ""
-    saveCon: ""
-    saveInt: ""
-    saveWis: ""
-    saveCha: ""
-    damageResist: "cold"
-    damageImmune: "necrotic, poison"
-    conditionImmune: "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained"
-    damageVulnerable: ""
-    senses: "darkvision 120 ft., Passive Perception 17"
-    languages: "Common, Giant"
-    cr: "9"
+    abilityDex: " +0",
+    abilityCon: "+0",
+    abilityInt: "+1",
+    abilityWis: "+3",
+    abilityCha: "+3",
+    saveStr: "",
+    saveDex: "",
+    saveCon: "",
+    saveInt: "",
+    saveWis: "",
+    saveCha: "",
+    damageResist: "cold",
+    damageImmune: "necrotic, poison",
+    conditionImmune: "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
+    damageVulnerable: "",
+    senses: "darkvision 120 ft., Passive Perception 17",
+    languages: "Common, Giant",
+    cr: "9",
     traits: [
 
     {
         name: "Ethereal Sight",
         desc: "The ghost can see 120 feet into the Ethereal Plane when it is on the Material Plane, and vice versa.",
     },
+    ],
 
     {
         name: "Incorporeal Movement",
         desc: "The ghost can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.",
     },
+    ],
 
     {
         name: "Regeneration",
         desc: "The ghost regains 10 hit points at the start of its turn. If the ghost takes radiant damage or damage from a magic weapon, this trait doesn&#39;t function at the start of the ghost&#39;s next turn. The ghost dies only if it starts its turn with 0 hit points and doesn&#39;t regenerate.",
     },
+    ],
 
+    actions: [
 
     {
-        name: "",
-        desc: "",
+        name: "Multiattack",
+        desc: "The ghost makes two melee attacks.",
     },
 
     {
-        name: "",
-        desc: "",
+        name: "Spectral Weapon",
+        desc: "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. 21 (3d8 + 8) force damage.",
     },
 
     {
-        name: "",
-        desc: "",
+        name: "Etherealness",
+        desc: "The ghost enters the Ethereal Plane from the Material Plane, or vice versa. It is visible on the Material Plane while it is in the Border Ethereal, and vice versa, yet it can&#39;t affect or be affected by anything on the other plane.",
     },
 
     {
-        name: "",
-        desc: "",
+        name: "Wind Howl",
+        desc: "The ghost emits a dreadful howl that summons a cold, biting wind. This wind engulfs up to three creatures of the ghost&#39;s choice that it can see within 60 feet of it. Each target is pulled up to 20 feet toward the ghost and must make a DC 15 Constitution saving throw, taking 16 (3d10) cold damage on a failed save, or half as much damage on a successful one.",
     },
 
     ]

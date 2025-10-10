@@ -6,52 +6,54 @@
     init: "+4 (14)",
     hp: "68",
     hitDice: "8d10 + 24",
-    speed: "Walk 10 ft., Swim 40 ft."
+    speed: "Walk 10 ft., Swim 40 ft.",
     abilityStr: "+2",
-    abilityDex: " +4"
-    abilityCon: "+3"
-    abilityInt: "-4"
-    abilityWis: "+0"
-    abilityCha: "-3"
-    saveStr: ""
-    saveDex: ""
-    saveCon: ""
-    saveInt: ""
-    saveWis: ""
-    saveCha: ""
-    damageResist: ""
-    damageImmune: "Lightning"
-    conditionImmune: ""
-    damageVulnerable: ""
-    senses: "Darkvision 60 ft., Passive Perception 14"
-    languages: ""
-    cr: "4"
+    abilityDex: " +4",
+    abilityCon: "+3",
+    abilityInt: "-4",
+    abilityWis: "+0",
+    abilityCha: "-3",
+    saveStr: "",
+    saveDex: "",
+    saveCon: "",
+    saveInt: "",
+    saveWis: "",
+    saveCha: "",
+    damageResist: "",
+    damageImmune: "Lightning",
+    conditionImmune: "",
+    damageVulnerable: "",
+    senses: "Darkvision 60 ft., Passive Perception 14",
+    languages: "",
+    cr: "4",
     traits: [
 
     {
         name: "Lightning Reflexes",
         desc: "The eel has advantage on Dexterity saving throws against effects that it can see, such as traps and spells. To gain this benefit, the eel can’t be blinded, deafened, or incapacitated.",
     },
+    ],
 
+    actions: [
 
     {
-        name: "",
-        desc: "",
+        name: "Multiattack",
+        desc: "The eel makes two bite attacks.",
     },
 
     {
-        name: "",
-        desc: "",
+        name: "Bite",
+        desc: "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage plus 3 (1d6) lightning damage.",
     },
 
     {
-        name: "",
-        desc: "",
+        name: "Electric Shock (Recharge 5-6)",
+        desc: "The eel releases a burst of electricity in a 20-foot radius. Each other creature in that area must make a DC 12 Constitution saving throw, taking 22 (4d10) lightning damage on a failed save, or half as much damage on a successful one. A creature that fails the saving throw by 5 or more is also stunned until the end of its next turn.",
     },
 
     {
-        name: "",
-        desc: "",
+        name: "Constrictive Pull",
+        desc: "Melee Weapon Attack: +4 to hit, reach 10 ft., one creature. Hit: 6 (1d8 + 2) bludgeoning damage. Target must make a DC 14 strenght or dex saving throw or be pulled toward to eel.",
     },
 
     ]

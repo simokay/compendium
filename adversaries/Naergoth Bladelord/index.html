@@ -6,52 +6,54 @@
     init: "+4 (14)",
     hp: "135",
     hitDice: "18d8 + 54",
-    speed: "walk 30"
+    speed: "walk 30",
     abilityStr: "+5",
-    abilityDex: " +1"
-    abilityCon: "+3"
-    abilityInt: "+1"
-    abilityWis: "+2"
-    abilityCha: "+3"
-    saveStr: ""
-    saveDex: ""
-    saveCon: ""
-    saveInt: ""
-    saveWis: ""
-    saveCha: ""
-    damageResist: "Necrotic, Bludgeoning, Piercing, and Slashing from nonmagical attacks that aren&#39;t silvered"
-    damageImmune: "poison"
-    conditionImmune: "exhaustion, poisoned"
-    damageVulnerable: ""
-    senses: "darkvision 60 ft., Passive Perception 16"
-    languages: "Common, Draconic"
-    cr: "11"
+    abilityDex: " +1",
+    abilityCon: "+3",
+    abilityInt: "+1",
+    abilityWis: "+2",
+    abilityCha: "+3",
+    saveStr: "",
+    saveDex: "",
+    saveCon: "",
+    saveInt: "",
+    saveWis: "",
+    saveCha: "",
+    damageResist: "Necrotic, Bludgeoning, Piercing, and Slashing from nonmagical attacks that aren&#39;t silvered",
+    damageImmune: "poison",
+    conditionImmune: "exhaustion, poisoned",
+    damageVulnerable: "",
+    senses: "darkvision 60 ft., Passive Perception 16",
+    languages: "Common, Draconic",
+    cr: "11",
     traits: [
 
     {
         name: "Sunlight Sensitivity",
         desc: "While in sunlight, Naergoth has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.",
     },
+    ],
 
+    actions: [
 
     {
-        name: "",
-        desc: "",
+        name: "Multiattack",
+        desc: "Naergoth makes three attacks, either with his longsword or longbow. He can use Life Drain in place of one longsword attack.",
     },
 
     {
-        name: "",
-        desc: "",
+        name: "Life Drain",
+        desc: "Melee Weapon Attack: 9 to hit, reach 5 ft., one target. 20 (5d6 + 3) necrotic damage. The target must succeed on a DC 15 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.",
     },
 
     {
-        name: "",
-        desc: "",
+        name: "Longsword",
+        desc: "Melee Weapon Attack: 9 to hit, reach 5 ft., one target. 9 (1d8 + 5) slashing damage, or 10 (1d10 + 5) if used with two hands, plus 10 (3d6) necrotic damage.",
     },
 
     {
-        name: "",
-        desc: "",
+        name: "Longbow",
+        desc: "Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. 5 (1d8 + 1) piercing damage plus 10 (3d6) necrotic damage.",
     },
 
     ]
