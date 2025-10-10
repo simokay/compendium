@@ -35,16 +35,16 @@ layout: blank.njk
         name: "{{trait.name}}",
         desc: "{{trait.desc | striptags(true) | escape | nl2br | safe}}",
     },
-    ],
 {% endfor %}
+    ],
     actions: [
 {% for action in actions %}
     {
         name: "{{action.name}}",
-        desc: "{{action.desc | striptags(true) | escape | nl2br | safe}}",
+        desc: "{{actions.desc | striptags(true) | escape | nl2br | safe}}",
     },
 {% endfor %}
-    ]
+    ],
     spells: [
 {% for spell in spells %}{% if spell["At Will"] %}
     {
