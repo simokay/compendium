@@ -3,9 +3,6 @@ layout: base.njk
 ---
 
 <div><a href={{ '/adversaries/' | url }}> Back to all adversaries</a></div>
-<div class="image"><a href="">
-<img class="monster-image" src="{{'/img/share/' | url }}{{name}}.webp" /></a>
-</div>
 <div class="mon-stat-block-2024">
     <div class="custom-left-col">
         <div class="mon-stat-block-2024__header">
@@ -212,21 +209,23 @@ layout: base.njk
         </div>
     </div>
     <div class="mon-stat-block-2024__description-blocks">
-            <div class="mon-stat-block-2024__description-block"> 
-                <div class="mon-stat-block-2024__description-block-heading">Traits</div>
-                <div class="mon-stat-block-2024__description-block-content">
-                 {% for trait in traits %}
-                    <p><em><strong>{{trait.name}}</strong></em>. {{trait.desc | striptags(true) | escape | nl2br | brackets | safe}}</p>                
-                {% endfor %}
-                </div>
+      {% if traits|length %}
+        <div class="mon-stat-block-2024__description-block"> 
+            <div class="mon-stat-block-2024__description-block-heading">Traits</div>
+            <div class="mon-stat-block-2024__description-block-content">
+              {% for trait in traits %}
+                <p><em><strong>{{trait.name}}</strong></em>. {{trait.desc | striptags(true) | escape | nl2br | brackets | safe}}</p>                
+            {% endfor %}
             </div>
+        </div>
+      {% endif %}
             <div class="mon-stat-block-2024__description-block">
                 <div class="mon-stat-block-2024__description-block-heading">Actions</div>
                 <div class="mon-stat-block-2024__description-block-content">
                     {% for action in actions %}
                         <p><em><strong>{{action.name}}</strong></em>. {{action.desc | striptags(true) | escape | nl2br}}</p>                
-                    {% endfor %}                
-                    {% if spells %}
+                    {% endfor %}       
+                    {% if spells|length %}
                         <p><em><strong>Spellcasting</strong></em>. {{ spells | first }}</p>
                         <ul>
                         {% for spell in spells %}
@@ -251,4 +250,7 @@ layout: base.njk
                 </div>
             </div>
     </div>
+</div>
+<div class="image"><a href="">
+<img class="monster-image" src="{{'/img/share/' | url }}{{name}}.webp" /></a>
 </div>
