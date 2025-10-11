@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combat</title>
+    <meta name="description" content="Reference for d&amp;d stuff.">
+    <link rel="stylesheet" href="/compendium/css/index.css">
+    <link rel="stylesheet" href="/compendium/css/statblocks.css">
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <script src=/compendium/js/jets.min.js></script>
+
+  </head>
+  <body>
+    <header>
+      <h2><a href="/compendium/">Candlekeep Compendium</a></h2>
+    </header>
+    <nav>
+      <ul>
+            <li class="nav-item">
+              <a href="/compendium/books/">Books</a>
+            </li>
+          
+            <li class="nav-item nav-item-active">
+              <a href="/compendium/combat/">Combat</a>
+            </li>
+          
+            <li class="nav-item">
+              <a href="/compendium/spells/">Spells</a>
+            </li>
+          </ul>
+    </nav>
+    <main>
+      <h1 class="title-page">Combat</h1>
+
+<script>
+
+let adversaries = [
+  'Ogre',
+  'Dragonwing',
+  'Wyvern',
+  'Snapjaw'
+]
+
+const renderTemplate = (data) => {
+  const optionalBlock = (list, label) => {
+    if(list.length) {
+      return `<div class="mon-stat-block-2024__description-block">\
+        <div class="mon-stat-block-2024__description-block-heading">${label}</div>\
+        <div class="mon-stat-block-2024__description-block-content">\
+          ${list.map(i => `<p><em><strong>${i.name}</strong></em>. ${i.desc}</p>`)}\       
+        </div>\
+      </div>`
+    } else {
+      return ''
+    }
+  }
+  const optionalSpells = (spells) => {
+    if(spells.length) {
+      return `<div class="mon-stat-block-2024__description-block">\
+        <div class="mon-stat-block-2024__description-block-heading">Spellcasting</div>\
+        <div class="mon-stat-block-2024__description-block-content">\
+          <ul>${spells.map((s) => {
+            const sTypes = ["At Will", "4/Day Each", "3/Day Each", "2/Day Each", "1/Day Each"];
+            let spell = ''
+            let type = ''
+            sTypes.forEach((t) => {
+              if(s[t]) {
+                spell = s[t];
+                type = t
+              }
+            })
+            return spell;
+          })}</ul>\               
+        </div>\
+      </div>`
+    } else {
+      return ''
+    }
+  }
+  const optional = (opt, label) => {
+    if(opt) {
+      return `<div class="mon-stat-block-2024__tidbit">\
+        <span class="mon-stat-block-2024__tidbit-label">${label}</span>\
+          <span class="mon-stat-block-2024__tidbit-data">\
+            ${opt}\
+          </span>\
+      </div>`
+    } else {
+      return ''
+    }
+  }
+
+  return `<div class="mon-stat-block-2024">\
+    <div class="custom-left-col">\
+      <div class="mon-stat-block-2024__header">\
+        <div class="mon-stat-block-2024__name">\
+          <a class="mon-stat-block-2024__name-link" href="/adversaries/${data.name}/">\
+            ${data.name}\
+          </a>\
+        </div>\
+        <div class="mon-stat-block-2024__meta">${data.size}, ${data.type}, ${data.alignment}</div>\
+      </div>\
+      <div class="mon-stat-block-2024__attributes">\
+        <div class="mon-stat-block-2024__attribute">\
+          <span class="mon-stat-block-2024__attribute-label">AC</span>\
+          <span class="mon-stat-block-2024__attribute-value">\
+            <span class="mon-stat-block-2024__attribute-data-value">${data.ac}</span>\
+          </span>&nbsp;&nbsp;\
+          <span class="mon-stat-block-2024__attribute-label">Initiative</span>\
+          <span class="mon-stat-block-2024__attribute-data">\
+            <span class="mon-stat-block-2024__attribute-data-value">\
+              +4 (14)\
+            </span>\
+          </span>\
+        </div>\
+        <div class="mon-stat-block-2024__attribute">\
+          <span class="mon-stat-block-2024__attribute-label">HP</span>\
+          <span class="mon-stat-block-2024__attribute-data">\
+            <span class="mon-stat-block-2024__attribute-data-value">\
+              ${data.hp}\
+            </span>\
+            <span class="mon-stat-block-2024__attribute-data-extra">\
+              (${data.hitDice})\
+            </span>\
+          </span>\
+        </div>\
+        <div class="mon-stat-block-2024__attribute">\
+          <span class="mon-stat-block-2024__attribute-label">Speed</span>\
+          <span class="mon-stat-block-2024__attribute-data">\
+            <span class="mon-stat-block-2024__attribute-data-value">\
+              ${data.speed}\
+            </span>\
+          </span>\
+        </div>\
+      </div>\
+      <div class="mon-stat-block-2024__stats">\
+        <table class="stat-table physical">\
+          <thead><tr><th></th><th></th><th>Mod</th><th>Save</th></tr></thead>\
+          <tbody>\
+            <tr><th>STR</th>\
+              <td>${data.abilityStr}</td>\
+              <td class="modifier">${data.modStr}</td>\
+              <td class="modifier">${data.saveStr || data.modStr}</td>\
+            </tr>\
+            <tr><th>DEX</th>\
+              <td>${data.abilityDex}</td>\
+              <td class="modifier">${data.modDex}</td>\
+              <td class="modifier">${data.saveDex || data.modDex}</td>\
+            </tr>\
+            <tr><th>CON</th>\
+              <td>${data.abilityCon}</td>\
+              <td class="modifier">${data.modCon}</td>\
+              <td class="modifier">${data.saveCon || data.modCon}</td>\
+            </tr>\
+          </tbody>\
+        </table><table class="stat-table mental">\
+          <thead><tr><th></th><th></th><th>Mod</th><th>Save</th></tr></thead>\
+          <tbody>\
+            <tr><th>INT</th>\
+              <td>${data.abilityInt}</td>\
+              <td class="modifier">${data.modInt}</td>\
+              <td class="modifier">${data.saveInt || data.modInt}</td>\
+            </tr>\
+            <tr><th>WIS</th>\
+              <td>${data.abilityWis}</td>\
+              <td class="modifier">${data.modWis}</td>\
+              <td class="modifier">${data.saveWis || data.modWis}</td>\
+            </tr>\
+            <tr><th>CHA</th>\
+              <td>${data.abilityCha}</td>\
+              <td class="modifier">${data.modCha}</td>\
+              <td class="modifier">${data.saveCha || data.modCha}</td>\
+            </tr>\
+          </tbody>\
+        </table>\
+      </div>\
+      <div class="mon-stat-block-2024__tidbits">\ 
+        ${optional(data.damage_resistances, 'Resistances')}\
+        ${optional(data.damage_immunities, 'Damage Immunities')}\
+        ${optional(data.condition_immunities, 'Condition Immunities')}\
+        ${optional(data.damage_vulnerabilities, 'Damage Vulnerabilities')}\
+        <div class="mon-stat-block-2024__tidbit">\
+          <span class="mon-stat-block-2024__tidbit-label">Senses</span>\
+          <span class="mon-stat-block-2024__tidbit-data">${data.senses}</span>\
+        </div>\
+        <div class="mon-stat-block-2024__tidbit">\
+          <span class="mon-stat-block-2024__tidbit-label">Languages</span>\
+          <span class="mon-stat-block-2024__tidbit-data">${data.languages}</span>\
+        </div>\
+        <div class="mon-stat-block-2024__tidbit-container">\
+          <div class="mon-stat-block-2024__tidbit">\
+            <span class="mon-stat-block-2024__tidbit-label">CR</span>\
+            <span class="mon-stat-block-2024__tidbit-data">${data.cr}</span>\
+          </div>\
+        </div>\
+      </div>\
+    </div>\
+    <div class="mon-stat-block-2024__description-blocks">\
+      ${optionalBlock(data.traits, 'Traits')}\
+      ${optionalBlock(data.actions, 'Actions')}\
+      ${optionalSpells(data.spells)}\
+      ${optionalBlock(data.legendaryActions, 'Legendary Actions')}\
+    </div>\
+  </div>`;
+}
+
+async function getData(name) {
+  const url = `https://simokay.github.io/compendium/adversaries/${name}`;
+  try {
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error(`Response status: ${response.status}`);
+    }
+
+    const result = await response.json();
+    console.log(result);
+    let adversary = ''
+  } catch (error) {
+    console.error(error.message);
+  }
+}
+
+document.onreadystatechange = () => {
+  if (document.readyState === "interactive") {
+    let adList = document.getElementById('adversaryList')
+    let adContent = document.getElementById('adversaryContent')
+    let listTemplate = '<ul>';
+    let contentTemplate = '';
+    adversaries.forEach((ad) => {
+      getData(ad)
+      listTemplate += '<li>'+ad+'</li>'
+      contentTemplate += `<div id="ad_${ad.replace(' ','_')}"></div>`
+    })
+    listTemplate += '</ul>'
+    adList.innerHTML = listTemplate;
+    adContent.innerHTML = contentTemplate;
+
+    
+  }
+}
+</script>
+<form>
+<input />
+<button>Add</button>
+</form>
+<div id="adversaryList"></div>
+<div id="adversaryContent"></div>
+<p>A way to search and add adversaries to a combat so that I can easily view all character sheets.
+All character sheets should work will with beyond 20 plugin.
+I would like to perform group rolls. maybe?</p>
+
+
+    </main>
+  </body>
+</html>
