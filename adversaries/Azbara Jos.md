@@ -9,7 +9,7 @@ size: Medium
 type: Humanoid
 subtype: Human
 alignment: Lawful Evil
-ac: 14
+ac: 13 (16 with mage armor)
 hp: 39
 hit_dice: 6d8+13
 speed: 30 ft.
