@@ -4,7 +4,6 @@ navtitle: Magic Items
 tags: magicitems
 name: "Dragongleam"
 owners:
-  - Erudite
 cost: "1000"
 ---
 This staff can be wielded as a magic quarterstaff that grants a +1 bonus to attack and damage rolls.
