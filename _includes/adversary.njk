@@ -2,77 +2,83 @@
 layout: blank.njk
 ---
 {
-    imgShare: "{{'/img/share/' | url }}{{name}}.webp",
-    name: "{{name}}",
-    meta: "{{size}}, {{type}}, {{alignment}}",
-    ac: "{{ac}}",
-    init: "+4 (14)",
-    hp: "{{hp}}",
-    hitDice: "{{hit_dice}}",
-    speed: "{{speed}}",
-    abilityStr: "{{ stats[0] | abilityModifier }}",
-    abilityDex: "{{ stats[1] | abilityModifier }}",
-    abilityCon: "{{ stats[2] | abilityModifier }}",
-    abilityInt: "{{ stats[3] | abilityModifier }}",
-    abilityWis: "{{ stats[4] | abilityModifier }}",
-    abilityCha: "{{ stats[5] | abilityModifier }}",
-    saveStr: "{{saves.strength}}",
-    saveDex: "{{saves.dexterity}}",
-    saveCon: "{{saves.constitution}}",
-    saveInt: "{{saves.intelligence}}",
-    saveWis: "{{saves.wisdom}}",
-    saveCha: "{{saves.charisma}}",
-    damageResist: "{{damage_resistances}}",
-    damageImmune: "{{damage_immunities}}",
-    conditionImmune: "{{condition_immunities}}",
-    damageVulnerable: "{{damage_vulnerabilities}}",
-    senses: "{{senses}}",
-    languages: "{{languages}}",
-    cr: "{{cr}}",{% if traits|length %}
-    traits: [{% for trait in traits %}
+    "imgShare": "{{'/img/share/' | url }}{{name}}.webp",
+    "name": "{{name}}",
+    "meta": "{{size}}, {{type}}, {{alignment}}",
+    "ac": "{{ac}}",
+    "init": "+4 (14)",
+    "hp": "{{hp}}",
+    "hitDice": "{{hit_dice}}",
+    "speed": "{{speed}}",
+    "abilityStr": "{{ stats[0] }}",
+    "abilityDex": "{{ stats[1] }}",
+    "abilityCon": "{{ stats[2] }}",
+    "abilityInt": "{{ stats[3] }}",
+    "abilityWis": "{{ stats[4] }}",
+    "abilityCha": "{{ stats[5] }}",
+    "modStr": "{{ stats[0] | abilityModifier }}",
+    "modDex": "{{ stats[1] | abilityModifier }}",
+    "modCon": "{{ stats[2] | abilityModifier }}",
+    "modInt": "{{ stats[3] | abilityModifier }}",
+    "modWis": "{{ stats[4] | abilityModifier }}",
+    "modCha": "{{ stats[5] | abilityModifier }}",
+    "saveStr": "{{saves.strength}}",
+    "saveDex": "{{saves.dexterity}}",
+    "saveCon": "{{saves.constitution}}",
+    "saveInt": "{{saves.intelligence}}",
+    "saveWis": "{{saves.wisdom}}",
+    "saveCha": "{{saves.charisma}}",
+    "damageResist": "{{damage_resistances}}",
+    "damageImmune": "{{damage_immunities}}",
+    "conditionImmune": "{{condition_immunities}}",
+    "damageVulnerable": "{{damage_vulnerabilities}}",
+    "senses": "{{senses}}",
+    "languages": "{{languages}}",
+    "cr": "{{cr}}",{% if traits|length %}
+    "traits": [{% for trait in traits %}
     {
-        name: "{{trait.name}}",
-        desc: "{{trait.desc | striptags(true) | escape | nl2br | safe}}",
+        "name": "{{trait.name}}",
+        "desc": "{{trait.desc | striptags(true) | escape | nl2br | safe}}",
     },{% endfor %}
     ],{% endif %}{% if actions|length %}
-    actions: [{% for action in actions %}
+    "actions": [{% for action in actions %}
     {
-        name: "{{action.name}}",
-        desc: "{{action.desc | striptags(true) | escape | nl2br | safe}}",
+        "name": "{{action.name}}",
+        "desc": "{{action.desc | striptags(true) | escape | nl2br | safe}}",
     },{% endfor %}
     ],{% endif %}{% if spells|length %}
-    spells: [
+    "spells": [
 {% for spell in spells %}{% if spell["At Will"] %}
     {
-        name: "At Will"
-        desc: "{{ spell["At Will"] | safe }}"
+        "name": "At Will"
+        "desc": "{{ spell["At Will"] | safe }}"
     },
 {% endif %}{% if spell["4/Day Each"] %}
     {
-        name: "4/Day Each"
-        desc: "{{ spell["4/Day Each"] | safe  }}"
+        "name": "4/Day Each"
+        "desc": "{{ spell["4/Day Each"] | safe  }}"
     },
 {% endif %}{% if spell["3/Day Each"] %}
     {
-        name: "3/Day Each"
-        desc: "{{ spell["3/Day Each"] | safe  }}"
+        "name": "3/Day Each"
+        "desc": "{{ spell["3/Day Each"] | safe  }}"
     },
 {% endif %}{% if spell["2/Day Each"] %}
     {
-        name: "2/Day Each"
-        desc: "{{ spell["2/Day Each"] | safe  }}"
+        "name": "2/Day Each"
+        "desc": "{{ spell["2/Day Each"] | safe  }}"
     },
 {% endif %}{% if spell["1/Day Each"] %}
     {
-        name: "1/Day Each"
-        desc: "{{ spell["1/Day Each"] | safe  }}"
+        "name": "1/Day Each"
+        "desc": "{{ spell["1/Day Each"] | safe  }}"
     },
 {% endif %}{% endfor %}  
     ],{% endif %}{% if legendary_actions|length %}
-    legendaryActions: [{% for action in legendary_actions %}
+    "legendaryActions": [{% for action in legendary_actions %}
     {
-        name: "{{action.name}}",
-        desc: "{{action.desc | striptags(true) | escape | nl2br | safe}}",
+        "name": "{{action.name}}",
+        "desc": "{{action.desc | striptags(true) | escape | nl2br | safe}}",
     },{% endfor %}
     ],{% endif %}
 }
