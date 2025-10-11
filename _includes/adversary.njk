@@ -38,14 +38,14 @@ layout: blank.njk
     "traits": [{% for trait in traits %}
     {
         "name": "{{trait.name}}",
-        "desc": "{{trait.desc | striptags(true) | escape | nl2br | safe}}",
-    },{% endfor %}
-    ],{% endif %}{% if actions|length %}
+        "desc": "{{trait.desc | striptags(true) | escape | nl2br | safe}}"
+    }{% if not loop.last %},{% endif %}{% endfor %}
+    ]{% if not loop.last %},{% endif %}{% endif %}{% if actions|length %}
     "actions": [{% for action in actions %}
     {
         "name": "{{action.name}}",
-        "desc": "{{action.desc | striptags(true) | escape | nl2br | safe}}",
-    },{% endfor %}
+        "desc": "{{action.desc | striptags(true) | escape | nl2br | safe}}"
+    }{% if not loop.last %},{% endif %}{% endfor %}
     ],{% endif %}{% if spells|length %}
     "spells": [
 {% for spell in spells %}{% if spell["At Will"] %}
@@ -73,12 +73,14 @@ layout: blank.njk
         "name": "1/Day Each"
         "desc": "{{ spell["1/Day Each"] | safe  }}"
     },
+    { "name": "none", "desc": "none }
 {% endif %}{% endfor %}  
     ],{% endif %}{% if legendary_actions|length %}
     "legendaryActions": [{% for action in legendary_actions %}
     {
         "name": "{{action.name}}",
         "desc": "{{action.desc | striptags(true) | escape | nl2br | safe}}",
-    },{% endfor %}
+    }{% if not loop.last %},{% endif %}{% endfor %}
     ],{% endif %}
+    "end": "all"
 }
