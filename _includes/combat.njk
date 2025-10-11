@@ -14,11 +14,11 @@ let adversaries = [
 
 const renderTemplate = (data) => {
   const optionalBlock = (list, label) => {
-    if(list.length) {
+    if(list?.length) {
       return `<div class="mon-stat-block-2024__description-block">\
         <div class="mon-stat-block-2024__description-block-heading">${label}</div>\
         <div class="mon-stat-block-2024__description-block-content">\
-          ${list.map(i => `<p><em><strong>${i.name}</strong></em>. ${i.desc}</p>`)}\       
+          ${list.map(i => `<p><em><strong>${i.name}</strong></em>. ${i.desc}</p>`).join('')}\       
         </div>\
       </div>`
     } else {
@@ -26,7 +26,7 @@ const renderTemplate = (data) => {
     }
   }
   const optionalSpells = (spells) => {
-    if(spells.length) {
+    if(spells?.length) {
       return `<div class="mon-stat-block-2024__description-block">\
         <div class="mon-stat-block-2024__description-block-heading">Spellcasting</div>\
         <div class="mon-stat-block-2024__description-block-content">\
@@ -69,7 +69,7 @@ const renderTemplate = (data) => {
             ${data.name}\
           </a>\
         </div>\
-        <div class="mon-stat-block-2024__meta">${data.size}, ${data.type}, ${data.alignment}</div>\
+        <div class="mon-stat-block-2024__meta">${data.meta}</div>\
       </div>\
       <div class="mon-stat-block-2024__attributes">\
         <div class="mon-stat-block-2024__attribute">\
@@ -184,8 +184,10 @@ async function getData(name) {
     }
 
     const result = await response.json();
-    console.log(result);
-    let adversary = ''
+    let adTemplate = renderTemplate(result);
+    const adId = `ad_${name.replace(' ','_')}`
+    let adContent = document.getElementById(adId)
+    adContent.innerHTML = adTemplate;
   } catch (error) {
     console.error(error.message);
   }
@@ -214,6 +216,163 @@ document.onreadystatechange = () => {
 <input />
 <button>Add</button>
 </form>
+<div class="detail-content">
+<div class="mon-stat-block-2024">
+    <div class="mon-stat-block-2024__header">
+        <div class="mon-stat-block-2024__name">
+            <a class="mon-stat-block-2024__name-link" href="/monsters/4831031-worg">
+                Worg
+            </a>
+        </div>
+
+        <div class="mon-stat-block-2024__meta">Large Fey, Neutral Evil</div>
+    </div>
+    <div class="mon-stat-block-2024__attributes">
+        <div class="mon-stat-block-2024__attribute">
+            <span class="mon-stat-block-2024__attribute-label">AC</span>
+            <span class="mon-stat-block-2024__attribute-value">
+                <span class="mon-stat-block-2024__attribute-data-value">
+                    13
+                </span>
+                         
+            </span>&nbsp;&nbsp;
+            <span class="mon-stat-block-2024__attribute-label">Initiative</span>
+            <span class="mon-stat-block-2024__attribute-data">
+                <span class="mon-stat-block-2024__attribute-data-value">
+                    +1 (11)
+                </span>
+            </span>
+        </div>
+        <div class="mon-stat-block-2024__attribute">
+            <span class="mon-stat-block-2024__attribute-label">HP</span>
+            <span class="mon-stat-block-2024__attribute-data">
+                <span class="mon-stat-block-2024__attribute-data-value">
+                    26
+                </span>
+                <span class="mon-stat-block-2024__attribute-data-extra">
+                    (4d10 + 4)
+                </span>      
+            </span>
+        </div>
+        <div class="mon-stat-block-2024__attribute">
+            <span class="mon-stat-block-2024__attribute-label">Speed</span>
+            <span class="mon-stat-block-2024__attribute-data">
+                <span class="mon-stat-block-2024__attribute-data-value">
+                    50 ft. 
+                </span>
+            </span>
+        </div>
+    </div>
+    <div class="mon-stat-block-2024__stats">
+        <table class="stat-table physical">
+            <thead>
+                <tr>
+                    <th>
+                    </th><th>
+                    </th><th>Mod</th>
+                    <th>Save</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>STR</th>
+                    <td>16</td>
+                    <td class="modifier">+3</td>
+                    <td class="modifier">+3</td>
+                </tr>
+                <tr>
+                    <th>DEX</th>
+                    <td>13</td>
+                    <td class="modifier">+1</td>
+                    <td class="modifier">+1</td>
+                </tr>
+                <tr>
+                    <th>CON</th>
+                    <td>13</td>
+                    <td class="modifier">+1</td>
+                    <td class="modifier">+1</td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="stat-table mental">
+            <thead>
+                <tr>
+                    <th>
+                    </th><th>
+                    </th><th>Mod</th>
+                    <th>Save</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>INT</th>
+                    <td>7</td>
+                    <td class="modifier">-2</td>
+                    <td class="modifier">-2</td>
+                </tr>
+                <tr>
+                    <th>WIS</th>
+                    <td>11</td>
+                    <td class="modifier">+0</td>
+                    <td class="modifier">+0</td>
+                </tr>
+                <tr>
+                    <th>CHA</th>
+                    <td>8</td>
+                    <td class="modifier">-1</td>
+                    <td class="modifier">-1</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="mon-stat-block-2024__tidbits">
+        
+            <div class="mon-stat-block-2024__tidbit">
+                <span class="mon-stat-block-2024__tidbit-label">Skills</span>
+                <span class="mon-stat-block-2024__tidbit-data">
+                    <a class="tooltip-hover skill-tooltip" href="/sources/dnd/free-rules/playing-the-game#Skills" data-tooltip-href="//www.dndbeyond.com/skills/14-tooltip?disable-webm=1&amp;disable-webm=1">Perception</a> +4
+                </span>
+            </div>
+        
+            <div class="mon-stat-block-2024__tidbit">
+                <span class="mon-stat-block-2024__tidbit-label">Senses</span>
+                <span class="mon-stat-block-2024__tidbit-data">
+                    <a class="tooltip-hover sense-tooltip" href="/sources/dnd/free-rules/rules-glossary#Darkvision" data-tooltip-href="//www.dndbeyond.com/senses/2-tooltip?disable-webm=1&amp;disable-webm=1">Darkvision</a> 60 ft.,  Passive Perception 14
+                </span>
+            </div>
+        
+            <div class="mon-stat-block-2024__tidbit">
+                <span class="mon-stat-block-2024__tidbit-label">Languages</span>
+                <span class="mon-stat-block-2024__tidbit-data">
+                    Goblin, Worg
+                </span>
+            </div>
+        
+        <div class="mon-stat-block-2024__tidbit-container">
+            <div class="mon-stat-block-2024__tidbit">
+                <span class="mon-stat-block-2024__tidbit-label">CR</span>
+                <span class="mon-stat-block-2024__tidbit-data">
+                    1/2 (XP 100; PB +2)
+                </span>
+            </div>
+        </div>
+        
+    </div>
+    <div class="mon-stat-block-2024__description-blocks">
+         
+            <div class="mon-stat-block-2024__description-block">
+                <div class="mon-stat-block-2024__description-block-heading">Actions</div>
+                <div class="mon-stat-block-2024__description-block-content">
+                    <p><strong><em>Bite.</em></strong> <em>Melee Attack Roll:</em> <span data-dicenotation="1d20+5" data-rolltype="to hit" data-rollaction="Bite">+5</span>, reach 5 ft. <em>Hit:</em> 7 <span data-dicenotation="1d8+3" data-rolltype="damage" data-rollaction="Bite" data-rolldamagetype="Piercing">(1d8 + 3)</span> Piercing damage, and the next attack roll made against the target before the start of the worg’s next turn has <a class="tooltip-hover rule-tooltip" href="/sources/dnd/free-rules/rules-glossary#Advantage" data-tooltip-href="//www.dndbeyond.com/rules-glossary/4-tooltip?disable-webm=1&amp;disable-webm=1">Advantage</a>.</p>                            
+                </div>
+            </div>
+        
+    </div>
+</div>
+</div>
 <div id="adversaryList"></div>
 <div id="adversaryContent"></div>
+
+
+
 {{ content | safe }}

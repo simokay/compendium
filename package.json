@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "build": "npx eleventy",
-    "serve": "npx eleventy --serve",
+    "serve": "npx eleventy --serve --port 80",
     "watch": "npx eleventy --watch",
     "debug": "DEBUG=* npx eleventy",
     "build-ghpages": "npx @11ty/eleventy --pathprefix=/compendium/"
