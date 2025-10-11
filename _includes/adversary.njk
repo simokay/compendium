@@ -251,11 +251,31 @@ layout: base.njk
                     {% endif %}
                 </div>
             </div>
-            {% if legendary_actions|length %}
+      {% if legendary_actions|length %}
         <div class="mon-stat-block-2024__description-block"> 
             <div class="mon-stat-block-2024__description-block-heading">Legendary Actions</div>
             <div class="mon-stat-block-2024__description-block-content">
               {% for action in legendary_actions %}
+                <p><em><strong>{{action.name}}</strong></em>. {{action.desc | striptags(true) | escape | nl2br | brackets | safe}}</p>                
+            {% endfor %}
+            </div>
+        </div>
+      {% endif %}
+      {% if bonus_actions|length %}
+        <div class="mon-stat-block-2024__description-block"> 
+            <div class="mon-stat-block-2024__description-block-heading">Bonus Actions</div>
+            <div class="mon-stat-block-2024__description-block-content">
+              {% for action in bonus_actions %}
+                <p><em><strong>{{action.name}}</strong></em>. {{action.desc | striptags(true) | escape | nl2br | brackets | safe}}</p>                
+            {% endfor %}
+            </div>
+        </div>
+      {% endif %}
+      {% if reactions|length %}
+        <div class="mon-stat-block-2024__description-block"> 
+            <div class="mon-stat-block-2024__description-block-heading">Rections</div>
+            <div class="mon-stat-block-2024__description-block-content">
+              {% for action in reactions %}
                 <p><em><strong>{{action.name}}</strong></em>. {{action.desc | striptags(true) | escape | nl2br | brackets | safe}}</p>                
             {% endfor %}
             </div>
