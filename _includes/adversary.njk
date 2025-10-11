@@ -207,7 +207,6 @@ layout: base.njk
                 </div>
             </div>
         </div>
-    </div>
     <div class="mon-stat-block-2024__description-blocks">
       {% if traits|length %}
         <div class="mon-stat-block-2024__description-block"> 
@@ -219,6 +218,9 @@ layout: base.njk
             </div>
         </div>
       {% endif %}
+    </div>
+    </div>
+    <div class="mon-stat-block-2024__description-blocks">
             <div class="mon-stat-block-2024__description-block">
                 <div class="mon-stat-block-2024__description-block-heading">Actions</div>
                 <div class="mon-stat-block-2024__description-block-content">
@@ -249,6 +251,16 @@ layout: base.njk
                     {% endif %}
                 </div>
             </div>
+            {% if legendary_actions|length %}
+        <div class="mon-stat-block-2024__description-block"> 
+            <div class="mon-stat-block-2024__description-block-heading">Legendary Actions</div>
+            <div class="mon-stat-block-2024__description-block-content">
+              {% for action in legendary_actions %}
+                <p><em><strong>{{action.name}}</strong></em>. {{action.desc | striptags(true) | escape | nl2br | brackets | safe}}</p>                
+            {% endfor %}
+            </div>
+        </div>
+      {% endif %}
     </div>
 </div>
 <div class="image"><a href="">
