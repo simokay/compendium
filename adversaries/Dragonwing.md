@@ -39,5 +39,5 @@ actions:
   - name: Multiattack
     desc: "The Dragonfang attacks twice with its Scimitar."
   - name: Scimitar
-    desc: "Melee Weapon Attack: 5 to hit, reach 5 ft., one target. 6 (1d6 + 3) piercing damage plus 7 (1d6) Acid damage"
+    desc: "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) piercing damage plus 7 (1d6) Acid damage"
 ---
